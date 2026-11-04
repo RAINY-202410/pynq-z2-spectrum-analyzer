@@ -1,0 +1,87 @@
+{
+  "status": "BOARD_R3_SHORT_CAPTURE_RESTART_EXPORT_VERIFIED_COLD_BOOTS_PENDING",
+  "archive_sha256": "0465E96493BC1F9A9055620FABE767971B3D9D2B9090EEF36F34B2CE2255E5A1",
+  "instance_id": "instrument_6dd45c6249f6",
+  "source": "NATIVE_BOARD_SESSION_EXPORT",
+  "context": "BOARD_LIVE",
+  "build_revision": "spectrum_software_1_r3",
+  "runs": 4,
+  "frames": 321,
+  "raw_samples_verified": 8,
+  "screenshots_verified": 8,
+  "all_runs_functional": true,
+  "all_safe_stopped": true,
+  "cross_run_sequence_contiguous": true,
+  "tone1k_pair": [
+    {
+      "run": "spectrum_003001ab96a1",
+      "scenario": "tone1k",
+      "window": "hann",
+      "duration_setting": 20.0,
+      "frames": 100,
+      "elapsed_s": 20.019106641000008,
+      "reason": "DURATION_COMPLETE",
+      "functional_passed": true,
+      "error": null,
+      "quality_errors": 0,
+      "initial_sequence": 121,
+      "final_sequence": 221,
+      "stop_verified": true,
+      "raw_samples": 2,
+      "screenshots": 2,
+      "visible_s": 19.925228296000114
+    },
+    {
+      "run": "spectrum_f06591b444a5",
+      "scenario": "tone1k",
+      "window": "hann",
+      "duration_setting": 20.0,
+      "frames": 100,
+      "elapsed_s": 20.01667743500002,
+      "reason": "DURATION_COMPLETE",
+      "functional_passed": true,
+      "error": null,
+      "quality_errors": 0,
+      "initial_sequence": 221,
+      "final_sequence": 321,
+      "stop_verified": true,
+      "raw_samples": 2,
+      "screenshots": 3,
+      "visible_s": 19.76853341700007
+    }
+  ],
+  "same_service_overlay_tone_restart_verified": true,
+  "native_export_crc_and_hashes_verified": true,
+  "http_export_duration_measured": false,
+  "external_screenshot_matches": {
+    "codex-clipboard-a15a0995-604d-4abb-b182-33d8c8d56099.png": [
+      "trusted_audit/run_audits/spectrum_f06591b444a5/received/spectrum_f06591b444a5/ui_snapshot_01.png",
+      "trusted_audit/run_audits/spectrum_f06591b444a5/received/spectrum_f06591b444a5/ui_snapshot_02.png",
+      "trusted_audit/run_audits/spectrum_f06591b444a5/received/spectrum_f06591b444a5/ui_snapshot_03.png"
+    ],
+    "spectrum_003001ab96a1_ui_snapshot_02.png": [
+      "trusted_audit/run_audits/spectrum_003001ab96a1/received/spectrum_003001ab96a1/ui_snapshot_01.png",
+      "trusted_audit/run_audits/spectrum_003001ab96a1/received/spectrum_003001ab96a1/ui_snapshot_02.png"
+    ]
+  },
+  "complete_matrix_audit_status": "SESSION_DATA_VERIFIED_REQUIREMENTS_PENDING",
+  "complete_ui_regression": false,
+  "r3_10min_or_30min_measured": false,
+  "r2_longrun_remains_valid": true,
+  "repeat_longrun_required": false,
+  "cold_boot_tool": {
+    "status": "HOST_VALIDATED_STANDALONE_R3_BOOT_RECORDER_BOARD_EXECUTION_PENDING",
+    "file": "release/spectrum_r3_boot_tools_20261031/record_spectrum_boot_r3.py",
+    "sha256": "1AE2D6AA3D5818947280788CA207EA0BE71A61BFC019818DBBB320A58235290F",
+    "host_tests": 7,
+    "python36_syntax": "PASS",
+    "imports_pynq": false,
+    "pinned_r3_manifest_sha256": "7F1DA7D0BA2CE892CA3A318D0DE76360075FDA2545198EE374D614E0765662A5",
+    "runtime_package_modified": false,
+    "actual_cold_boots_received": 0
+  },
+  "three_actual_cold_boots_verified": false,
+  "cma_review_pending": true,
+  "board_accepted": false,
+  "trusted_auditor_sha256": "F3300227C0AE2A143D237B15E87DB0EB7109BF834C93D41B45C9731E2A2A7147"
+}

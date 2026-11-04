@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "step": "B-X12",
+  "created": "2026-11-01",
+  "status": "RC_MEASURED",
+  "point_count": 16,
+  "pass_count": 16,
+  "missing_frequencies_hz": [],
+  "files": {
+    "fit_results.json": {
+      "bytes": 346373,
+      "sha256": "6EE9A66D16B12279715FF58268C7C4375576D6CCAFEAFFFB71C5FFBF63BA13B1"
+    },
+    "magnitude_phase.png": {
+      "bytes": 121735,
+      "sha256": "5C81B703099B90074FB10FC5E0003EE4E90DACDEDE88C8B3756D3DC13EC21DD4"
+    },
+    "magnitude_phase.svg": {
+      "bytes": 87641,
+      "sha256": "C97F4A8A1A1981745559734370D216EE401306B1AD4B6BC2450FD2CD56E87C55"
+    },
+    "rc_measured.csv": {
+      "bytes": 5113,
+      "sha256": "C71537CB16F10B03C139B283D47C74DD550C3882D3BA75A424FC28CD3B449D89"
+    },
+    "rc_measured.json": {
+      "bytes": 42563,
+      "sha256": "2DA5BE61C8363B0BCD47C530D344134C494DC58E63A79E04A09D5D4907511FD0"
+    },
+    "README.md": {
+      "bytes": 1826,
+      "sha256": "C3874BE08A7EBC17BC46328174AB596CA633B155FBAABBDDD1C8F974ED13FBAB"
+    },
+    "source_dataset_manifest.json": {
+      "bytes": 19334,
+      "sha256": "DABE8CC358349DE10B1181DB4A98A32DCF278BF3A1395D389EB26ED0CC7787B2"
+    }
+  },
+  "source_dataset": {
+    "path": "..\\..\\documents\\b_x12",
+    "block_count": 96
+  },
+  "generated_at_local": "2026-11-01T20:15:43.645671+08:00"
+}

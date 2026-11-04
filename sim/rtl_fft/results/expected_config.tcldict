@@ -1,0 +1,17 @@
+CONFIG.transform_length 1024
+CONFIG.channels 1
+CONFIG.super_sample_rates 1
+CONFIG.implementation_options pipelined_streaming_io
+CONFIG.run_time_configurable_transform_length false
+CONFIG.data_format fixed_point
+CONFIG.input_width 16
+CONFIG.phase_factor_width 16
+CONFIG.scaling_options scaled
+CONFIG.rounding_modes convergent_rounding
+CONFIG.throttle_scheme nonrealtime
+CONFIG.output_ordering natural_order
+CONFIG.cyclic_prefix_insertion false
+CONFIG.aresetn true
+CONFIG.ovflo true
+CONFIG.xk_index false
+CONFIG.target_clock_frequency 100

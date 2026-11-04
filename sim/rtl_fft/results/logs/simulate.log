@@ -1,0 +1,38 @@
+Time resolution is 1 ps
+Note:   - SCALING_SCH: in_ptr = 1, out_ptr = 1
+Time: 0 ps  Iteration: 0  Process: /tb_fft_chain/fft/contract_probe_i/fft_0/U0/i_synth/axi_wrapper/gen_config_fifo_in/line__94237  File: D:/AMDDesignTools/2026.1/Vivado/data/ip/xilinx/xfft_v9_1/hdl/xfft_v9_1_vh_rfs.vhd
+Note:     - C_CHANNELS  = 1
+Time: 0 ps  Iteration: 0  Process: /tb_fft_chain/fft/contract_probe_i/fft_0/U0/i_synth/axi_wrapper/gen_config_fifo_in/line__94237  File: D:/AMDDesignTools/2026.1/Vivado/data/ip/xilinx/xfft_v9_1/hdl/xfft_v9_1_vh_rfs.vhd
+Note:     - field_width = 10
+Time: 0 ps  Iteration: 0  Process: /tb_fft_chain/fft/contract_probe_i/fft_0/U0/i_synth/axi_wrapper/gen_config_fifo_in/line__94237  File: D:/AMDDesignTools/2026.1/Vivado/data/ip/xilinx/xfft_v9_1/hdl/xfft_v9_1_vh_rfs.vhd
+Note:   - Copying SCALE_SCH from 10 downto 1 to 10 downto 1
+Time: 0 ps  Iteration: 0  Process: /tb_fft_chain/fft/contract_probe_i/fft_0/U0/i_synth/axi_wrapper/gen_config_fifo_in/line__94237  File: D:/AMDDesignTools/2026.1/Vivado/data/ip/xilinx/xfft_v9_1/hdl/xfft_v9_1_vh_rfs.vhd
+Note:   - SCALING_SCH: in_ptr = 1, out_ptr = 1
+Time: 0 ps  Iteration: 1  Process: /tb_fft_chain/fft/contract_probe_i/fft_0/U0/i_synth/axi_wrapper/gen_config_fifo_in/line__94237  File: D:/AMDDesignTools/2026.1/Vivado/data/ip/xilinx/xfft_v9_1/hdl/xfft_v9_1_vh_rfs.vhd
+Note:     - C_CHANNELS  = 1
+Time: 0 ps  Iteration: 1  Process: /tb_fft_chain/fft/contract_probe_i/fft_0/U0/i_synth/axi_wrapper/gen_config_fifo_in/line__94237  File: D:/AMDDesignTools/2026.1/Vivado/data/ip/xilinx/xfft_v9_1/hdl/xfft_v9_1_vh_rfs.vhd
+Note:     - field_width = 10
+Time: 0 ps  Iteration: 1  Process: /tb_fft_chain/fft/contract_probe_i/fft_0/U0/i_synth/axi_wrapper/gen_config_fifo_in/line__94237  File: D:/AMDDesignTools/2026.1/Vivado/data/ip/xilinx/xfft_v9_1/hdl/xfft_v9_1_vh_rfs.vhd
+Note:   - Copying SCALE_SCH from 10 downto 1 to 10 downto 1
+Time: 0 ps  Iteration: 1  Process: /tb_fft_chain/fft/contract_probe_i/fft_0/U0/i_synth/axi_wrapper/gen_config_fifo_in/line__94237  File: D:/AMDDesignTools/2026.1/Vivado/data/ip/xilinx/xfft_v9_1/hdl/xfft_v9_1_vh_rfs.vhd
+SIGNED24_BOUNDARIES_PASS: 11
+CHAIN_CASE_CAPTURE_PASS: zero_rect
+CHAIN_CASE_CAPTURE_PASS: zero_hann
+CHAIN_CASE_CAPTURE_PASS: dc_rect
+CHAIN_CASE_CAPTURE_PASS: dc_hann
+CHAIN_CASE_CAPTURE_PASS: impulse_rect
+CHAIN_CASE_CAPTURE_PASS: impulse_hann
+CHAIN_CASE_CAPTURE_PASS: bin16_rect
+CHAIN_CASE_CAPTURE_PASS: bin16_hann
+CHAIN_CASE_CAPTURE_PASS: bin16p35_rect
+CHAIN_CASE_CAPTURE_PASS: bin16p35_hann
+CHAIN_CASE_CAPTURE_PASS: bin16_bin70_rect
+CHAIN_CASE_CAPTURE_PASS: bin16_bin70_hann
+ABORT_RECOVERY_PASS: during_output=0
+CHAIN_CASE_CAPTURE_PASS: bin16_rect_recovery
+ABORT_RECOVERY_PASS: during_output=1
+CHAIN_CASE_CAPTURE_PASS: impulse_hann_recovery
+FAULT_LATCH_PASS: input overflow, early/missing TLAST, injected FFT event, sticky/CLEAR/ABORT
+CHAIN_CAPTURE_PASS: 14 actual frames; numeric verification pending
+$finish called at time : 987620 ns : File "D:/AMD_compitition/pynq-z2-spectrum-analyzer/sim/tb_fft_chain.sv" Line 301
+INFO: xsimkernel Simulation Memory Usage: 62188 KB (Peak: 62188 KB), Simulation CPU Usage: 150312 ms

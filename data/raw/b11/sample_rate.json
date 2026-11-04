@@ -1,0 +1,5 @@
+{
+  "fs_estimate_hz": 47998.77998801426,
+  "elapsed_s": 2.0021967229999973,
+  "method": "both LRCLK edges / (2 * host elapsed time)"
+}

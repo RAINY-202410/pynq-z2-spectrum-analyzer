@@ -1,0 +1,2 @@
+ATTEMPT:/ps7_0 count=1/10 operation=configure
+CRITICAL WARNING: [BD 41-737] Cannot set the parameter PCW_M_AXI_GP0_FREQMHZ on /ps7_0. It is read-only.

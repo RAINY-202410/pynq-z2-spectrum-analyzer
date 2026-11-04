@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>频谱实验样例</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">PYNQ-Z2 · 演示样例</p>
+        <h1>频谱实验样例</h1>
+        <p class="subtitle">内置数据仅用于功能演示 · 平均/保持 · A/B 游标 · 趋势事件 · 可重算导出</p>
+      </div>
+      <div class="hero-badges">
+        <span class="badge badge-replay">历史实验回放</span>
+        <span class="badge">来源：实时频谱记录</span>
+        <span class="badge badge-muted">按需加载样例</span>
+      </div>
+    </header>
+
+    <section class="control-panel">
+      <label class="control">
+        <span>选择实验记录</span>
+        <select id="runSelect" disabled>
+          <option>请选择实验记录（可选）</option>
+        </select>
+      </label>
+      <label class="control">
+        <span>播放方式</span>
+        <select id="modeSelect"></select>
+      </label>
+      <label class="control compact">
+        <span>速度</span>
+        <select id="speedSelect"></select>
+      </label>
+      <label class="control compact">
+        <span>显示范围</span>
+        <select id="rangeSelect">
+          <option value="5000">0–5 kHz</option>
+          <option value="12000">0–12 kHz</option>
+          <option value="24000" selected>0–24 kHz</option>
+        </select>
+      </label>
+      <div class="transport">
+        <button id="prevBtn" class="button ghost" type="button" disabled>上一份</button>
+        <button id="playBtn" class="button primary" type="button" disabled>播放</button>
+        <button id="nextBtn" class="button ghost" type="button" disabled>下一份</button>
+      </div>
+      <div class="status-line">
+        <span id="statusText">正在读取样例索引…</span>
+        <span id="modeHint"></span>
+      </div>
+      <div class="feature-row">
+        <span class="feature-title">曲线</span>
+        <label class="curve-toggle"><input id="showCurrent" type="checkbox" checked> 当前谱</label>
+        <label class="curve-toggle"><input id="showAverage" type="checkbox" checked> 均方幅度平均谱</label>
+        <label class="curve-toggle"><input id="showHold" type="checkbox" checked> 峰值保持</label>
+        <label class="control inline-control">
+          <span>平均长度</span>
+          <select id="averageLengthSelect">
+            <option value="8" selected>8 份</option>
+            <option value="32">32 份</option>
+          </select>
+        </label>
+        <button id="clearFeaturesBtn" class="button ghost" type="button">清空平均/保持</button>
+      </div>
+    </section>
+
+    <section class="grid">
+      <article class="panel spectrum-panel">
+        <div class="panel-head">
+          <div>
+            <h2>当前频谱</h2>
+            <p class="panel-note">只显示已留存的 PL 复数谱；不插造缺失区间。</p>
+          </div>
+          <span id="sourceBadge" class="badge badge-replay">历史回放</span>
+        </div>
+        <canvas id="spectrumCanvas" aria-label="当前频谱"></canvas>
+        <div id="curveLegend" class="curve-legend">
+          <span class="legend current">当前谱</span>
+          <span class="legend average">均方幅度平均谱</span>
+          <span class="legend hold">峰值保持</span>
+        </div>
+        <div class="feature-summary">
+          <span class="summary-item average">
+            平均 <strong id="featureAverageInline">0 / 8</strong>
+            <em id="featureAverageRangeInline">—</em>
+          </span>
+          <span class="summary-item hold">
+            保持 <strong id="featureHoldInline">0</strong>
+            <em id="featureHoldRangeInline">—</em>
+          </span>
+          <span class="summary-item">零幅度 <strong id="featureZeroInline">—</strong></span>
+          <span class="summary-item state" id="featureStateInline">等待留样</span>
+        </div>
+        <div class="meta-grid">
+          <div><span>实验记录</span><strong id="runName">—</strong></div>
+          <div><span>frame_id</span><strong id="frameText">—</strong></div>
+          <div><span>留样序号</span><strong id="sampleIndexText">—</strong></div>
+          <div><span>硬件 sequence</span><strong id="sequenceText">—</strong></div>
+          <div><span>原始 elapsed_s</span><strong id="elapsedText">—</strong></div>
+          <div><span>窗</span><strong id="windowText">—</strong></div>
+          <div><span>fs</span><strong id="fsText">—</strong></div>
+          <div><span>峰值</span><strong id="peakReadout">—</strong></div>
+        </div>
+        <div class="cursor-panel">
+          <div class="cursor-toolbar">
+            <label class="control inline-control">
+              <span>测量曲线</span>
+              <select id="cursorCurveSelect">
+                <option value="current" selected>当前谱</option>
+                <option value="average">均方幅度平均谱</option>
+                <option value="hold">峰值保持</option>
+              </select>
+            </label>
+            <div class="cursor-switch" role="group" aria-label="选择活动游标">
+              <button id="cursorABtn" class="button cursor-button active" type="button">游标 A</button>
+              <button id="cursorBBtn" class="button cursor-button" type="button">游标 B</button>
+            </div>
+            <button id="dualDemoBtn" class="button ghost" type="button">双音 A/B 示例</button>
+            <label class="check"><input id="cursorToggle" type="checkbox"> 锁定 A/B（跨帧保持）</label>
+          </div>
+          <div class="cursor-readings">
+            <div class="cursor-card cursor-a">
+              <span class="cursor-label">A</span>
+              <strong id="cursorAFreq">—</strong>
+              <span id="cursorABin">bin —</span>
+              <span id="cursorALinear">线性 —</span>
+              <span id="cursorADbfs">dBFS —</span>
+            </div>
+            <div class="cursor-card cursor-b">
+              <span class="cursor-label">B</span>
+              <strong id="cursorBFreq">—</strong>
+              <span id="cursorBBin">bin —</span>
+              <span id="cursorBLinear">线性 —</span>
+              <span id="cursorBDbfs">dBFS —</span>
+            </div>
+            <div class="cursor-delta">
+              <span>Δf <strong id="cursorDeltaF">—</strong></span>
+              <span>ΔL <strong id="cursorDeltaDb">—</strong></span>
+              <span>A_B / A_A <strong id="cursorRatio">—</strong></span>
+            </div>
+          </div>
+          <p class="cursor-hint">两个游标均吸附实际 FFT bin；显示范围只缩放视图，不提高频率分辨率。比值只在两条线性幅度都非零时显示。</p>
+        </div>
+      </article>
+
+      <article class="panel waterfall-panel">
+        <div class="panel-head">
+          <div>
+            <h2>留样瀑布</h2>
+            <p class="panel-note">纵轴：留样序号 / 原始时间。稀疏留样，不是连续音频记录。</p>
+          </div>
+          <span class="badge badge-muted">SPARSE</span>
+        </div>
+        <canvas id="waterfallCanvas" aria-label="稀疏留样瀑布"></canvas>
+      </article>
+
+      <article id="gapPanel" class="panel gap-panel wide">
+        <div class="gap-icon">!</div>
+        <div>
+          <h2 id="gapTitle">该区间未留存完整频谱</h2>
+          <p id="gapDetail">当前没有可显示的相邻留样。</p>
+          <p id="gapWait" class="gap-wait"></p>
+        </div>
+      </article>
+
+      <article class="panel wide">
+        <div class="panel-head">
+          <div>
+            <h2>实验时间轴</h2>
+            <p class="panel-note">圆点为完整频谱留样；空白区域只有逐帧指标，不绘制频谱。</p>
+          </div>
+          <span class="badge badge-muted" id="rangeLabel">0–24 kHz</span>
+        </div>
+        <canvas id="timelineCanvas" aria-label="留样时间轴"></canvas>
+      </article>
+
+      <article class="panel wide trend-panel">
+        <div class="panel-head">
+          <div>
+            <h2>信号趋势与阈值事件</h2>
+            <p class="panel-note">只使用已保存的最多三个局部峰；缺测不重建，不自动控制硬件。</p>
+          </div>
+          <span id="trendStatus" class="badge badge-muted">趋势未加载</span>
+        </div>
+        <div class="trend-controls">
+          <label class="control inline-control">
+            <span>选择峰</span>
+            <select id="trendMode">
+              <option value="max_peak" selected>最大局部峰</option>
+              <option value="target_band">目标频段</option>
+            </select>
+          </label>
+          <label class="control inline-control"><span>目标 Hz</span><input id="trendTarget" type="number" value="1000" step="1"></label>
+          <label class="control inline-control"><span>带宽 Hz</span><input id="trendBandwidth" type="number" value="200" step="1"></label>
+          <label class="control inline-control"><span>阈值 dBFS</span><input id="trendThreshold" type="number" value="-60" step="0.1"></label>
+          <label class="control inline-control"><span>迟滞 dB</span><input id="trendHysteresis" type="number" value="2" step="0.1"></label>
+          <label class="control inline-control"><span>连续帧</span><input id="trendMinConsecutive" type="number" value="3" step="1"></label>
+          <label class="control inline-control"><span>最大间隔 s</span><input id="trendMaxGap" type="number" value="2" step="0.1"></label>
+          <label class="control inline-control"><span>频率下限</span><input id="trendMinHz" type="number" placeholder="可选" step="1"></label>
+          <label class="control inline-control"><span>频率上限</span><input id="trendMaxHz" type="number" placeholder="可选" step="1"></label>
+          <button id="trendApplyBtn" class="button primary" type="button">更新趋势</button>
+          <button id="exportBtn" class="button ghost" type="button">导出分析包</button>
+        </div>
+        <p id="trendContext" class="trend-context">选择实验记录后加载趋势参数。</p>
+        <canvas id="trendCanvas" aria-label="趋势和事件"></canvas>
+        <div class="trend-summary">
+          <span id="trendPointCount">指标点 —</span>
+          <span id="trendValidCount">有峰 —</span>
+          <span id="trendMissingCount">缺测 —</span>
+          <span id="trendGapCount">断点 —</span>
+          <span id="trendEventCount">事件 —</span>
+        </div>
+        <div id="eventList" class="event-list"></div>
+        <p id="exportResult" class="export-result"></p>
+      </article>
+
+      <article class="panel wide">
+        <div class="panel-head">
+          <div>
+            <h2>留样列表</h2>
+            <p class="panel-note">上一份 / 下一份严格按 frame_id 顺序，不对文件内容去重。</p>
+          </div>
+          <span class="badge badge-muted">frame_id 原序</span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>frame_id</th>
+                <th>sequence</th>
+                <th>原始时间 / s</th>
+                <th>峰值 / Hz</th>
+                <th>峰值 / dBFS</th>
+                <th>单音检查</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody id="sampleTableBody">
+              <tr><td colspan="8" class="empty">加载中…</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </article>
+
+      <article class="panel stats-panel">
+        <h2>回放统计</h2>
+        <dl>
+          <div><dt>指标行</dt><dd id="runMetricRows">—</dd></div>
+          <div><dt>完整留样</dt><dd id="runSavedSamples">—</dd></div>
+          <div><dt>已展示留样</dt><dd id="shownSamples">0</dd></div>
+          <div><dt>当前瀑布行</dt><dd id="uniqueSamples">0</dd></div>
+          <div><dt>平均样本</dt><dd id="featureAverageCount">0 / 8</dd></div>
+          <div><dt>保持样本</dt><dd id="featureHoldCount">0</dd></div>
+          <div><dt>平均范围</dt><dd id="featureAverageRange">—</dd></div>
+          <div><dt>保持范围</dt><dd id="featureHoldRange">—</dd></div>
+          <div><dt>零幅度 bin</dt><dd id="featureZeroBins">—</dd></div>
+          <div><dt>特征状态</dt><dd id="featureResetState">等待留样</dd></div>
+        </dl>
+        <p class="tiny">切换实验记录或窗口会清空瀑布、统计、曲线累计和游标锁定。倍率只改播放节奏，不改原始时间标签。</p>
+      </article>
+
+      <article class="panel boundary-panel">
+        <h2>边界</h2>
+        <ul class="tight-list">
+          <li>长测 3100 条指标，只有 14 份完整频谱。</li>
+          <li>均方幅度平均谱不是功率谱、PSD 或时域 RMS。</li>
+          <li>播放结束不循环，也不重复计数。</li>
+          <li>历史回放只用于展示，不替代当前实时采集。</li>
+          <li>幅值未做物理标定；`board_accepted=false`。</li>
+        </ul>
+      </article>
+    </section>
+
+    <footer>
+      <p>频谱实验样例 · 内置演示数据 · 不直接占用采集硬件</p>
+    </footer>
+  </main>
+  <script>
+    window.BX_API_BASE = "/bx";
+    window.R4_CONTROL_TOKEN = "__CONTROL_TOKEN__";
+  </script>
+  <script src="replay.js"></script>
+</body>
+</html>

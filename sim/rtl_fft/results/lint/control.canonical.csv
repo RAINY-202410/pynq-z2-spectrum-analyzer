@@ -1,0 +1,3 @@
+ASSIGN-10,IO bit(s) not read,s_axi_araddr,0,fft_ctrl_axi,fft_ctrl_axi.v,15
+ASSIGN-10,IO bit(s) not read,s_axi_arprot,0,fft_ctrl_axi,fft_ctrl_axi.v,16
+ASSIGN-10,IO bit(s) not read,s_axi_awprot,0,fft_ctrl_axi,fft_ctrl_axi.v,5

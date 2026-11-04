@@ -1,0 +1,31 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2026.1 (win64) Build 6511674 Tue Jun 16 11:02:23 MDT 2026
+| Date         : Sun Oct 18 16:31:46 2026
+| Host         : DESKTOP-J0DODT2 running 64-bit major release  (build 9200)
+| Command      : report_cdc -details -file D:/AMD_compitition/pynq-z2-spectrum-analyzer/build/m4_delivery_20261018/mclk_constraint_recovery/delivery_cdc.rpt
+| Design       : system_wrapper
+| Device       : 7z020-clg400
+| Speed File   : -1  PRODUCTION 1.12 2019-11-22
+| Design State : Routed
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+CDC Report
+
+ID     Severity  Count  Description
+-----  --------  -----  ------------------------------------------
+CDC-3  Info          6  1-bit synchronized with ASYNC_REG property
+
+Source Clock: input port clock
+Destination Clock: clk_fpga_0
+CDC Type: No Common Primary Clock
+
+Row  ID     Severity  Description                                 Depth  Exception   Source (From)     Destination (To)
+---  -----  --------  ------------------------------------------  -----  ----------  ----------------  ------------------------------------------------------------------------------------------
+  1  CDC-3  Info      1-bit synchronized with ASYNC_REG property      4  False Path  audio_i2c_scl_io  system_i/axi_iic_0/U0/X_IIC/FILTER_I/SCL_DEBOUNCE/INPUT_DOUBLE_REGS/syncstages_ff_reg[0]/D
+  2  CDC-3  Info      1-bit synchronized with ASYNC_REG property      4  False Path  audio_i2c_sda_io  system_i/axi_iic_0/U0/X_IIC/FILTER_I/SDA_DEBOUNCE/INPUT_DOUBLE_REGS/syncstages_ff_reg[0]/D
+  3  CDC-3  Info      1-bit synchronized with ASYNC_REG property      2  False Path  lrclk             system_i/i2s_capture_0/inst/lr_sync_reg[0]/D
+  4  CDC-3  Info      1-bit synchronized with ASYNC_REG property      2  False Path  bclk              system_i/i2s_capture_0/inst/u_capture/u_serdes/bclk_rising_edge_det/shift_reg_reg[0]/D
+  5  CDC-3  Info      1-bit synchronized with ASYNC_REG property      3  False Path  lrclk             system_i/i2s_capture_0/inst/u_capture/u_serdes/lrclk_rising_edge_det/shift_reg_reg[0]/D
+  6  CDC-3  Info      1-bit synchronized with ASYNC_REG property      2  False Path  sdata_i           system_i/i2s_capture_0/inst/u_capture/u_serdes/sdata_sync_reg[0]/D
+

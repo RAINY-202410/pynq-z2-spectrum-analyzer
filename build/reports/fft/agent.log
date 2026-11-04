@@ -1,0 +1,30 @@
+TIMING-18 review
+[x] Problem: no external delay bounds on I2C bidirectional ports and LEDs.
+[x] Root cause: preserved M4 XDC does not define those external timing requirements.
+[x] Intent: preserve validated I2S/codec/PS baseline; PL FFT is synchronous at100MHz.
+[x] Resolution: leave open for interface review; no guessed delays, exceptions or waiver.
+[x] Alternatives: fabricated delay values would hide missing information; rejected.
+[x] Unintended effects: no constraint or RTL changes made by this review.
+[x] Classification: external requirements needed for full I/O timing signoff; high confidence.
+
+XDCB-5 review
+[x] Problem: hierarchy-wide pin query is inefficient.
+[x] Root cause: original generated-clock query in protected i2s_audio.xdc line14.
+[x] Intent: divide preserved100MHz clock by10 for codec MCLK.
+[x] Evidence: one generated clock, source divider FF clock, period100ns.
+[x] Resolution: retain tested/protected XDC; performance-only warning remains.
+[x] No timing exception, waiver, period change or design change applied.
+
+GP0 annotation probe
+Original read-only PCW_M_AXI_GP0_FREQMHZ=10MHz could not be set to100MHz.
+Failed capture and pinned requirement audit are preserved, not graded as success.
+Actual FCLK_CLK0 and M_AXI_GP0/FFT interfaces report100000000Hz.
+All525 original PS parameters are identical in the implemented private BD.
+The annotation write was our attempted metadata cleanup, not a changed user requirement.
+
+Synth width review
+The generated AXI interconnect m_axi_arprot/awprot six-to-twelve output connection
+also exists in the original M4 generated system.v. The used M01 three-bit PROT
+fields are connected to FFT control; remaining unused output bits are pruned.
+The tested controller does not consume PROT. No address/data/handshake width warning
+affects the FFT/DMA payload. Native synthesis/implementation logs are retained.

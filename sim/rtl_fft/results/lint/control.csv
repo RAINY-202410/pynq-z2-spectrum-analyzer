@@ -1,0 +1,38 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2026.1 (win64) Build 6511674 Tue Jun 16 11:02:23 MDT 2026
+| Date         : Sat Oct 24 16:59:27 2026
+| Host         : DESKTOP-J0DODT2 running 64-bit major release  (build 9200)
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+RTL Linter Report
+
+Table of Contents
+-----------------
+1. Summary
+2. Expanded
+
+1. Summary
+----------
+
++-----------+----------+--------------+----------+--------------------------------------------------------------------------------+
+| Rule ID   | Severity | # Violations | # Waived | Message Template                                                               |
++-----------+----------+--------------+----------+--------------------------------------------------------------------------------+
+| ASSIGN-10 | WARNING  | 3            | 0        | Some bits in IO '(rtl_name)' are not read. First unread bit index is '(info)'. |
++-----------+----------+--------------+----------+--------------------------------------------------------------------------------+
+
+
+2. Expanded
+-----------
+
++-----------+--------------------+--------------+------+---------------+----------------+-------------+
+| Rule ID   | description        | rtl_name     | info | rtl_hierarchy | rtl_file       | Line number |
++-----------+--------------------+--------------+------+---------------+----------------+-------------+
+| ASSIGN-10 | IO bit(s) not read | s_axi_araddr | 0    | fft_ctrl_axi  | fft_ctrl_axi.v | 15          |
+| ASSIGN-10 | IO bit(s) not read | s_axi_arprot | 0    | fft_ctrl_axi  | fft_ctrl_axi.v | 16          |
+| ASSIGN-10 | IO bit(s) not read | s_axi_awprot | 0    | fft_ctrl_axi  | fft_ctrl_axi.v | 5           |
++-----------+--------------------+--------------+------+---------------+----------------+-------------+
+* create_waiver can be used to apply waiver to linter violations.
+** For example, create_waiver -type LINT -id RULE_ID {-rtl_name RTL_NAME} {-rtl_hierarchy RTL_MODULE_NAME} {-rtl_file RTL_FILE_NAME}.
+
+

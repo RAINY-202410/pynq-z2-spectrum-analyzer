@@ -1,0 +1,1117 @@
+[
+  {
+    "destination": "src/hw/ip/fft_system_bd.tcl",
+    "sha256": "a205f37923eb3b95f87024ece3bef396cc78315a38f5232e49cfe3b966af1091",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "sim/m4/tb_m4_delivery.v",
+    "sha256": "ac781977db558fee31cfbd32d37ac08c397baabf204b9abbfcc77fc3697852aa",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "build/reports/fft/utilization.rpt",
+    "sha256": "37bb15e759423cdca12fb08e614c457adb0747244caecd2243b0c083cfad1046",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "build/reports/fft/timing.rpt",
+    "sha256": "00e358200a2e3b24dfe40af2da03ed0e3d6fb7fd757d2295f4008c68c88045bf",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "build/reports/fft/clocks.rpt",
+    "sha256": "b8b9c14b0988a4159437067a2c188403c87c1fabba84e0abe8388246e20cd402",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "build/reports/fft/cdc.rpt",
+    "sha256": "a022cf57fa18c27c82cceb234d27a780697e062736511b15e610582aea3798b9",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "build/reports/fft/check_timing.rpt",
+    "sha256": "9c57cb63deb8a566eb45845b1279681bfa7ef1bff8bb4787483ee51f0736920d",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "build/reports/fft/drc.rpt",
+    "sha256": "e1ec2bfbb05e32bc0f1ecccf2d7325eadfa60628f041eebd5d126da3175a3fd0",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "build/reports/fft/methodology.rpt",
+    "sha256": "9231fb8d40b373b085a2a34d21219f52f72dfe5cf0e4105dba0a532d7ee0d267",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "build/reports/fft/implementation_metrics.tsv",
+    "sha256": "70bc2cbcfb3a7e95ed724447b552dfa34682a388d28cadaaf0bc873fed757911",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "build/reports/fft/fft_readback.tsv",
+    "sha256": "c898489eed0309f6a60c839f0d07a43296dd1f8878b5a956899bfe3cb4cc9ae7",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "build/reports/fft/rebuild_comparison.json",
+    "sha256": "f32c436dafcfd3dffbcd9ff4f591f142ac4619a626a7511a3f9565ab31a962d2",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "build/reports/fft/clock_annotation_note.txt",
+    "sha256": "cb3141e33c6f40632332f88264aa49ca3a6940437fb28c3a3021f1146d718214",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "build/reports/fft/ps7_parameter_comparison.json",
+    "sha256": "8884ebe87e5935d8e8d8619d980ea36446e80d354db3eeee96f74d00d233184a",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "build/reports/fft/agent.log",
+    "sha256": "5148c7759a677b3140c306655610e5d3828d274d4adbf351658a46e3574192a5",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "report/ai_records/ross_native_20261024.log",
+    "sha256": "8e7c6820951016113270df91fc3d81d6d137154064ae5248f839b2bd74dabec0",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "report/ai_records/gp0_readonly_failure.log",
+    "sha256": "01522c34cee688366c1d53c14d6203698e08540f57ccb1ef910d44e8d5000388",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "sim/rtl_fft/results/simulate.log",
+    "sha256": "d30f6c45b8dbfa43804cd88a0c9bc9ba6b63dd2925dd9e0ef6a7731279c16df6",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "sim/rtl_fft/vectors/fft_golden_v1/reference_manifest.json",
+    "sha256": "03a5b65bbc80d71b1e4343d9e06c9241b3ee221867d46c16f1532d9e50af4145",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/board_runs/basic_evidence_20261031.zip",
+    "sha256": "19c92651f673d3121c3314016befbc9a10b1f9c06e05ed4b115bf2db4a0e97d1",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "report/ai_records/export_hotfix_r3.md",
+    "sha256": "3b0482a6977798346905a727b89188a4e210ce552e415c6413f3a679e9a15615",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "report/ai_records/cma_evidence_review.md",
+    "sha256": "309f11e9b654c3eff37f6dcad4d657d383b2ed38b5c191b8b6fc1e21c2ff92fb",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f0200_cal_01.npy",
+    "sha256": "0f3b8cb9b93ebf4cbf5382a1dde6faf7ba413b7d18f31efd26bff2b254ee1ebe",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f0200_cal_02.npy",
+    "sha256": "63b3def896ae7f19cf3e8d12f8e730fd608a5e49eb31fa7a985e097ed093b9ed",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f0200_cal_03.npy",
+    "sha256": "75178390f5a168079c3d4ca331f25475e5ad5e51bbf3820d7314f394524fb21a",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f0200_val_01.npy",
+    "sha256": "fd387ca8fb8ec39115b7d5aeda94a444e411df968afc983c43b0bc803c09f55f",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f0200_val_02.npy",
+    "sha256": "9ae56a64f33a79f1bd1f02e39017d7d8ae7b16630b918a4f6a2e41107ff7a6b5",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f0200_val_03.npy",
+    "sha256": "87ff189e309075c54e0a22b7f78fa91d7901651de0deb92f89228d98621dc406",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f0300_cal_01.npy",
+    "sha256": "a5903ab24b0e338997052e01d51ad10fc50949164f0fb7cddd48847c4f255620",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f0300_cal_02.npy",
+    "sha256": "ee9d6e3cc27f836b7390aa2ae02d5c6bd57e50a0ebc254252f6ebb59057025d9",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f0300_cal_03.npy",
+    "sha256": "020fc81005ed560ec85018357e1fcc9b55c543cde38acf2ffc4a3be88f12bfd6",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f0300_val_01.npy",
+    "sha256": "2c1e195b51accceb550b2cd814a530e4a94cab0e01c65083e53b3c3254f0e336",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f0300_val_02.npy",
+    "sha256": "587099a3d71e330250ef32e15a9cac082ecc37755df8dc163caa15f787c74381",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f0300_val_03.npy",
+    "sha256": "ac1dc205ca09ab1131556aa1cd0a3ca3d364ca924ecaac28c983ca8a51d511c7",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f0500_cal_01.npy",
+    "sha256": "6cba2c7be46e3b6b87d0be8659fee3db2542b67f25c11cd1dd840d043e09d554",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f0500_cal_02.npy",
+    "sha256": "507f464321e25643f5e2415d25145d1728f6767be75610eee567a65befc2aa57",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f0500_cal_03.npy",
+    "sha256": "15884900ce4c874c7ae2ff2d62df10ca50b80ec370732eb31b4117cc4b6faa2d",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f0500_val_01.npy",
+    "sha256": "152e13833ddcbc8ec624764f47a6212d85726644ad15d90ad638b363187e6372",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f0500_val_02.npy",
+    "sha256": "9f73ad631a98e90936faba328fd8e8dba70631b9575e75f8b71e7c6e34131929",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f0500_val_03.npy",
+    "sha256": "85b78dc4b4638758535424492d86f8bb11ab4877bcf26ab17c9640de4ca50de0",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f0700_cal_01.npy",
+    "sha256": "c00bcf8e0197aab49683a9d930d508b840c07fbaa5bbc9b021e6b133b86ce3c3",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f0700_cal_02.npy",
+    "sha256": "180cbf5dd1a6dfbd0b1f32b6c1e7146acb9efebbbe6121b07975ca75371f9052",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f0700_cal_03.npy",
+    "sha256": "bdcd975634a948f9e3ba3fea1f759049fac19b6c2a021f936d75b6135ca8afe6",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f0700_val_01.npy",
+    "sha256": "e5f5156dc1267ba23df5c1e932311199817c167ed9527361e5bee42b0ef47e60",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f0700_val_02.npy",
+    "sha256": "6135a67a26ed5479af6f3f564d1ea49bb30cf2051b947fa3710dc8cf09dac640",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f0700_val_03.npy",
+    "sha256": "4081dce640a0ebf33bd2a423e131a6430564dc8167ae434ae66b080865916208",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f1000_cal_01.npy",
+    "sha256": "cdee0bda728317df49905e4e58ceec8cd1e1934f40160c420b928cd8e6b0e16f",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f1000_cal_02.npy",
+    "sha256": "2ac6722b036c845282b5e0c59550f8814a223eec58b4114eed13e8f13a30ae1e",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f1000_cal_03.npy",
+    "sha256": "5bcbde6490ebd018e31d7c99331beed2f1bd258c59758cb157408df3021ba981",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f1000_val_01.npy",
+    "sha256": "dace6487f6ba64f9713656f225c0c0b7c1e0db1cb7c74bcfab3914ac4f645e97",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f1000_val_02.npy",
+    "sha256": "859deec338b8afb2a426281ef40ecea6e2e98dc645c8d62a5eaf62affff19ca4",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f1000_val_03.npy",
+    "sha256": "62b00e7cf16938239521eebd3e03258ef5c6461070caad96bc0b4fce8b57bbc7",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f1200_cal_01.npy",
+    "sha256": "492196abe6eb1fe0cb3eb5d1dfa23e7714869b1058df33554a3932f3c0011a6b",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f1200_cal_02.npy",
+    "sha256": "4194dde219d97ad3a5841829906fce3d8f8ac61e2372c8aacb519d0f25067ef3",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f1200_cal_03.npy",
+    "sha256": "0988cc46d14406f35ff46e7ff4c6f2c237c7bd427374a3ae0e14072423224cba",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f1200_val_01.npy",
+    "sha256": "253e8939bd2b697c09f8caf67982852fffa6c7dcfa9a3b1f07f1355c6f557d72",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f1200_val_02.npy",
+    "sha256": "9db8e55bdfb8cdb9f61e91a8eaf23e885cdca7868b79f71b9a89489753ec42c9",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f1200_val_03.npy",
+    "sha256": "504415662df951ab757632ace04de448a37f933b3196a9d1f9effbc30e1c43f5",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f1400_cal_01.npy",
+    "sha256": "91a2035224c8beb63fa5c5c7061fc54b72e1631aefcdaa073b22a20c304f2280",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f1400_cal_02.npy",
+    "sha256": "8eef95b3580b469734bb09da269613f9b433efc6d33d0368c1e6bf9be6a5eba0",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f1400_cal_03.npy",
+    "sha256": "bfcd88f805ec705ab1e882e4671a373cb995b2e3e5cf741c7403867838c79fc3",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f1400_val_01.npy",
+    "sha256": "7cacc1f68bcc714f1565ea75269fe28d7ad31dc147464e9b6f3fd5c4254fb5c3",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f1400_val_02.npy",
+    "sha256": "e6abe6ed9503206c04376da67cb195f019172f4deb4243403f32e47988c19357",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f1400_val_03.npy",
+    "sha256": "6c862907d2f68ebdf1bd9afa40384628a53ad1f1fb98016e207fa78808a96f91",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f1500_cal_01.npy",
+    "sha256": "d9fab90377ce214c6b74d3ba08e327457a0239a727688ce2e158f57fe54ccf59",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f1500_cal_02.npy",
+    "sha256": "069c0dbd5cd0fd6f62907785e5b30edb9c7d1ada3e9476b36d35530e294e2905",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f1500_cal_03.npy",
+    "sha256": "bd8407206a510c422e564acc8bacf9263ea79950b86a48714747c240f1850933",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f1500_val_01.npy",
+    "sha256": "fff3a74ca556a555933b17f0b00a5ad5377ced3ce2c2fc97ce2ee670622df5b6",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f1500_val_02.npy",
+    "sha256": "4d5db28451f89dd02f80d18a3f589c8230259d7f131d19ca7d4e738acd65dd46",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f1500_val_03.npy",
+    "sha256": "9c78879354ed30268a97960cf0ac23675579f646711f7b320459c43757a3bd28",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f1592_cal_01.npy",
+    "sha256": "8ede9f2de109e2ef8cd718ed494e74d7a5e0e0228f07f534384696e048bf89ec",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f1592_cal_02.npy",
+    "sha256": "ccad7c2be820456fd1109d2525e3fc2b6cd679b644e2a38068e78e4ebd583891",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f1592_cal_03.npy",
+    "sha256": "bd2da0d74947bd5bfdc24427543ca67882f13cdade06578d9da2c976c4377cfe",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f1592_val_01.npy",
+    "sha256": "7d261c6c1c1ecc71aaf5b54689fe82bd7d7f45a4a4690cdf13229f3ae6936d5c",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f1592_val_02.npy",
+    "sha256": "6a1a32e631d3e4f5ad166f6122435a36dbecca699c40149b3571641aaf3215b3",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f1592_val_03.npy",
+    "sha256": "7f071fd8f461ccfc2bfc05a11575629a3092b96b29d4a9f632b461009b67ed38",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f1700_cal_01.npy",
+    "sha256": "07cf4340251b31745e778cb8e94aa45a0028071a00f5ebdbbf62348de16f1172",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f1700_cal_02.npy",
+    "sha256": "6b7792707120c5aac38fad2e8640d2fda4feb8e92f8c5dc652a9bf3313863d1d",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f1700_cal_03.npy",
+    "sha256": "af74c00845d34aeb6c0553ab787a5e5d43cf028f77133ce654eb6da00139a6f6",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f1700_val_01.npy",
+    "sha256": "c7de6e1c662954b2e45c4a9c2ef145a2fe4e3e79f6b587c48831fdf74bb41da8",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f1700_val_02.npy",
+    "sha256": "fb369285f50d0c0097c4eba08463e10f5e256732b48bf3f8b53741cf31c8a75d",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f1700_val_03.npy",
+    "sha256": "9a985d0b416232252c5bec37203940ce40a78b6916fccac1cbd7d6921f0ad28b",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f1900_cal_01.npy",
+    "sha256": "f85507b610ee31c3fc9d93d62ca1ef713006d5eae2051fe3f338eee9dc66f0bc",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f1900_cal_02.npy",
+    "sha256": "dc1c3bf603a6d33160741ad792be76872afc2878f3e25a03214edcee3689ca5a",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f1900_cal_03.npy",
+    "sha256": "12165a2967fef903186c69c53ee9ef0a6d78779b52a8d2ec0409ee585deb2699",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f1900_val_01.npy",
+    "sha256": "8c27196e90d07fc5bdc8801be3b61430189b55ef6004945c9fcd30a78547bde3",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f1900_val_02.npy",
+    "sha256": "1dff0b6b3738a082b2e4b890699358d35c8871b01849908cd362d60b8c140370",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f1900_val_03.npy",
+    "sha256": "020ffd18d5ef2cde4836e7d63c2a6b647a552841b91535497518a5f29feb3ec3",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f2200_cal_01.npy",
+    "sha256": "e9ae4c2fe1e17068df3ca4d18727490c1ab255e97a0527ab3b01a506f743eac9",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f2200_cal_02.npy",
+    "sha256": "e3cfaeb45d9c46b2617ec85b81bf7b7aba82ac115b777089c1eb97a1af1704ad",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f2200_cal_03.npy",
+    "sha256": "fda0f6f6de2a047f8afdaf2df885e905327755719e631fe2734e4248c1adf89a",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f2200_val_01.npy",
+    "sha256": "be2c84164776f2564db28e335fb2a9aed6b6e1318ddbfce50e38296baca9830a",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f2200_val_02.npy",
+    "sha256": "3d63c476227547bde860dca19d610b46a7e179fcd91b1bb60b04246ee47f42be",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f2200_val_03.npy",
+    "sha256": "59ba57e58f6ee97addddbb0739a70d3932157015314032dcd7d5b929ede5a0fd",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f3000_cal_01.npy",
+    "sha256": "47ff38cfcb45bfc74a1320fbc30d587579ebad74e9cc7a6abe52931381166fe1",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f3000_cal_02.npy",
+    "sha256": "1bc62ec2d0ab9dc6c168ce92e104808cc84a120001c97a4950291c89103a2ed5",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f3000_cal_03.npy",
+    "sha256": "9f4228f57f3ac2f46da88f37278de0393f0ec707179b8bff945ebc86e9dc714d",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f3000_val_01.npy",
+    "sha256": "de5a7dec7c8c9f5014feaaf24287689e3d4c0834b38ecbd3b31e11cc98d59848",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f3000_val_02.npy",
+    "sha256": "808a5cd7d068c165b5bc7fe0ae8734b20f978edc2f88e55e6f25502f1dd8296c",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f3000_val_03.npy",
+    "sha256": "2251788b64c74a080809189412f6dba768a10aa58b03432a1ba82038acedbfde",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f4000_cal_01.npy",
+    "sha256": "419446ce1f50c9dbbbbbda677874c9d9f1b0134b3bae8ec4d9fe609c484362f3",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f4000_cal_02.npy",
+    "sha256": "593ad1cc9190f3fdd0df50de4cf16f133f3de72c73f47e5a69b3f1dcf9643b45",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f4000_cal_03.npy",
+    "sha256": "6feaab0aae8d49cb3d9f162532bc6978adf25f4bc5ff5ddeda908977dbfc154e",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f4000_val_01.npy",
+    "sha256": "1d040b7a6f092571ab1c4424b6612ef13e78b5cc07f25d67c397d3dd4b23064e",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f4000_val_02.npy",
+    "sha256": "2659593b1640ac2fffc07beb16c79af20a3d8ad578f366245db061df904712ad",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f4000_val_03.npy",
+    "sha256": "6487045b544d03263f94b988e5e9e7a55521d42da9ec524bd71e698dc4dbecea",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f6000_cal_01.npy",
+    "sha256": "4ecc439f3d36db360712a55cdcb19c7bb6333e1df4864b0fe7553b797cf49488",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f6000_cal_02.npy",
+    "sha256": "5338edcfc9629ef8f9a14276c4be5cebbc27096b2db5ca41381b26c1eb7576ee",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f6000_cal_03.npy",
+    "sha256": "d7d50e4b59e60c813e48df94ecd72e223ee57151a62d43288315bb51f81749c0",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f6000_val_01.npy",
+    "sha256": "4a6899727dcd905841b86d655642ea6b295aff7c0a9f08958c5717213bee05c7",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f6000_val_02.npy",
+    "sha256": "9ec317107f3ff1b56c3989946d18d5544de697ef45e112db0fbe9b1cec1b12e3",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f6000_val_03.npy",
+    "sha256": "67750bfd95330152b61f01bfabde2d1a927705f4dc9cc1e1e609cb8b17f6d283",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f6000_val_retry_01.npy",
+    "sha256": "6a9b54302a82fe6341f5ce4daeeb87a4ba1965f37cf4c2e79d9712ae67a24323",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f8000_cal_01.npy",
+    "sha256": "c6e0d19e8944854f96c79e36612b262e7a1fa75490926cc9772f46b09d9d0dc4",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f8000_cal_02.npy",
+    "sha256": "07be0f7da8f9bfa22c61ac13b8119ede68836a67f8ae2fd26272c38d4ca0fe44",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f8000_cal_03.npy",
+    "sha256": "1c6d97397c016d89be231237034d7699bc40be90e04498643dace9f2fdd8de19",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f8000_val_01.npy",
+    "sha256": "1bb655b595c19a18bffd283462f9f61183cd2eb304bda59512ca8a41a32ce3de",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f8000_val_02.npy",
+    "sha256": "763c9cea65c723801ff4cbf413efcaf24b2f3d41d1b2187f10339091d0d82895",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_f8000_val_03.npy",
+    "sha256": "a9930251b7128f1d7a9f3693838cd98c8633b5bb04953b0bd8be25798bb21446",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/b11_selftest.npy",
+    "sha256": "51c5012c3df9fdaa2f26625964d744054970cd3d3c345f6c43323826089bb3a4",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/capture_history.json",
+    "sha256": "d50708e5f9a3eae416cf4c61d0d53fe9668df9e8e81255dde3629e96fdb17d29",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/overlay_hashes.json",
+    "sha256": "1ae5c17135cdf920f5d590f2597e30bd20ca3829510dbf8a941abaf06497b802",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b11/sample_rate.json",
+    "sha256": "97ff6314cae7d00ab81688af16ffb23da66cc2ed7cd48ffb47b4c1a0a4abfe41",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f0200_cal_01.npy",
+    "sha256": "fb23f886bd46c96b6eac2b85bd5c6f80e8d7189026c2af0050f3e2f1d01a145b",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f0200_cal_02.npy",
+    "sha256": "5313dcdd21391e597d10032ab5a18ea2daf8e882ac859f2073b442230f3109bb",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f0200_cal_03.npy",
+    "sha256": "edea869a91900239519fd13095b8a7ba697f55f0c4e9834c3301643ba763997c",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f0200_val_01.npy",
+    "sha256": "f12e7ed5b0f5d242e6a67596c5d55430f797661d1cedda60be4465a6933a05a2",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f0200_val_02.npy",
+    "sha256": "03405cdaa6a113c276505e1413eb928ee1a33db10608597ef390fcef4169e20d",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f0200_val_03.npy",
+    "sha256": "3d94307520f0061c2ecbb06b57894274d95a7c8f236a21fcf516d8b8863bbc72",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f0300_cal_01.npy",
+    "sha256": "185238ff708450c7189029ac0bb80e5b78ec27ad1156693f045920ac4c6c1d29",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f0300_cal_02.npy",
+    "sha256": "48f7fad0017fa862959e954b0703606bcf99713d4f264b8def5bc2c5abd52d53",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f0300_cal_03.npy",
+    "sha256": "81d7aeb8a8af867766cef58ab68f2763f76696cde6984866ad2f332e9befa821",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f0300_val_01.npy",
+    "sha256": "872a777d731c4a5df23d0a88ef35041efc570f9fffd5a0b29092f17f8abb32dd",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f0300_val_02.npy",
+    "sha256": "3076772af84cb125f7793ceac27a6413cb412816e25ee4ad1cd55de21bba7968",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f0300_val_03.npy",
+    "sha256": "329cb81b8f45ae5eea4bed7582ea879856eef27ab8261d3b60cee9f960dd7a63",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f0500_cal_01.npy",
+    "sha256": "1631046e5fc14ba7d9b551034579d866a11747aa2902664d674525e170273a86",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f0500_cal_02.npy",
+    "sha256": "0a45cc2060f0778cc7149de17348dc61a546a7c92667b571453dede5ac96ea4a",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f0500_cal_03.npy",
+    "sha256": "dd9e2898c797d409dc7297cecd03ea934a0b6ba43d5bec010f1baead596bdd4d",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f0500_val_01.npy",
+    "sha256": "08bb87ed844ce3021cb2c97f71232f65525ed673d9e29e3fefcb1de32702a2dd",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f0500_val_02.npy",
+    "sha256": "3b0f1209d045bf1b099b4647be1bcc96ab39db90e7f68bf13842cf87da4338d6",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f0500_val_03.npy",
+    "sha256": "1564f85b5147f0b314b9b61ef8db2eaad684929facfc0cf91f96601119799449",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f0700_cal_01.npy",
+    "sha256": "766f04e940e92ef161a0add228eb0792259d7fa97a43420a88f17623e028e055",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f0700_cal_02.npy",
+    "sha256": "db1c8c7b7924ed49bba61e6e089ff275484e2b39e68b60dd6e014bbcd9eaeb0d",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f0700_cal_03.npy",
+    "sha256": "e70e56f27d6d6f5e6853ee738dce00ecdbc357723e59259a61f7a29a432af5a7",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f0700_val_01.npy",
+    "sha256": "1fa15afa2670b8f125eda363421a052ec7056c2925708c7ca7345c41ab2f3dc9",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f0700_val_02.npy",
+    "sha256": "c7572f771fe2171e227ff28a5ebf61cf1be79bc43931a9f597109dfc3844418b",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f0700_val_03.npy",
+    "sha256": "651c8a3795936aa7846b4c8c2057980c8b7f2242cedbd2da2d5efeee90d04e29",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f1000_cal_01.npy",
+    "sha256": "505faf0d0ee7b433e1db141290d38a6d2169bf2416f04b99a3479c2eff9db905",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f1000_cal_02.npy",
+    "sha256": "f577a7b1cb950e354b268dc186ecf9fbcd4a6322604b033cc9c520f2affe6da8",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f1000_cal_03.npy",
+    "sha256": "47793031d1a943cc36251860af4054b483b080a40a8ec41bbdf679f7d5fc50f4",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f1000_val_01.npy",
+    "sha256": "42d39bc19511d465d10a70527b7a7df163c4b3ba700b6ae8b414e51b8406a9e0",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f1000_val_02.npy",
+    "sha256": "5c5f02119698ca69727c93feb6fa5f8689a9ae40a5110c092cd6d98834e32964",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f1000_val_03.npy",
+    "sha256": "874994fc74f04851915bb9b00359a14215344151640c08c9e0747fe3c1e036ed",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f1200_cal_01.npy",
+    "sha256": "78b03002d987eeca71f9068d0e35b410209e18a7bd39d4d7ebcd60e6219bbce1",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f1200_cal_02.npy",
+    "sha256": "4cd8be37b5b0d65b2f9417eea8e3a605faf4a1611731ade86bb9b1b297111509",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f1200_cal_03.npy",
+    "sha256": "a7f295a4565e5c519b9b74da17849ebca96082827bd2c61a54c63c5a0d79a96b",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f1200_val_01.npy",
+    "sha256": "c1f769e8f88049798e4e780083c18c3192bbd5b2bf9be732d44a70925ef1612f",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f1200_val_02.npy",
+    "sha256": "4e7927a130d2be92c280273b8e2e1a89eb72f91b5f1429186df16885636cfe21",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f1200_val_03.npy",
+    "sha256": "4540ca2de342c7a3dcfab6d71712895871017bbd105eed906b067c9eda801556",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f1400_cal_01.npy",
+    "sha256": "9a96bb45d8b4e2ad13fee0a710dff3d0901feb668e6ec1d6ca1acf9b015137cc",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f1400_cal_02.npy",
+    "sha256": "a3dae897ec1a8ffe0c378dd103cd08ce514b082199b6123bc1d9e707e12eafd0",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f1400_cal_03.npy",
+    "sha256": "f036b931b90a49601017f03a4b7d05aa656c6176cce4125cb5b244d794bd0024",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f1400_val_01.npy",
+    "sha256": "2f8257b07024d819f1ffa8de6baadc725bce46067976756c17f02f76c9f9bb85",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f1400_val_02.npy",
+    "sha256": "bec59544be2d6d6f4e880e19837300f91cc27959b58ce2409733d28d5adaee3f",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f1400_val_03.npy",
+    "sha256": "d8c560cd23cc7fcaa95774cf4d6ac5ff239379f6ef5d22b4ae41eb3096a08a48",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f1500_cal_01.npy",
+    "sha256": "fac72733e19ec3cf8a236508167d63c6c340c3d88800538710ff6a7476b4e4fb",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f1500_cal_02.npy",
+    "sha256": "eb54bc42784c747092c1f2e33a84603f1c5f3b1863b72b05677c04843995b7d0",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f1500_cal_03.npy",
+    "sha256": "f5b0319bdf3c8880fb07a88dabc9158b789bc7e6ad52c584781320d2eab87ec9",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f1500_val_01.npy",
+    "sha256": "91d0b50b27acf98d6c42eafc806ff6e410ed067e42edc4837b4feea46e40a62d",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f1500_val_02.npy",
+    "sha256": "205214b238cd250c85f88fc145baad1baeb9eb5174927c19c35d2038e3ffa830",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f1500_val_03.npy",
+    "sha256": "0f475bf6bd12db46cda9431dd657a431c90e8fb14c785bc11ad43fb6e6d69912",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f1592_cal_01.npy",
+    "sha256": "ff73d36dc9e0123230a84f8d5317b9dafd8c56b40bf404503a847a753f33c802",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f1592_cal_02.npy",
+    "sha256": "b7269266e826b143b9f4ddca40029843fd04c17112975c9f8865edfcbb22fb99",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f1592_cal_03.npy",
+    "sha256": "75878fd5bf13e9ea3afde52dae450a625194cf4d6ed4c607cb9e124a8783f448",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f1592_val_01.npy",
+    "sha256": "a2bab7ac36601e501fdaa0e5940361ad0179498a27317f9a9714543e9ddbd144",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f1592_val_02.npy",
+    "sha256": "3cf46f9fde7018a8535ad8f8dabdb9b2a16ba367df5e84cc256bd5a280bd328e",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f1592_val_03.npy",
+    "sha256": "f56bf7e7ab91718a7b72e864fbe84d787d0c03e6061e14668bb0d947d523b648",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f1700_cal_01.npy",
+    "sha256": "cf3e3113961452254af58f096d230fba6d5b318962c8eece337c6b5fdb8576bc",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f1700_cal_02.npy",
+    "sha256": "68b2b1444a66d5c68251ba6e1366c11a074beda3382bb5dc6f4394368f3465b1",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f1700_cal_03.npy",
+    "sha256": "86285de65ea5daa45d01743e9dcc01f4c1a9cca1e6bbf2087b5f0cad5ffa33c5",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f1700_val_01.npy",
+    "sha256": "3a89f97fe4e18401bf3f6152f5750f7be5d4a9b19329d17d083f4b26021256e3",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f1700_val_02.npy",
+    "sha256": "251ebfa777c28cc298f5a3958953da7a04b7e0d06c0962daffe593e1122f1811",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f1700_val_03.npy",
+    "sha256": "6140fc37210d0e600bf267ac3830d4dd19fccab98b58a4f36ff98fc72513ac11",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f1900_cal_01.npy",
+    "sha256": "95fd56b163599b6dd92879babc0ca1bb7856fcacbe2b3a5a87683c60610fd5de",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f1900_cal_02.npy",
+    "sha256": "bb2ad59c31ca33a1ef16d34e395f9aabf4d49965f7713fd7c2a808a32ccdee03",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f1900_cal_03.npy",
+    "sha256": "03a1fe4a8a0aa0f8b38b3425d3e5fbfb5cb2df40c67a3605bbce2eabf4eb098f",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f1900_val_01.npy",
+    "sha256": "0ac014b7d6e71cbf7ed38f0239726f694a43c4bf07cbc1040739aba98d19e224",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f1900_val_02.npy",
+    "sha256": "71973dc1a14ae85a20061eadabdbee8cfa8883ff1308c3a443e1c17126cf8f4f",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f1900_val_03.npy",
+    "sha256": "336e455bd3d28251683444ecd7b6cad120be43b28c8b9d6b80c45ea7cbcddbd3",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f2200_cal_01.npy",
+    "sha256": "959258914983e4102a512bb718890cf784dc165b02945737505eb871103aa4d9",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f2200_cal_02.npy",
+    "sha256": "d4fdf5cdab19b9f7fdef692d6fb63e03394990092ff37c3244c22777ead6f0d8",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f2200_cal_03.npy",
+    "sha256": "01a0d8b79e9339c921e60216e7ce72de51786a427b650b54b5f0695322ddf74a",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f2200_val_01.npy",
+    "sha256": "618d3ecb0bba9cb58bce0f04b5ee82913059540829b004ea2ce2cfa512c1503e",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f2200_val_02.npy",
+    "sha256": "6a96185dc409a5bfa23159b12e40d185952be90e22dec6a13da07de9172c435c",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f2200_val_03.npy",
+    "sha256": "4856d0168630ff714532dc33992f8da7e4d5ba094e7cb3a1ad24e24ee633d692",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f3000_cal_01.npy",
+    "sha256": "18cc14c3f42a65c04eaa708418d29493b9263d2b0cc4eaa13a93cf416ac9068c",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f3000_cal_02.npy",
+    "sha256": "e5bfa58d2d63716f0093d8e058c2b4818a31c4ad0f66e8f191abc26d02bc029d",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f3000_cal_03.npy",
+    "sha256": "aa79cb6548603fcf3d12f643bee6989dcddcbcc9318b8f44299b503590a6743c",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f3000_val_01.npy",
+    "sha256": "b1693b7d929de029f93cd707753e86c4c5b730dd47781f26aa6333f4d39b573d",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f3000_val_02.npy",
+    "sha256": "3772fe047a6f366aab35087e91d1d2c71899c965229aab17e2024521dd720c7d",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f3000_val_03.npy",
+    "sha256": "38f629ea0412b6d7eeae28f4f84e0226c3fdcd136f4f0233ac292b3e36d69d03",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f4000_cal_01.npy",
+    "sha256": "3eb0cf3608b8ad5bb1cc36302e02d1be408822828696d6f2cf02eb7c1e4e9d1c",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f4000_cal_02.npy",
+    "sha256": "66109ef8a9b51a64b8e1502cb657de49c69759455e949b8a687438ef4e9e0d8d",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f4000_cal_03.npy",
+    "sha256": "351fc7c18c0f1222d5a913106c4575c4db51e8439822ad98dfddc64e0bd84d74",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f4000_val_01.npy",
+    "sha256": "5151e81638bc101e317efb8224a7fcf14e42b8a0202cde0934ac78b4d9b35bcf",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f4000_val_02.npy",
+    "sha256": "80eee132881b60c2c2b41e0671297c48f16fcc3dba45c0f872c7b7c9e7e85ca2",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f4000_val_03.npy",
+    "sha256": "7db49d6a90cd6e5964716f11ae540697ec4bdde28c8386ea361010b63a43a38b",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f6000_cal_01.npy",
+    "sha256": "1f29e4238ce185293205e324cae9e33549bb215483a3951cd299a75d1c15f004",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f6000_cal_02.npy",
+    "sha256": "a2f24f2f742b4797e4c4364ed9b18259d855455eade62926321d172337e18ef9",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f6000_cal_03.npy",
+    "sha256": "ce1a9b4cd17f1342d1540f5079e162045b3d5df8045cc2df410f7950dbcf0bb5",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f6000_val_01.npy",
+    "sha256": "ffd37864c944e230f1f2351fc586ce5c4869cc2e9ce310a148da7cc00c89661d",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f6000_val_02.npy",
+    "sha256": "e0c7a53ae0a442aa56704938341d48936325233d6089bf18ed3413a9572d27f3",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f6000_val_03.npy",
+    "sha256": "3f7d56e242749f08b74c4751f3e7472d40f4f11e2faba1d0d747a32d0a1645a6",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f8000_cal_01.npy",
+    "sha256": "cf29732715b8105c6b0b8bf85a5b2c997255355aa6df950d3025a531a074c55b",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f8000_cal_02.npy",
+    "sha256": "a7fdd55d11371e860ea15caafef7467c56f94c62cd53ca048e91f4fe4953b805",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f8000_cal_03.npy",
+    "sha256": "34e6162b04ebbd4fbbcc4938ed2783a14f7f871806089920b8379035632a1403",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f8000_val_01.npy",
+    "sha256": "ea477fb6206fa3f26a5d9d3b6302aa0a9dac668c2c75b288c9a997c6a1e3833d",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f8000_val_02.npy",
+    "sha256": "d9f20ef3e60d6668b283c81810b7716f4a561f9379021483e5191a635073f640",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_f8000_val_03.npy",
+    "sha256": "025836833c33531d2ab42e39e273b3aac96a74e985b44864f72ca782bc87622e",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/b12_selftest.npy",
+    "sha256": "51c5012c3df9fdaa2f26625964d744054970cd3d3c345f6c43323826089bb3a4",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/capture_history.json",
+    "sha256": "2643e1a7569cc156628db62512c1c7494a296033217ce4060edec65055039085",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/overlay_hashes.json",
+    "sha256": "1ae5c17135cdf920f5d590f2597e30bd20ca3829510dbf8a941abaf06497b802",
+    "source_scope": "preexisting local project artifact"
+  },
+  {
+    "destination": "data/raw/b12/sample_rate.json",
+    "sha256": "955c55c2d1bdc43e18b9654591901de62d40898af8394985300d540554cbcd63",
+    "source_scope": "preexisting local project artifact"
+  }
+]

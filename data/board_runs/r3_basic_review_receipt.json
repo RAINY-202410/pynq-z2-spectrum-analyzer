@@ -1,0 +1,51 @@
+{
+  "status": "BASIC_FUNCTIONAL_REGRESSION_VERIFIED_CMA_REVIEW_PENDING",
+  "date": "2026-10-31 Asia/Shanghai",
+  "basic_functional_validation_complete": true,
+  "scope": "Acquisition/window/PL FFT/PS spectrum/browser display/stop-restart/export and scheduled board checks, with version-specific evidence",
+  "checks": {
+    "r2_functional_matrix": true,
+    "r2_30min_visible_and_recovery": true,
+    "pc_arm_same_input_benchmarks": true,
+    "r3_short_restart_and_native_export": true,
+    "r3_three_actual_cold_boots": true
+  },
+  "source_receipts": {
+    "r2_longrun": {
+      "file": "build/spectrum_board_validation_20261031_01/validation_receipt.json",
+      "sha256": "6BFF1D5AB3534CFEB96EF134F2D94E9DEFC374075872DAFB476E9020A4BB9303"
+    },
+    "arm": {
+      "file": "build/cpu_fft_arm_validation_20261031_01/arm_validation_receipt.json",
+      "sha256": "99C148E13423FB560327D0D73B2045698AFCFC36720A37D95F71BE9C05B05677"
+    },
+    "r3_short": {
+      "file": "build/spectrum_r3_validation_20261031_01/short_validation_receipt.json",
+      "sha256": "F9684E5956C133FD1FFF425535B281ACE731798F2795785DBFA88C6226CAB06C"
+    },
+    "r3_coldboots": {
+      "file": "build/spectrum_r3_coldboot_validation_20261031_01/coldboot_validation_receipt.json",
+      "sha256": "EF48A89FCF122A0FCF49403BA9F759597E09BC5816B27450EBAA498CB8D28CEC"
+    }
+  },
+  "current_verified_build": "spectrum_software_1_r3",
+  "version_scope": {
+    "r2": "1820s visible longrun and full functional matrix",
+    "r3": "20s tone stop/restart/export plus three100-frame cold-boot runs"
+  },
+  "r3_longrun_verified": false,
+  "r3_accumulated_frames": 621,
+  "r3_service_instances": 4,
+  "r3_raw_samples_verified": 14,
+  "r3_screenshots_verified": 15,
+  "cma_review_pending": true,
+  "cma_allocation_source_identified": false,
+  "r2_longrun_cma_change_bytes": -12201984,
+  "board_accepted": false,
+  "physical_power_cycle_confirmation": "operator_power_cycle_confirmation.json",
+  "additional_board_test_requested": false,
+  "repeat_longrun_required": false,
+  "next_action": "Review existing CMA counters and allocation lifetimes; finish video and formatted report without repeating verified board tests",
+  "live_video_received": false,
+  "final_docx_pdf_updated": false
+}

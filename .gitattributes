@@ -1,2 +1,2 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Preserve the exact bytes covered by submission_manifest.json on all platforms.
+* -text

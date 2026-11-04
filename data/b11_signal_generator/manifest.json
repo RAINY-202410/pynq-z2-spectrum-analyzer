@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "step": "B-X11",
+  "status": "BOARD_VALIDATED",
+  "fs_hz": 47998.77998801426,
+  "point_count": 16,
+  "pass_count": 16,
+  "rejected_block_count": 0,
+  "conditions_complete": true,
+  "ignore_retry": true,
+  "files": {
+    "calibration_repeatability.png": {
+      "bytes": 108166,
+      "sha256": "0C64E2D302EEE93A17DAFE9D8180C32629B351E5CBAC0ED5479C76413319587A"
+    },
+    "calibration_repeatability.svg": {
+      "bytes": 92618,
+      "sha256": "D7A599017451DB3FD23838027B347E631D366A68869B52AB01991554DDFFDDF6"
+    },
+    "calibration_summary.csv": {
+      "bytes": 3494,
+      "sha256": "1605BD751F8189DBA85BC6AEB21F655DC0E0ED734350625E1FA2779C1F8886AB"
+    },
+    "channel_calibration.json": {
+      "bytes": 214879,
+      "sha256": "4316BBF32392FEBE41E13CC94CC0E822022D7C35067BF8F3DC32B9339ECEA4C0"
+    },
+    "fit_results.json": {
+      "bytes": 302891,
+      "sha256": "9E965892628F3C526B2CFB6E3B69EEDB74CD226A097866084DD3617B8BA5A10C"
+    },
+    "README.md": {
+      "bytes": 3763,
+      "sha256": "181BCB05CAF8E0D3CE66FF6168410A1FC6D84CCEED67AEDF2ED0A041F14EBD33"
+    },
+    "source_dataset_manifest.json": {
+      "bytes": 19638,
+      "sha256": "4B5E8DCF3BFFA34831A1AFD141200765B19802D2132EDCD17A7C1B5232357F45"
+    }
+  },
+  "raw_dataset": {
+    "path": "b_x11_m4_only_20261101",
+    "file_count": 96,
+    "excluded_retry_files": [
+      "b11_f6000_val_retry_01.npy"
+    ]
+  }
+}

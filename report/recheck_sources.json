@@ -1,0 +1,14 @@
+{
+  "board_files_sha256": {
+    "build/board_files/pynq-z2/a.0/board.xml": "a565dcb39737d551cbbbb73c0053b973c40bb3dce2274943370d3032c0fea9ae",
+    "build/board_files/pynq-z2/a.0/part0_pins.xml": "3c809473938e135a925b563b5371c8687ee05c4089376e7318c0c56524cc8a0f",
+    "build/board_files/pynq-z2/a.0/preset.xml": "18528f84aea4da503cdb3104f7706fabfb3b6ad09b78b25199cc316afa4c8cfe",
+    "build/board_files/pynq-z2/a.0/pynq_z2.jpg": "b6cf32febf4b1995f33c3372ef72f390abf4a5596c73a6fd36810a45ccd0e1f7"
+  },
+  "synthesis_sources_sha256": {
+    "build/reports/fft/synthesis_utilization.rpt": "5c9ba41b5d9092f1895a8158ab6562a03852abd152519f77021768290a784dd6",
+    "build/reports/fft/synthesis_run.log": "dfb1c70dd0a0ffb3c2bd330ddb9fc332b821ab0f94ddb394f4e0805d4d8b25a8"
+  },
+  "paired_fft_bit_sha256": "a00606402e7adc8929deda61ffad39236ad3500ff87976e001292a6078551e26",
+  "new_tests_run": false
+}

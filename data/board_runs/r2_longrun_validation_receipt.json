@@ -1,0 +1,197 @@
+{
+  "status": "BOARD_UI_30MIN_AND_RECOVERY_VERIFIED_CMA_REVIEW_PENDING",
+  "source_type": "HASH_VERIFIED_RAW_RESCUE_WITH_ORIGINAL_RUN_MANIFESTS",
+  "source_archive_sha256": "B957B4B9DDEEC281E116E3BD77A90A77D8B4CBA148D460470802A55ED70678AC",
+  "reconstructed_audit": "trusted_audit/audit.json",
+  "native_service_export_received": false,
+  "instance_id": "instrument_a79f9a7236b2",
+  "runs": 14,
+  "functional_runs": 11,
+  "total_frames": 18537,
+  "raw_samples": 90,
+  "screenshots": 23,
+  "all_safe_stopped": true,
+  "sequence_contiguous_across_all_runs": true,
+  "previous_native_export02_core_files_identical": 129,
+  "regression": {
+    "stop_restart_same_overlay": true,
+    "visible_ui_10min": true,
+    "dual_rect": true,
+    "dual_hann": true,
+    "analog_silence_observed": true
+  },
+  "release_30min_checks": {
+    "duration_1800": true,
+    "continuous_visible_1800": true,
+    "tone1k_hann": true,
+    "live_quality_and_safe_stop": true,
+    "automatic_completion": true,
+    "recovery_20s": true,
+    "same_service_overlay_and_sequence": true
+  },
+  "run_30min_verified": true,
+  "long_run_id": "spectrum_a148e0dd0a6f",
+  "long_run": {
+    "run_id": "spectrum_a148e0dd0a6f",
+    "status": "BOARD_UI_RUN_DATA_VERIFIED",
+    "archive_sha256": "56FDB2F25F52DAD317E9EC08A642CD7083DD7B75854F3CE0BF88210A38780802",
+    "mode": "LIVE",
+    "context": "BOARD_LIVE",
+    "frames": 9100,
+    "elapsed_s": 1820.0131606289997,
+    "snapshot_frame_rate_hz": 4.999963844687268,
+    "reason": "DURATION_COMPLETE",
+    "quality_errors": 0,
+    "stop_verified": true,
+    "functional_run_passed": true,
+    "raw_samples_verified": 32,
+    "screenshots_verified": 1,
+    "software_identity": {
+      "verified": true,
+      "software_revision": "spectrum_software_1",
+      "build_revision": "spectrum_software_1_r2",
+      "manifest_sha256": "E1A84240287AF06490C8B4144E94E5A8D21A205913CEDB8F9FA22FEC08D6CCBA",
+      "verified_files": 35
+    },
+    "browser_viewers": {
+      "viewer-1793356391181-93da9b1d9e992": {
+        "count": 9100,
+        "last_frame_id": 9100,
+        "first_s": 0.13481113799934974,
+        "last_s": 1819.9342296759987,
+        "last_visible": true,
+        "segment_start": 0.13481113799934974,
+        "longest_visible_s": 1819.7994185379994,
+        "max_gap_s": 0.3507630389995029,
+        "render_ms_sum": 10207.499999780208,
+        "render_ms_max": 8.5
+      }
+    },
+    "longest_visible_browser_s": 1819.7994185379994,
+    "ui_10min_evidence_met": true,
+    "memory_diagnostics": {
+      "rss_bytes": {
+        "first": 73453568,
+        "last": 73453568,
+        "minimum": 73453568,
+        "maximum": 73453568,
+        "change": 0
+      },
+      "cma_free_bytes": {
+        "first": 44982272,
+        "last": 32780288,
+        "minimum": 32780288,
+        "maximum": 44982272,
+        "change": -12201984
+      },
+      "open_fds": {
+        "first": 17,
+        "last": 15,
+        "minimum": 15,
+        "maximum": 18,
+        "change": -2
+      }
+    },
+    "cma_trend_requires_review": true,
+    "board_accepted": false,
+    "amplitude_calibrated": false,
+    "scope": "Browser canvas/visibility telemetry and PL snapshot evidence; no synchronized physical display latency or gap-free audio claim."
+  },
+  "recovery_run_id": "spectrum_803d7babfd26",
+  "recovery_run": {
+    "run_id": "spectrum_803d7babfd26",
+    "status": "BOARD_UI_RUN_DATA_VERIFIED",
+    "archive_sha256": "DB9DEC42CB45EA752854AB57D94DA1A6F97F1172257D01B9026E7D6621197762",
+    "mode": "LIVE",
+    "context": "BOARD_LIVE",
+    "frames": 100,
+    "elapsed_s": 20.03173956399951,
+    "snapshot_frame_rate_hz": 4.992077681546801,
+    "reason": "DURATION_COMPLETE",
+    "quality_errors": 0,
+    "stop_verified": true,
+    "functional_run_passed": true,
+    "raw_samples_verified": 2,
+    "screenshots_verified": 8,
+    "software_identity": {
+      "verified": true,
+      "software_revision": "spectrum_software_1",
+      "build_revision": "spectrum_software_1_r2",
+      "manifest_sha256": "E1A84240287AF06490C8B4144E94E5A8D21A205913CEDB8F9FA22FEC08D6CCBA",
+      "verified_files": 35
+    },
+    "browser_viewers": {
+      "viewer-1793356391181-93da9b1d9e992": {
+        "count": 100,
+        "last_frame_id": 100,
+        "first_s": 0.12288242499926127,
+        "last_s": 19.88286562599933,
+        "last_visible": true,
+        "segment_start": 0.12288242499926127,
+        "longest_visible_s": 19.759983201000068,
+        "max_gap_s": 0.30779716200049734,
+        "render_ms_sum": 124.80000000447035,
+        "render_ms_max": 6.099999997764826
+      }
+    },
+    "longest_visible_browser_s": 19.759983201000068,
+    "ui_10min_evidence_met": false,
+    "memory_diagnostics": {
+      "rss_bytes": {
+        "first": 73453568,
+        "last": 73453568,
+        "minimum": 73453568,
+        "maximum": 73453568,
+        "change": 0
+      },
+      "cma_free_bytes": {
+        "first": 32714752,
+        "last": 32579584,
+        "minimum": 32579584,
+        "maximum": 32714752,
+        "change": -135168
+      },
+      "open_fds": {
+        "first": 17,
+        "last": 15,
+        "minimum": 15,
+        "maximum": 17,
+        "change": -2
+      }
+    },
+    "cma_trend_requires_review": true,
+    "board_accepted": false,
+    "amplitude_calibrated": false,
+    "scope": "Browser canvas/visibility telemetry and PL snapshot evidence; no synchronized physical display latency or gap-free audio claim."
+  },
+  "long_run_hidden_receipts": 0,
+  "long_run_browser_hz": 5.000001597599149,
+  "long_run_canvas_ms": {
+    "mean": 1.1217032966791438,
+    "p95": 1.199999999254942,
+    "maximum": 8.5
+  },
+  "long_run_peak_hz_median": 984.3456597535279,
+  "long_run_peak_dbfs": {
+    "median": -12.938606580690303,
+    "minimum": -12.953991993536821,
+    "maximum": -12.924028037951187,
+    "span": 0.02996395558563414
+  },
+  "cma_review_pending": true,
+  "cma_cause_identified": false,
+  "long_run_cma_recoveries": 1,
+  "observer_audit": "observer_audit.json",
+  "observer_full_longrun_overlap_verified": false,
+  "arm_benchmark_measured": false,
+  "arm_result_status": "USER_DID_NOT_FIND_FILES_NOT_PROOF_OF_EXECUTION",
+  "three_cold_boots_verified": false,
+  "board_accepted": false,
+  "diagnostic_failed_runs": [
+    "spectrum_d52a510b59ba",
+    "spectrum_5e2dddafad39",
+    "spectrum_1c512803838a"
+  ],
+  "audit_engine_sha256": "F3300227C0AE2A143D237B15E87DB0EB7109BF834C93D41B45C9731E2A2A7147",
+  "further_30min_run_required": false
+}

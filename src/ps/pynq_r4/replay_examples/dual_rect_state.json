@@ -1,0 +1,62 @@
+{
+  "label": "dual_rect",
+  "source": "PL_FFT",
+  "window": "rect",
+  "N": 1024,
+  "fs_hz": 47998.529782499616,
+  "window_sum": 1024.0,
+  "scale_shift": 11,
+  "requested_bytes": 8192,
+  "before": {
+    "dmacr": 65538,
+    "dmasr": 1,
+    "dma_status_names": [
+      "Halted"
+    ],
+    "length": 0,
+    "pl_status": 256,
+    "input_count": 0,
+    "output_count": 0,
+    "frame_sequence": 3034,
+    "window_requested": 0,
+    "version": 1179014145,
+    "i2s_snapshot": 2717934272,
+    "i2s_live": true,
+    "cnt_lrclk": 291891421,
+    "cnt_beat": 3106816
+  },
+  "success": true,
+  "overlay_sha256": {
+    "fft.bit": "a00606402e7adc8929deda61ffad39236ad3500ff87976e001292a6078551e26",
+    "fft.hwh": "a4f43cc8594ecccd6f30b43e5bfc935ddfa0f2825ad90c1d9f659b5de1dce091"
+  },
+  "arm_through_completion_s": 0.022652294999716105,
+  "after": {
+    "dmacr": 65539,
+    "dmasr": 4098,
+    "dma_status_names": [
+      "Idle",
+      "IOC"
+    ],
+    "length": 8192,
+    "pl_status": 262,
+    "input_count": 1024,
+    "output_count": 1024,
+    "frame_sequence": 3035,
+    "window_requested": 0,
+    "version": 1179014145,
+    "i2s_snapshot": 2717934632,
+    "i2s_live": true,
+    "cnt_lrclk": 291893871,
+    "cnt_beat": 3107840
+  },
+  "buffer_copy_s": 0.00038494099953823024,
+  "decode_s": 0.002665699000317545,
+  "received_bytes": 8192,
+  "peak_bin": 21,
+  "peak_hz": 984.3448490551679,
+  "peak_dbfs": -17.891550138547622,
+  "words_sha256": "f209e69a68d269848148ba3e49d69a733576da3db03f5f59e2cfa88b35055f94",
+  "artifact_save_s": 0.004053556999679131,
+  "elapsed_s": 0.030615059000410838
+}

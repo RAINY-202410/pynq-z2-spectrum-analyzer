@@ -1,0 +1,15 @@
+case,mismatches,payload_bytes,pass
+zero_rect,0,8192,true
+zero_hann,0,8192,true
+dc_rect,0,8192,true
+dc_hann,0,8192,true
+impulse_rect,0,8192,true
+impulse_hann,0,8192,true
+bin16_rect,0,8192,true
+bin16_hann,0,8192,true
+bin16p35_rect,0,8192,true
+bin16p35_hann,0,8192,true
+bin16_bin70_rect,0,8192,true
+bin16_bin70_hann,0,8192,true
+bin16_rect_recovery,0,8192,true
+impulse_hann_recovery,0,8192,true

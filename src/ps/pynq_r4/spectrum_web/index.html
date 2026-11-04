@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="control-token" content="__CONTROL_TOKEN__">
+  <title>PYNQ 频谱分析仪</title><link rel="stylesheet" href="/style.css">
+  <style>
+    .workspace-tabs{display:flex;gap:6px;align-items:center}
+    .workspace-group{font:10px Consolas,monospace;color:var(--muted);letter-spacing:.8px;margin-left:4px}
+    .workspace-group.separated-group{margin-left:12px;padding-left:12px;border-left:1px solid var(--line)}
+    .workspace-tab{border:1px solid var(--line);background:#131e29;color:var(--muted);border-radius:5px;padding:8px 13px;cursor:pointer}
+    .workspace-tab.active{color:#0b2727;background:var(--cyan);border-color:var(--cyan);font-weight:700}
+    .workspace-panel[hidden]{display:none!important}
+    .extension-frame-panel{height:calc(100vh - 90px);background:#0c1118}
+    .extension-frame-panel iframe{display:block;width:100%;height:100%;border:0}
+    .hardware-panel{max-width:1500px;margin:0 auto;padding:30px}
+    .hardware-shell>header{padding:10px 4px 24px;border-bottom:1px solid var(--line)}
+    .hardware-shell h1{font-size:25px;margin:5px 0}
+    .hardware-shell p{color:var(--muted);margin:6px 0}
+    .eyebrow{font:11px Consolas,monospace;letter-spacing:1.4px;color:var(--cyan)}
+    .hardware-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:22px}
+    .hardware-card{background:var(--panel);border:1px solid var(--line);border-radius:7px;padding:20px;min-width:0}
+    .hardware-card h2{font-size:14px;margin:0 0 15px}
+    .hardware-card pre{white-space:pre-wrap;background:#0a1118;border:1px solid #1f3040;border-radius:5px;padding:12px;min-height:100px;color:#bcd0df;font:11px/1.7 Consolas,monospace}
+    .hardware-actions{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+    .report-card{display:flex;flex-direction:column;gap:8px}
+    .report-card a{color:var(--cyan)}
+    .report-card img{width:100%;margin-top:8px;border-radius:5px;background:#fff}
+    .record-toolbar{display:flex;justify-content:space-between;align-items:center;gap:12px}
+    .records-list{display:grid;gap:8px;max-height:430px;overflow:auto}
+    .record-item{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;align-items:center;border:1px solid var(--line);border-radius:5px;padding:10px 12px;background:#0f1821}
+    .record-item button{width:auto}
+    .record-title{font-weight:600;color:var(--text)}
+    .record-meta{display:block;font-size:10px;color:var(--muted);margin-top:3px}
+    .record-empty{color:var(--muted);padding:18px 4px}
+    .record-viewer-card{grid-column:1/-1}
+    .record-viewer-card iframe{display:block;width:100%;height:760px;border:1px solid var(--line);border-radius:5px;background:#0c1118;margin-top:8px}
+    #recordViewerFrame[hidden]{display:none}
+    #responseRecordViewer img{display:block;width:100%;border-radius:5px;background:#fff;margin:10px 0}
+    #responseRecordViewer table{margin-top:8px}
+    .record-downloads{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
+    .record-downloads a{color:var(--text);text-decoration:none}
+    @media(max-width:900px){.workspace-tabs{order:3;width:100%;overflow:auto}.hardware-grid{grid-template-columns:1fr}.hardware-panel{padding:18px}.extension-frame-panel{height:calc(100vh - 130px)}}
+  </style>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand"><span class="brandmark">∿</span><div><strong>频谱分析仪</strong><small>PYNQ-Z2 · 1024-point PL FFT</small></div></div>
+  <nav class="workspace-tabs" aria-label="工作区">
+    <span class="workspace-group">实时频谱</span>
+    <button class="workspace-tab active" type="button" data-panel="spectrum">当前频谱</button>
+    <button class="workspace-tab" type="button" data-panel="analysis">深入分析</button>
+    <button class="workspace-tab" type="button" data-panel="records">我的记录</button>
+    <button class="workspace-tab" type="button" data-panel="demo">演示样例</button>
+    <span class="workspace-group separated-group">频率响应</span>
+    <button class="workspace-tab" type="button" data-panel="m4">频率响应测量</button>
+  </nav>
+  <div class="header-status"><span id="modeBadge" class="badge">连接中</span><span id="phaseBadge" class="badge neutral">—</span><span class="connection"><i id="connectionDot"></i><span id="connectionText">连接仪器</span></span></div>
+  <button id="exportButton" class="button export" disabled>导出结果 ↗</button>
+</header>
+<div id="errorBanner" class="error-banner" hidden><strong>运行提示</strong><span id="errorText"></span></div>
+<div class="layout workspace-panel active" id="panel-spectrum">
+<aside class="controls">
+  <div class="section-title">采集控制 <span>01</span></div>
+  <div id="sourceNote" class="source-note">正在读取数据源…</div>
+  <form id="runForm">
+    <label id="replayLabel">回放样本<select id="replayCase"></select></label>
+    <label>窗口<select id="window"><option value="hann">Hann 对称窗</option><option value="rect">矩形窗</option></select></label>
+    <div class="form-row"><label>运行时长 <span>s</span><input id="duration" type="number" min="1" max="3600" step="1" value="620" required></label><label>目标刷新 <span>Hz</span><select id="targetHz"><option value="2">2</option><option value="5" selected>5</option><option value="10">10</option></select></label></div>
+    <label>测试场景<select id="scenario"><option value="observe">日常频谱观察</option><option value="tone1k">1 kHz 单音检查</option><option value="dual">1 + 3 kHz 双音检查</option><option value="silence">模拟静音记录</option></select></label>
+    <div class="run-buttons"><button class="button primary" id="startButton" type="submit">▶ 开始</button><button class="button secondary" id="stopButton" type="button" disabled>■ 停止</button></div>
+  </form>
+  <p class="hint">十分钟显示测试：从头播放 11 分钟的 1 kHz 音频，选择单音检查和 620 秒，保持页面前台可见。</p>
+  <div class="section-title separated">显示设置 <span>02</span></div>
+  <label>频率上限 <span>Hz</span><select id="maxFrequency"><option value="5000" selected>5,000</option><option value="12000">12,000</option><option value="24000">完整频带</option></select></label>
+  <label>幅值显示<select id="amplitudeUnit"><option value="dbfs">dBFS · 峰值满量程</option><option value="linear">归一化幅度</option></select></label>
+  <button id="snapshotButton" class="button secondary full" disabled>保存当前界面图</button>
+  <div class="session-meta"><span>数据来源</span><strong>PL_FFT</strong><span>协议版本</span><strong id="version">—</strong><span>显示帧 / 硬件序号</span><strong id="sequence">—</strong><span>已运行</span><strong id="elapsed">0.0 s</strong></div>
+  <p class="footnote">逐帧快照 · 帧间允许间隙<br>幅值尚未做物理电压标定</p>
+</aside>
+<main>
+  <section class="metrics-row">
+    <div class="metric"><span>主峰频点</span><strong id="peakFrequency">—<small>Hz</small></strong><em id="peakEstimate">等待一帧有效数据</em></div>
+    <div class="metric"><span>主峰幅值</span><strong id="peakAmplitude">—<small>dBFS</small></strong><em>单边幅值 · 窗增益已补偿</em></div>
+    <div class="metric"><span>本次采样率</span><strong id="sampleRate">—<small>Hz</small></strong><em id="resolution">N = 1024</em></div>
+    <div class="metric"><span id="rateLabel">实际采集 / 绘制</span><strong id="actualRate">—<small>Hz</small></strong><em id="renderTiming">等待浏览器绘制记录</em></div>
+  </section>
+  <section class="plot-card"><div class="card-heading"><div><h1>幅度频谱</h1><p id="plotSubtitle">PL 实测结果 · 等待采集</p></div><span class="legend"><i></i>当前帧</span></div><canvas id="spectrumCanvas" tabindex="0" aria-label="当前帧幅度频谱；点击或用左右键选择频点"></canvas><span class="footnote" id="cursorReadout">点击频谱选择频点</span></section>
+  <section class="plot-card waterfall-card"><div class="card-heading"><div><h2>频谱瀑布</h2><p>最新帧在下方 · 最多保留 96 行</p></div><span class="scale-label">弱 <span class="gradient"></span> 强</span></div><canvas id="waterfallCanvas" aria-label="有限长度频谱瀑布图"></canvas></section>
+  <section class="bottom-grid"><div class="info-card"><h2>主要局部峰</h2><table><thead><tr><th>频点</th><th>频率 / Hz</th><th>幅值 / dBFS</th></tr></thead><tbody id="peakTable"><tr><td colspan="3">等待数据</td></tr></tbody></table></div><div class="info-card"><h2>运行记录</h2><div id="runStatus" class="run-status">就绪后点击开始。</div><p id="qualityStatus" class="quality">场景检查尚未运行</p><details id="errorDetails" hidden><summary>错误详情</summary><pre id="errorDetailText"></pre></details><p class="footnote">采集耗时与浏览器绘制耗时分别测量；不将其标为同步端到端延迟。</p></div></section>
+  <footer><span id="runName">尚无运行记录</span><span>FFT v1.0 · 单边 513 bins · S=11</span></footer>
+</main>
+</div>
+<section class="workspace-panel hardware-panel" id="panel-analysis" hidden>
+  <div class="hardware-shell">
+    <header>
+      <p class="eyebrow">实时频谱 · 深入分析</p>
+      <h1>当前采集数据分析</h1>
+      <p>只显示当前实时采集及其累计结果。内置实验数据不会进入此页面。</p>
+    </header>
+    <div class="hardware-grid">
+      <article class="hardware-card">
+        <h2>实时分析状态</h2>
+        <pre id="analysisLiveText">等待实时频谱数据。</pre>
+      </article>
+      <article class="hardware-card">
+        <h2>记录本次分析</h2>
+        <label>完整频谱上限
+          <select id="analysisFrameLimit">
+            <option value="8">8 份</option>
+            <option value="16">16 份</option>
+            <option value="32" selected>32 份</option>
+          </select>
+        </label>
+        <div class="hardware-actions">
+          <button class="button primary" id="startAnalysisRecordButton" type="button">开始记录</button>
+          <button class="button secondary" id="stopAnalysisRecordButton" type="button" disabled>停止记录</button>
+          <button class="button secondary" id="discardAnalysisRecordButton" type="button" disabled>放弃记录</button>
+        </div>
+        <pre id="analysisRecordStatus">尚未开始记录。</pre>
+        <label>记录名称<input id="analysisRecordTitle" type="text" maxlength="100" placeholder="例如：1 kHz 稳定性观察"></label>
+        <button class="button primary" id="saveAnalysisButton" type="button" disabled>保存到我的记录</button>
+        <pre id="analysisSaveResult">尚未保存。</pre>
+      </article>
+    </div>
+  </div>
+</section>
+<section class="workspace-panel hardware-panel" id="panel-records" hidden>
+  <div class="hardware-shell">
+    <header>
+      <p class="eyebrow">用户数据</p>
+      <h1>我的记录</h1>
+      <p>这里只显示用户主动保存的实时分析和频率响应记录，不包含内置演示数据。</p>
+    </header>
+    <div class="hardware-grid records-layout">
+      <article class="hardware-card">
+        <div class="record-toolbar">
+          <h2>记录列表</h2>
+          <button class="button secondary" id="refreshRecordsButton" type="button">刷新</button>
+        </div>
+        <div id="recordsList" class="records-list">尚无用户记录。</div>
+      </article>
+      <article class="hardware-card">
+        <h2>记录详情</h2>
+        <pre id="recordDetailText">选择一条记录查看详情。</pre>
+        <button class="button secondary" id="deleteRecordButton" type="button" disabled>删除当前记录</button>
+      </article>
+      <article class="hardware-card record-viewer-card">
+        <h2>记录频谱查看</h2>
+        <iframe id="recordViewerFrame" title="我的分析记录" data-src="/bx/" hidden></iframe>
+        <div id="responseRecordViewer" hidden>
+          <div class="record-downloads">
+            <a id="downloadResponseCsv" class="button secondary" href="#" download hidden>下载记录 CSV</a>
+            <a id="downloadResponseJson" class="button secondary" href="#" download hidden>下载记录 JSON</a>
+          </div>
+          <img id="responseRecordImage" alt="用户频率响应图">
+          <table>
+            <thead><tr><th>频率 / Hz</th><th>增益 / dB</th><th>相位 / °</th><th>状态</th></tr></thead>
+            <tbody id="responseRecordTable"></tbody>
+          </table>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+<section class="workspace-panel extension-frame-panel" id="panel-bplus" hidden>
+  <iframe id="bplusFrame" title="实验样例演示" data-src="/bx/"></iframe>
+</section>
+<section class="workspace-panel hardware-panel" id="panel-m4" hidden>
+  <div class="hardware-shell">
+    <header>
+      <p class="eyebrow">硬件工作模式</p>
+      <h1>双声道采集与频率响应测量</h1>
+      <p>实时频谱与电路测量使用不同的硬件配置，必须互斥运行。进入电路测量前，服务会安全停止并释放频谱采集资源。</p>
+    </header>
+    <div class="hardware-grid">
+      <article class="hardware-card">
+        <h2>硬件模式</h2>
+        <pre id="hardwareModeText">读取中…</pre>
+        <div class="hardware-actions">
+          <button class="button primary" id="enterM4Button" type="button">进入电路测量</button>
+          <button class="button secondary" id="restoreFftButton" type="button">退出并恢复实时频谱</button>
+        </div>
+      </article>
+      <article class="hardware-card">
+        <h2>双声道采集</h2>
+        <label>采集标签<input id="m4CaptureLabel" type="text" value="frequency_response_capture"></label>
+        <div class="hardware-actions">
+          <button class="button secondary" id="configureM4Button" type="button">配置 codec / 测 fs</button>
+          <button class="button secondary" id="selfTestM4Button" type="button">计数器自检</button>
+          <button class="button primary" id="captureM4Button" type="button">采集一个双声道块</button>
+        </div>
+        <pre id="m4ResultText">等待进入电路测量模式。</pre>
+      </article>
+      <article class="hardware-card report-card">
+        <h2>幅频 / 相频结果演示样例</h2>
+        <p>内置 RC 实测演示结果，用于查看样例幅频、相频和截止频率。</p>
+        <a href="/bx/report/bx12" target="_blank">打开完整报告</a>
+        <a href="/bx/report/bx12.csv" download>下载逐点 CSV</a>
+        <a href="/bx/report/bx12.json" download>下载完整 JSON</a>
+        <img src="/bx/report/bx12.png" alt="实测 RC 幅频相频图">
+      </article>
+      <article class="hardware-card">
+        <h2>频率响应测量记录</h2>
+        <label>测量类型
+          <select id="responseProfileSelect">
+            <option value="rc" selected>RC 低通滤波器</option>
+            <option value="generic">通用系统</option>
+          </select>
+        </label>
+        <div id="responseRcFields">
+          <div class="form-row">
+            <label>实测电阻 / Ω<input id="responseResistance" type="number" min="0.1" step="0.1" placeholder="978"></label>
+            <label>实测电容 / nF<input id="responseCapacitance" type="number" min="0.1" step="0.1" placeholder="105.6"></label>
+          </div>
+        </div>
+        <div id="responseGenericFields" hidden>
+          <label>被测系统名称<input id="responseDutName" type="text" maxlength="100" placeholder="例如：有源滤波器"></label>
+          <div class="form-row">
+            <label>型号<input id="responseDutModel" type="text" maxlength="80"></label>
+            <label>编号<input id="responseDutSerial" type="text" maxlength="80"></label>
+          </div>
+          <div class="form-row">
+            <label>输入端口<input id="responseInputDescription" type="text" maxlength="100"></label>
+            <label>输出端口<input id="responseOutputDescription" type="text" maxlength="100"></label>
+          </div>
+          <label>衰减/接口说明<input id="responseAttenuationNote" type="text" maxlength="100" placeholder="例如：输出经 10× 衰减"></label>
+        </div>
+        <div class="form-row">
+          <label>温度 / °C<input id="responseTemperature" type="number" step="0.1" placeholder="25"></label>
+          <label>信源说明<input id="responseGenerator" type="text" maxlength="80" placeholder="信号发生器型号与幅度"></label>
+        </div>
+        <div class="hardware-actions">
+          <button class="button primary" id="startResponseRecordButton" type="button">开始响应记录</button>
+          <button class="button secondary" id="stopResponseRecordButton" type="button" disabled>停止响应记录</button>
+          <button class="button secondary" id="discardResponseRecordButton" type="button" disabled>放弃响应记录</button>
+        </div>
+        <label>目标频率 / Hz（须与信号发生器一致）<input id="responseTargetHz" type="number" min="1" step="0.1" value="1000"></label>
+        <label>频点采集标签<input id="responseCaptureLabel" type="text" maxlength="80" value="response_capture"></label>
+        <button class="button primary" id="captureResponsePointButton" type="button" disabled>采集当前频点</button>
+        <pre id="responseRecordStatus">尚未开始响应记录。</pre>
+        <label>记录名称<input id="responseRecordTitle" type="text" maxlength="100" placeholder="例如：RC 频率响应测量"></label>
+        <button class="button primary" id="saveResponseButton" type="button" disabled>保存到我的记录</button>
+        <pre id="responseSaveResult">完成至少三个频点后可保存曲线记录。</pre>
+      </article>
+    </div>
+  </div>
+</section>
+<script src="/app.js"></script>
+<script src="/workspace.js"></script>
+</body></html>

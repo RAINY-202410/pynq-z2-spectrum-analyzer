@@ -1,0 +1,52 @@
+{
+  "clean_build.log": {
+    "errors": 0,
+    "critical_warnings": 20,
+    "critical_warning_ids": [
+      "PSU-1",
+      "PSU-2",
+      "PSU-3",
+      "PSU-4"
+    ]
+  },
+  "stages.log": {
+    "errors": 0,
+    "critical_warnings": 0,
+    "critical_warning_ids": []
+  },
+  "compile/elaborate.log": {
+    "errors": 0,
+    "critical_warnings": 0,
+    "critical_warning_ids": []
+  },
+  "compile/xvhdl.log": {
+    "errors": 0,
+    "critical_warnings": 0,
+    "critical_warning_ids": []
+  },
+  "compile/xvlog.log": {
+    "errors": 0,
+    "critical_warnings": 0,
+    "critical_warning_ids": []
+  },
+  "fft/implementation.log": {
+    "errors": 0,
+    "critical_warnings": 0,
+    "critical_warning_ids": []
+  },
+  "fft/synthesis.log": {
+    "errors": 0,
+    "critical_warnings": 0,
+    "critical_warning_ids": []
+  },
+  "m4/implementation.log": {
+    "errors": 0,
+    "critical_warnings": 0,
+    "critical_warning_ids": []
+  },
+  "m4/synthesis.log": {
+    "errors": 0,
+    "critical_warnings": 0,
+    "critical_warning_ids": []
+  }
+}

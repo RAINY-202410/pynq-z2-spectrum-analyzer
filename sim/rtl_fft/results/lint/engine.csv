@@ -1,0 +1,39 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2026.1 (win64) Build 6511674 Tue Jun 16 11:02:23 MDT 2026
+| Date         : Sat Oct 24 16:59:05 2026
+| Host         : DESKTOP-J0DODT2 running 64-bit major release  (build 9200)
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+RTL Linter Report
+
+Table of Contents
+-----------------
+1. Summary
+2. Expanded
+
+1. Summary
+----------
+
++-----------+----------+--------------+----------+--------------------------------------------------------------------------------+
+| Rule ID   | Severity | # Violations | # Waived | Message Template                                                               |
++-----------+----------+--------------+----------+--------------------------------------------------------------------------------+
+| ASSIGN-10 | WARNING  | 4            | 0        | Some bits in IO '(rtl_name)' are not read. First unread bit index is '(info)'. |
++-----------+----------+--------------+----------+--------------------------------------------------------------------------------+
+
+
+2. Expanded
+-----------
+
++-----------+--------------------+---------------------+------+------------------+--------------------+-------------+
+| Rule ID   | description        | rtl_name            | info | rtl_hierarchy    | rtl_file           | Line number |
++-----------+--------------------+---------------------+------+------------------+--------------------+-------------+
+| ASSIGN-10 | IO bit(s) not read | s_axis_audio_tdata  | 0    | fft_frame_engine | fft_frame_engine.v | 9           |
+| ASSIGN-10 | IO bit(s) not read | s_axis_fft_tuser    | 1    | fft_frame_engine | fft_frame_engine.v | 21          |
+| ASSIGN-10 | IO bit(s) not read | s_axis_status_tdata | 1    | fft_frame_engine | fft_frame_engine.v | 24          |
+| ASSIGN-10 | IO bit(s) not read | s_axis_tdata        | 0    | fft_window_axis  | fft_window_axis.v  | 6           |
++-----------+--------------------+---------------------+------+------------------+--------------------+-------------+
+* create_waiver can be used to apply waiver to linter violations.
+** For example, create_waiver -type LINT -id RULE_ID {-rtl_name RTL_NAME} {-rtl_hierarchy RTL_MODULE_NAME} {-rtl_file RTL_FILE_NAME}.
+
+

@@ -1,0 +1,16 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/AMD_compitition/_pf04/fft_sim/fft_rect.ip_user_files/bd/contract_probe/sim/contract_probe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module contract_probe
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/AMD_compitition/_pf04/fft_sim/fft_rect.gen/sources_1/bd/contract_probe/hdl/contract_probe_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module contract_probe_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/AMD_compitition/_pf04/pynq_z2_spectrum_analyzer/src/hw/rtl/fft/fft_complex_pack.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fft_complex_pack
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/AMD_compitition/_pf04/pynq_z2_spectrum_analyzer/src/hw/rtl/fft/fft_ctrl_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fft_ctrl_axi
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/AMD_compitition/_pf04/pynq_z2_spectrum_analyzer/src/hw/rtl/fft/fft_frame_engine.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fft_frame_engine
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/AMD_compitition/_pf04/pynq_z2_spectrum_analyzer/src/hw/rtl/fft/fft_window_axis.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fft_window_axis
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/AMD_compitition/_pf04/pynq_z2_spectrum_analyzer/sim/rtl_fft/tb_fft_chain.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_fft_chain
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/AMD_compitition/_pf04/fft_sim/fft_rect.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

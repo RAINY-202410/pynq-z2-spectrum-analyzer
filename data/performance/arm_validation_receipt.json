@@ -1,0 +1,66 @@
+{
+  "status": "USER_BOARD_PS_CPU_BENCHMARK_DATA_VERIFIED",
+  "cases": 12,
+  "input_files": {
+    "cpu_fft_arm_20261031.json": {
+      "source": "C:\\Users\\rainy\\Downloads\\cpu_fft_arm_20261031.json",
+      "bytes": 15730,
+      "sha256": "130BEF9A4CDB98C266141B5F225961947C96B216FAAF97C00710555CF7C40CF9"
+    },
+    "cpu_fft_arm_20261031.csv": {
+      "source": "C:\\Users\\rainy\\Downloads\\cpu_fft_arm_20261031.csv",
+      "bytes": 3105,
+      "sha256": "BACD9B30F55E0EE30EBEA02B26C2D513A825EA722CECFCE44E6981CE4DCEC51C"
+    }
+  },
+  "frozen_input_hashes_verified": 12,
+  "csv_json_all_fields_match": true,
+  "raw_batch_statistics_recomputed": true,
+  "raw_batches": 240,
+  "repeats_per_batch": 500,
+  "timed_fft_calls": 120000,
+  "warmup_calls": 240,
+  "local_same_input_golden_recheck_cases": 12,
+  "board_final_output_check_reported_by_tool": true,
+  "board_fft_output_arrays_received": false,
+  "arm_mean_us_range": [
+    351.87250280000006,
+    372.8343343000001
+  ],
+  "pc_mean_us_range": [
+    8.985009999999999,
+    9.276580000000001
+  ],
+  "arm_environment": {
+    "python": "3.10.4 (main, Apr  2 2022, 09:04:19) [GCC 11.2.0]",
+    "numpy": "1.21.5",
+    "system": "Linux-6.6.10-xilinx-v2024.1-g3c0eca68c652-armv7l-with-glibc2.35",
+    "machine": "armv7l",
+    "clock": {
+      "resolution_s": 1e-09,
+      "monotonic": true,
+      "implementation": "clock_gettime(CLOCK_MONOTONIC)"
+    }
+  },
+  "pc_environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "system": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "clock": {
+      "resolution_s": 1e-07,
+      "monotonic": true,
+      "implementation": "QueryPerformanceCounter()"
+    }
+  },
+  "pc_source_sha256": "B70FCD03FEC371FD34DEDDC43191660EE6C6A06EE9D1D201D7FCFB954570FA93",
+  "p95_scope": "95th percentile of batch means; not per-call p95",
+  "timing_scope": "Batch mean per FFT including Python call and NumPy output allocation",
+  "user_supplied_board_run": true,
+  "independent_physical_execution_attestation": false,
+  "pl_latency_measured": false,
+  "accelerator_speedup_claimed": false,
+  "cma_review_pending": true,
+  "board_accepted": false,
+  "next_action": "R3 short LIVE stop/restart/export validation; do not repeat r2 long run"
+}

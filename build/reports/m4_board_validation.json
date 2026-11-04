@@ -1,0 +1,17 @@
+{
+  "status": "BOARD_CHECKS_PASSED_WITH_MANUAL_INPUT_CONFIRMATION",
+  "fs_estimate_hz": 47998.2293823345,
+  "shape": [
+    2,
+    1024
+  ],
+  "dtype": "int32",
+  "raw_format": "uint64: left signed24 in high32, right signed24 in low32",
+  "snapshot_capture": true,
+  "continuous_between_packets": false,
+  "input_change_confirmed_by_user": true,
+  "overlay_sha256": {
+    "m4.bit": "07a075244eb332556556c6d46d1a7b8523cbdff8fe6a23527fa33addbe832ef8",
+    "m4.hwh": "c9721187b8e6aeec91aebb1fda57148ba4c18e395758aef0ec392062ac177f2d"
+  }
+}

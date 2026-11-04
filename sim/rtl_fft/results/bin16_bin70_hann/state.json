@@ -1,0 +1,3 @@
+{"case":"bin16_bin70_hann","source":"XSIM_RTL_FRAME_ENGINE","status":262,
+"captured":1024,"fft_inputs":1024,"outputs":1024,"status_beats":1,
+"input_count":1024,"output_count":1024,"frame_seq":12,"stall_cycles":640}

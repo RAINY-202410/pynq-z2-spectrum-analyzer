@@ -1,0 +1,24 @@
+{
+  "status": "RECREATED_WITH_INHERITED_PSU_WARNINGS",
+  "original_project": "D:/AMD_compitition/_fb01",
+  "rebuild_project": "D:/AMD_compitition/_frb01",
+  "PS_parameter_differences": {
+    "PCW_M_AXI_GP0_FREQMHZ": {
+      "implemented": {
+        "value": "10"
+      },
+      "recreated": null
+    }
+  },
+  "component_names_match": true,
+  "scalar_connectivity_match": true,
+  "interface_connectivity_match": true,
+  "synthesis_repeated": false,
+  "FFT_properties_verified": 17,
+  "part": "xc7z020clg400-1",
+  "GP0_annotation_resolved_on_rebuild_MHz": 100,
+  "GP0_actual_interface_Hz": 100000000,
+  "DDR_PLL_FCLK_configuration_preserved": true,
+  "critical_warnings": "PSU-1..4, inherited negative DQS-to-clock values -0.051/-0.006/-0.009/-0.033 ns; recreated BD only; not waived",
+  "scope": "BD recreation and connectivity/parameter verification; not a second synthesis or bit-exact rebuild"
+}

@@ -1,0 +1,1 @@
+FCLK_CLK0 and GP0/FFT AXI interfaces: 100000000 Hz. Original read-only PS parameter PCW_M_AXI_GP0_FREQMHZ=10 MHz retained. Direct annotation write was unapplied:integration-derived; original failed probe/ledger retained. No PS physical clocks/DDR/PLL change.

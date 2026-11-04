@@ -1,0 +1,1344 @@
+{
+  "step": "B-X12",
+  "created": "2026-11-01",
+  "status": "RC_MEASURED",
+  "source": "M4_RAW_STEREO_RC",
+  "dataset": "b_x12",
+  "dataset_path_from_extension": "..\\..\\documents\\b_x12",
+  "fs_hz": 47998.61944015633,
+  "design_point_count": 16,
+  "measured_point_count": 16,
+  "pass_count": 16,
+  "missing_frequencies_hz": [],
+  "malformed_frequencies_hz": [],
+  "theory_cutoff_hz": 1541.0522314004243,
+  "measured_cutoff_hz": 1547.744629388391,
+  "one_pole_fit": {
+    "passband": {
+      "real": 0.9527576442383997,
+      "imag": 0.0037798479216213186,
+      "gain_db": -0.42028280742385604,
+      "phase_deg": 0.22730670094153485
+    },
+    "cutoff_hz": 1547.744629388391,
+    "residual_rms": 0.003067588242286239,
+    "residual_max": 0.005100546435861067,
+    "rank": 3
+  },
+  "cutoff_delta_hz": 6.692397987966842,
+  "cutoff_delta_percent": 0.434274572373524,
+  "absolute_minus_3db_hz": 1391.3852729499922,
+  "valid_block_count": 96,
+  "block_count": 96,
+  "max_validation_gain_delta_db": 0.0003913684013130414,
+  "max_validation_phase_delta_deg": 0.002716490619533829,
+  "max_theory_gain_error_db": 0.4193931159434392,
+  "max_theory_phase_error_deg": 1.0547820168652748,
+  "conditions": {
+    "generator_model": "OWON_XDG3122",
+    "generator_waveform": "SINE",
+    "generator_amplitude_vpp": "0.2_VPP_ACTUAL_INHERITED_FROM_BX11",
+    "generator_output_impedance": "50_OHM_NOMINAL_MODEL_SPEC",
+    "temperature": "25_C",
+    "wiring": "generator_output -> L(input_reference); generator_output -> 978_ohm -> R(rc_output); R(rc_output) -> 105.6_nF -> common_GND; generator_ground -> common_GND",
+    "channel_assignment": {
+      "left": "input_reference",
+      "right": "rc_output"
+    },
+    "actual_r_ohm": 978.0,
+    "actual_c_f": 1.056e-07,
+    "fs_hz": 47998.61944015633,
+    "m4_bit_sha256": "07a075244eb332556556c6d46d1a7b8523cbdff8fe6a23527fa33addbe832ef8",
+    "m4_hwh_sha256": "c9721187b8e6aeec91aebb1fda57148ba4c18e395758aef0ec392062ac177f2d",
+    "b11_c0_status": "BOARD_VALIDATED",
+    "b11_c0_source_profile": "SIGNAL_GENERATOR",
+    "b11_c0_fs_hz": 47998.77998801426
+  },
+  "points": [
+    {
+      "target_hz": 200.0,
+      "status": "RC_PASS",
+      "all_blocks_valid": true,
+      "block_count": 6,
+      "calibration_files": [
+        "b12_f0200_cal_01.npy",
+        "b12_f0200_cal_02.npy",
+        "b12_f0200_cal_03.npy"
+      ],
+      "validation_files": [
+        "b12_f0200_val_01.npy",
+        "b12_f0200_val_02.npy",
+        "b12_f0200_val_03.npy"
+      ],
+      "C0": {
+        "real": 1.0051108898863952,
+        "imag": 0.00022799478826818147,
+        "gain_db": 0.04427979111233789,
+        "phase_deg": 0.012996714119941973,
+        "gain_std_db": 0.00021527241005984464,
+        "phase_std_deg": 0.0006985298223631794,
+        "gain_range_db": [
+          0.044132433919779605,
+          0.04452683695092376
+        ],
+        "phase_range_deg": [
+          0.012237813256304705,
+          0.013612806522599804
+        ]
+      },
+      "H_raw_cal_mean": {
+        "complex": {
+          "real": 0.9436218601438022,
+          "imag": -0.12274304266071519
+        },
+        "gain_db": -0.431172674930265,
+        "phase_deg": -7.4112231918509694,
+        "gain_std_db": 0.00016343349100465945,
+        "phase_std_deg": 0.0010723053191796816
+      },
+      "H_cal_calibration_mean": {
+        "complex": {
+          "real": 0.9387958867148086,
+          "imag": -0.1223318585713774
+        },
+        "gain_db": -0.4754524660426019,
+        "phase_deg": -7.4242199059709115,
+        "gain_std_db": 0.00016343349100481473,
+        "phase_std_deg": 0.001072305319179191
+      },
+      "H_cal_validation_mean": {
+        "complex": {
+          "real": 0.9388369074236468,
+          "imag": -0.122347196823617
+        },
+        "gain_db": -0.47506109764128884,
+        "phase_deg": -7.424819577710953,
+        "gain_std_db": 0.00010123942687251741,
+        "phase_std_deg": 0.0009294770026133396
+      },
+      "validation_minus_calibration": {
+        "gain_db": 0.0003913684013130414,
+        "phase_deg": -0.0005996717400416074
+      },
+      "theory": {
+        "real": 0.9834357691588639,
+        "imag": -0.12763172449582338,
+        "gain_db": -0.07253999761732016,
+        "phase_deg": -7.394598148399447
+      },
+      "measured_minus_theory": {
+        "gain_db": -0.4029124684252817,
+        "phase_deg": -0.02962175757146479,
+        "complex_error": 0.04495339457077937
+      },
+      "actual_r_ohm": 978.0,
+      "actual_c_f": 1.056e-07,
+      "theory_cutoff_hz": 1541.0522314004243
+    },
+    {
+      "target_hz": 300.0,
+      "status": "RC_PASS",
+      "all_blocks_valid": true,
+      "block_count": 6,
+      "calibration_files": [
+        "b12_f0300_cal_01.npy",
+        "b12_f0300_cal_02.npy",
+        "b12_f0300_cal_03.npy"
+      ],
+      "validation_files": [
+        "b12_f0300_val_01.npy",
+        "b12_f0300_val_02.npy",
+        "b12_f0300_val_03.npy"
+      ],
+      "C0": {
+        "real": 1.0051023328381836,
+        "imag": 0.000132868843200971,
+        "gain_db": 0.04420569559056918,
+        "phase_deg": 0.007574177923116206,
+        "gain_std_db": 6.318866869219466e-06,
+        "phase_std_deg": 0.00071567293908135,
+        "gain_range_db": [
+          0.04420173107840528,
+          0.0442129829902153
+        ],
+        "phase_range_deg": [
+          0.006968660368728188,
+          0.008363967765029803
+        ]
+      },
+      "H_raw_cal_mean": {
+        "complex": {
+          "real": 0.9242553231927522,
+          "imag": -0.18017590527645833
+        },
+        "gain_db": -0.5221777691082982,
+        "phase_deg": -11.030991067743205,
+        "gain_std_db": 0.00031165057657708644,
+        "phase_std_deg": 0.0007062118129915704
+      },
+      "H_cal_calibration_mean": {
+        "complex": {
+          "real": 0.9195396912433033,
+          "imag": -0.1793828126359928
+        },
+        "gain_db": -0.5663834646988668,
+        "phase_deg": -11.038565245666316,
+        "gain_std_db": 0.00031165057657717724,
+        "phase_std_deg": 0.0007062118129915872
+      },
+      "H_cal_validation_mean": {
+        "complex": {
+          "real": 0.9195250456934435,
+          "imag": -0.17936761604561316
+        },
+        "gain_db": -0.5665437104815171,
+        "phase_deg": -11.03782455158608,
+        "gain_std_db": 0.00010150199486312775,
+        "phase_std_deg": 0.0009464072211288385
+      },
+      "validation_minus_calibration": {
+        "gain_db": -0.00016024578265028122,
+        "phase_deg": 0.0007406940802354711
+      },
+      "theory": {
+        "real": 0.9634865030968448,
+        "imag": -0.18756401959613286,
+        "gain_db": -0.16154364736207363,
+        "phase_deg": -11.016113330039444
+      },
+      "measured_minus_theory": {
+        "gain_db": -0.4048398173367932,
+        "phase_deg": -0.02245191562687232,
+        "complex_error": 0.04470183910551359
+      },
+      "actual_r_ohm": 978.0,
+      "actual_c_f": 1.056e-07,
+      "theory_cutoff_hz": 1541.0522314004243
+    },
+    {
+      "target_hz": 500.0,
+      "status": "RC_PASS",
+      "all_blocks_valid": true,
+      "block_count": 6,
+      "calibration_files": [
+        "b12_f0500_cal_01.npy",
+        "b12_f0500_cal_02.npy",
+        "b12_f0500_cal_03.npy"
+      ],
+      "validation_files": [
+        "b12_f0500_val_01.npy",
+        "b12_f0500_val_02.npy",
+        "b12_f0500_val_03.npy"
+      ],
+      "C0": {
+        "real": 1.0050863922269755,
+        "imag": 8.280438702833923e-05,
+        "gain_db": 0.044067892565557765,
+        "phase_deg": 0.004720332428982315,
+        "gain_std_db": 0.0001717118031979209,
+        "phase_std_deg": 0.0015547086917858134,
+        "gain_range_db": [
+          0.043889660807153785,
+          0.0442322412960642
+        ],
+        "phase_range_deg": [
+          0.0031801856916496484,
+          0.006289204481752146
+        ]
+      },
+      "H_raw_cal_mean": {
+        "complex": {
+          "real": 0.8674487753520327,
+          "imag": -0.2813722416708325
+        },
+        "gain_db": -0.8006582287038045,
+        "phase_deg": -17.971381102845125,
+        "gain_std_db": 0.00022899789173097678,
+        "phase_std_deg": 0.0011014074667839106
+      },
+      "H_cal_calibration_mean": {
+        "complex": {
+          "real": 0.8630358496785088,
+          "imag": -0.2800194162431672
+        },
+        "gain_db": -0.8447261212693615,
+        "phase_deg": -17.97610143527411,
+        "gain_std_db": 0.0002289978917304231,
+        "phase_std_deg": 0.0011014074667821255
+      },
+      "H_cal_validation_mean": {
+        "complex": {
+          "real": 0.863064029237897,
+          "imag": -0.28003841773553106
+        },
+        "gain_db": -0.8444133916381373,
+        "phase_deg": -17.976693561787926,
+        "gain_std_db": 0.00011729428849486491,
+        "phase_std_deg": 0.0003874017066952203
+      },
+      "validation_minus_calibration": {
+        "gain_db": 0.0003127296312241956,
+        "phase_deg": -0.0005921265138155718
+      },
+      "theory": {
+        "real": 0.9047561712613565,
+        "imag": -0.2935514296096128,
+        "gain_db": -0.4346844592563426,
+        "phase_deg": -17.97584335368037
+      },
+      "measured_minus_theory": {
+        "gain_db": -0.41004166201301895,
+        "phase_deg": -0.0002580815937385239,
+        "complex_error": 0.043860011613380774
+      },
+      "actual_r_ohm": 978.0,
+      "actual_c_f": 1.056e-07,
+      "theory_cutoff_hz": 1541.0522314004243
+    },
+    {
+      "target_hz": 700.0,
+      "status": "RC_PASS",
+      "all_blocks_valid": true,
+      "block_count": 6,
+      "calibration_files": [
+        "b12_f0700_cal_01.npy",
+        "b12_f0700_cal_02.npy",
+        "b12_f0700_cal_03.npy"
+      ],
+      "validation_files": [
+        "b12_f0700_val_01.npy",
+        "b12_f0700_val_02.npy",
+        "b12_f0700_val_03.npy"
+      ],
+      "C0": {
+        "real": 1.0050805720932312,
+        "imag": 4.903262564445807e-05,
+        "gain_db": 0.04401757607081959,
+        "phase_deg": 0.0027951614862007914,
+        "gain_std_db": 0.00011273525192472159,
+        "phase_std_deg": 0.0007751288180042871,
+        "gain_range_db": [
+          0.04389743019242555,
+          0.044121042106763014
+        ],
+        "phase_range_deg": [
+          0.0019293963152719558,
+          0.0034246843366399463
+        ]
+      },
+      "H_raw_cal_mean": {
+        "complex": {
+          "real": 0.7946240286568461,
+          "imag": -0.3603014146301891
+        },
+        "gain_db": -1.1847585705940364,
+        "phase_deg": -24.390668759083184,
+        "gain_std_db": 0.000167666136862683,
+        "phase_std_deg": 0.0014949894763542483
+      },
+      "H_cal_calibration_mean": {
+        "complex": {
+          "real": 0.7905898010632056,
+          "imag": -0.358518699225755
+        },
+        "gain_db": -1.2287761466648548,
+        "phase_deg": -24.393463920569378,
+        "gain_std_db": 0.0001676661368632465,
+        "phase_std_deg": 0.0014949894763560774
+      },
+      "H_cal_validation_mean": {
+        "complex": {
+          "real": 0.7905656540531254,
+          "imag": -0.3585246743529435
+        },
+        "gain_db": -1.2289714982586144,
+        "phase_deg": -24.39448133884626,
+        "gain_std_db": 0.00017664982970439216,
+        "phase_std_deg": 0.000603305918557403
+      },
+      "validation_minus_calibration": {
+        "gain_db": -0.0001953515937596073,
+        "phase_deg": -0.0010174182768807327
+      },
+      "theory": {
+        "real": 0.8289608978655149,
+        "imag": -0.3765431285729623,
+        "gain_db": -0.8146595466293326,
+        "phase_deg": -24.42921547101723
+      },
+      "measured_minus_theory": {
+        "gain_db": -0.4141166000355222,
+        "phase_deg": 0.035751550447852054,
+        "complex_error": 0.042393644843356545
+      },
+      "actual_r_ohm": 978.0,
+      "actual_c_f": 1.056e-07,
+      "theory_cutoff_hz": 1541.0522314004243
+    },
+    {
+      "target_hz": 1000.0,
+      "status": "RC_PASS",
+      "all_blocks_valid": true,
+      "block_count": 6,
+      "calibration_files": [
+        "b12_f1000_cal_01.npy",
+        "b12_f1000_cal_02.npy",
+        "b12_f1000_cal_03.npy"
+      ],
+      "validation_files": [
+        "b12_f1000_val_01.npy",
+        "b12_f1000_val_02.npy",
+        "b12_f1000_val_03.npy"
+      ],
+      "C0": {
+        "real": 1.0050768503227139,
+        "imag": 2.541116937318038e-07,
+        "gain_db": 0.04398540219644269,
+        "phase_deg": 1.448598440117111e-05,
+        "gain_std_db": 0.00010252755017699794,
+        "phase_std_deg": 0.0007810873284999993,
+        "gain_range_db": [
+          0.043918891352672615,
+          0.044103475954332436
+        ],
+        "phase_range_deg": [
+          -0.0005848907632518375,
+          0.0008978346468357227
+        ]
+      },
+      "H_raw_cal_mean": {
+        "complex": {
+          "real": 0.6748294309159788,
+          "imag": -0.43610640300391834
+        },
+        "gain_db": -1.900475405777394,
+        "phase_deg": -32.87243851666518,
+        "gain_std_db": 0.0002542565071480229,
+        "phase_std_deg": 0.0011108592426768498
+      },
+      "H_cal_calibration_mean": {
+        "complex": {
+          "real": 0.6714206186713937,
+          "imag": -0.43390370943248996
+        },
+        "gain_db": -1.9444608079738361,
+        "phase_deg": -32.872453002649586,
+        "gain_std_db": 0.000254256507148379,
+        "phase_std_deg": 0.0011108592426803722
+      },
+      "H_cal_validation_mean": {
+        "complex": {
+          "real": 0.6714396894303789,
+          "imag": -0.4339010602415689
+        },
+        "gain_db": -1.9443024018693449,
+        "phase_deg": -32.871551676115914,
+        "gain_std_db": 0.00027335441222049484,
+        "phase_std_deg": 0.001623886578583718
+      },
+      "validation_minus_calibration": {
+        "gain_db": 0.0001584061044912488,
+        "phase_deg": 0.0009013265336719201
+      },
+      "theory": {
+        "real": 0.7036898302336577,
+        "imag": -0.45662944830506025,
+        "gain_db": -1.526187253763556,
+        "phase_deg": -32.97983244287763
+      },
+      "measured_minus_theory": {
+        "gain_db": -0.41827355421028023,
+        "phase_deg": 0.10737944022804413,
+        "complex_error": 0.03946848391000606
+      },
+      "actual_r_ohm": 978.0,
+      "actual_c_f": 1.056e-07,
+      "theory_cutoff_hz": 1541.0522314004243
+    },
+    {
+      "target_hz": 1200.0,
+      "status": "RC_PASS",
+      "all_blocks_valid": true,
+      "block_count": 6,
+      "calibration_files": [
+        "b12_f1200_cal_01.npy",
+        "b12_f1200_cal_02.npy",
+        "b12_f1200_cal_03.npy"
+      ],
+      "validation_files": [
+        "b12_f1200_val_01.npy",
+        "b12_f1200_val_02.npy",
+        "b12_f1200_val_03.npy"
+      ],
+      "C0": {
+        "real": 1.0050702106415512,
+        "imag": -4.259029830078604e-08,
+        "gain_db": 0.04392802177965342,
+        "phase_deg": -2.4279342030051772e-06,
+        "gain_std_db": 0.00012324869767240917,
+        "phase_std_deg": 0.0003741903220858625,
+        "gain_range_db": [
+          0.04379047736403058,
+          0.04402843957087786
+        ],
+        "phase_range_deg": [
+          -0.0003921402526052821,
+          0.0003540187942792675
+        ]
+      },
+      "H_raw_cal_mean": {
+        "complex": {
+          "real": 0.5974681435885819,
+          "imag": -0.4626009808267295
+        },
+        "gain_db": -2.433883452260254,
+        "phase_deg": -37.749503384328754,
+        "gain_std_db": 0.00035657974549830506,
+        "phase_std_deg": 0.0009930906052940428
+      },
+      "H_cal_calibration_mean": {
+        "complex": {
+          "real": 0.5944541554068455,
+          "imag": -0.46026730332945065
+        },
+        "gain_db": -2.4778114740399078,
+        "phase_deg": -37.74950095639455,
+        "gain_std_db": 0.00035657974549730624,
+        "phase_std_deg": 0.0009930906052871692
+      },
+      "H_cal_validation_mean": {
+        "complex": {
+          "real": 0.5944719949544243,
+          "imag": -0.46027799061579583
+        },
+        "gain_db": -2.4775729195136713,
+        "phase_deg": -37.74931263288992,
+        "gain_std_db": 0.00027371982354489803,
+        "phase_std_deg": 0.001706537545711786
+      },
+      "validation_minus_calibration": {
+        "gain_db": 0.00023855452623644524,
+        "phase_deg": 0.00018832350463071634
+      },
+      "theory": {
+        "real": 0.6225269598097083,
+        "imag": -0.48475472573229245,
+        "gain_db": -2.0584183580964686,
+        "phase_deg": -37.90748988414731
+      },
+      "measured_minus_theory": {
+        "gain_db": -0.4193931159434392,
+        "phase_deg": 0.1579889277527613,
+        "complex_error": 0.03725206307007155
+      },
+      "actual_r_ohm": 978.0,
+      "actual_c_f": 1.056e-07,
+      "theory_cutoff_hz": 1541.0522314004243
+    },
+    {
+      "target_hz": 1400.0,
+      "status": "RC_PASS",
+      "all_blocks_valid": true,
+      "block_count": 6,
+      "calibration_files": [
+        "b12_f1400_cal_01.npy",
+        "b12_f1400_cal_02.npy",
+        "b12_f1400_cal_03.npy"
+      ],
+      "validation_files": [
+        "b12_f1400_val_01.npy",
+        "b12_f1400_val_02.npy",
+        "b12_f1400_val_03.npy"
+      ],
+      "C0": {
+        "real": 1.0050874632177786,
+        "imag": -2.094429456588466e-05,
+        "gain_db": 0.04407712040058395,
+        "phase_deg": -0.0011939455293656005,
+        "gain_std_db": 0.0001441383730119401,
+        "phase_std_deg": 0.0009346213396807764,
+        "gain_range_db": [
+          0.04396245942480171,
+          0.04423892821732376
+        ],
+        "phase_range_deg": [
+          -0.0017431363155112065,
+          -0.00011478776701008003
+        ]
+      },
+      "H_raw_cal_mean": {
+        "complex": {
+          "real": 0.5264368743682107,
+          "imag": -0.47475047350008515
+        },
+        "gain_db": -2.9884336933364857,
+        "phase_deg": -42.04472298584693,
+        "gain_std_db": 0.0002670748343138754,
+        "phase_std_deg": 0.0009860106242607829
+      },
+      "H_cal_calibration_mean": {
+        "complex": {
+          "real": 0.5237820452339214,
+          "imag": -0.47233650864051874
+        },
+        "gain_db": -3.03251081373707,
+        "phase_deg": -42.043529040317566,
+        "gain_std_db": 0.0002670748343141976,
+        "phase_std_deg": 0.0009860106242568245
+      },
+      "H_cal_validation_mean": {
+        "complex": {
+          "real": 0.5237646958593171,
+          "imag": -0.4723420018214511
+        },
+        "gain_db": -3.032624179707175,
+        "phase_deg": -42.044804316895366,
+        "gain_std_db": 0.00020113189318700378,
+        "phase_std_deg": 0.0006413525246876797
+      },
+      "validation_minus_calibration": {
+        "gain_db": -0.00011336597010513927,
+        "phase_deg": -0.001275276577800355
+      },
+      "theory": {
+        "real": 0.5478497234532863,
+        "imag": -0.49770513757188,
+        "gain_db": -2.6133855324055006,
+        "phase_deg": -42.25421070268644
+      },
+      "measured_minus_theory": {
+        "gain_db": -0.41912528133156934,
+        "phase_deg": 0.2106816623688772,
+        "complex_error": 0.03496884997720105
+      },
+      "actual_r_ohm": 978.0,
+      "actual_c_f": 1.056e-07,
+      "theory_cutoff_hz": 1541.0522314004243
+    },
+    {
+      "target_hz": 1500.0,
+      "status": "RC_PASS",
+      "all_blocks_valid": true,
+      "block_count": 6,
+      "calibration_files": [
+        "b12_f1500_cal_01.npy",
+        "b12_f1500_cal_02.npy",
+        "b12_f1500_cal_03.npy"
+      ],
+      "validation_files": [
+        "b12_f1500_val_01.npy",
+        "b12_f1500_val_02.npy",
+        "b12_f1500_val_03.npy"
+      ],
+      "C0": {
+        "real": 1.0050974964568775,
+        "imag": -2.6095578588392966e-05,
+        "gain_db": 0.04416382750093235,
+        "phase_deg": -0.0014875835647801408,
+        "gain_std_db": 0.00010231951503574819,
+        "phase_std_deg": 0.0005966490949465733,
+        "gain_range_db": [
+          0.04405900841894962,
+          0.04426344937680953
+        ],
+        "phase_range_deg": [
+          -0.0019149591458378914,
+          -0.0008059192219497353
+        ]
+      },
+      "H_raw_cal_mean": {
+        "complex": {
+          "real": 0.4937846037568157,
+          "imag": -0.4766876089945591
+        },
+        "gain_db": -3.2692901683160724,
+        "phase_deg": -43.99071369065676,
+        "gain_std_db": 0.00028948515379258595,
+        "phase_std_deg": 0.0025745209258159034
+      },
+      "H_cal_calibration_mean": {
+        "complex": {
+          "real": 0.4912926173980354,
+          "imag": -0.4742572637080516
+        },
+        "gain_db": -3.3134539958170044,
+        "phase_deg": -43.98922610709197,
+        "gain_std_db": 0.00028948515379373813,
+        "phase_std_deg": 0.0025745209258116928
+      },
+      "H_cal_validation_mean": {
+        "complex": {
+          "real": 0.4912652769603992,
+          "imag": -0.4742631151984431
+        },
+        "gain_db": -3.3136525094947764,
+        "phase_deg": -43.991172658610566,
+        "gain_std_db": 0.00035943400370703056,
+        "phase_std_deg": 0.0003480584057036779
+      },
+      "validation_minus_calibration": {
+        "gain_db": -0.00019851367777201645,
+        "phase_deg": -0.0019465515185927984
+      },
+      "theory": {
+        "real": 0.5134968914015535,
+        "imag": -0.49981780072591914,
+        "gain_db": -2.8946218118303846,
+        "phase_deg": -44.22659114084039
+      },
+      "measured_minus_theory": {
+        "gain_db": -0.4188321839866198,
+        "phase_deg": 0.2373650337484179,
+        "complex_error": 0.03385809853882947
+      },
+      "actual_r_ohm": 978.0,
+      "actual_c_f": 1.056e-07,
+      "theory_cutoff_hz": 1541.0522314004243
+    },
+    {
+      "target_hz": 1592.0,
+      "status": "RC_PASS",
+      "all_blocks_valid": true,
+      "block_count": 6,
+      "calibration_files": [
+        "b12_f1592_cal_01.npy",
+        "b12_f1592_cal_02.npy",
+        "b12_f1592_cal_03.npy"
+      ],
+      "validation_files": [
+        "b12_f1592_val_01.npy",
+        "b12_f1592_val_02.npy",
+        "b12_f1592_val_03.npy"
+      ],
+      "C0": {
+        "real": 1.0050764812127284,
+        "imag": -2.3170046166388936e-05,
+        "gain_db": 0.04398221464941423,
+        "phase_deg": -0.0013208406335609075,
+        "gain_std_db": 0.0002442632337846727,
+        "phase_std_deg": 0.00032306533317833197,
+        "gain_range_db": [
+          0.04382184193186366,
+          0.04426333426794833
+        ],
+        "phase_range_deg": [
+          -0.0015853667818896023,
+          -0.0009607794618393459
+        ]
+      },
+      "H_raw_cal_mean": {
+        "complex": {
+          "real": 0.46550037878558204,
+          "imag": -0.4765940977174032
+        },
+        "gain_db": -3.5278086352739715,
+        "phase_deg": -45.67466046423751,
+        "gain_std_db": 0.00022703020867522367,
+        "phase_std_deg": 0.0009857486107029587
+      },
+      "H_cal_calibration_mean": {
+        "complex": {
+          "real": 0.4631601417125926,
+          "imag": -0.4741762196051889
+        },
+        "gain_db": -3.5717908499233877,
+        "phase_deg": -45.67333962360395,
+        "gain_std_db": 0.0002270302086743812,
+        "phase_std_deg": 0.0009857486107029587
+      },
+      "H_cal_validation_mean": {
+        "complex": {
+          "real": 0.46317021662084507,
+          "imag": -0.4741781429452658
+        },
+        "gain_db": -3.571680570702531,
+        "phase_deg": -45.67283280652947,
+        "gain_std_db": 2.6955024095112653e-05,
+        "phase_std_deg": 0.0014322871919440323
+      },
+      "validation_minus_calibration": {
+        "gain_db": 0.00011027922085649067,
+        "phase_deg": 0.0005068170744806366
+      },
+      "theory": {
+        "real": 0.4837429138915795,
+        "imag": -0.4997356372636071,
+        "gain_db": -3.1538538368946663,
+        "phase_deg": -45.931626618556265
+      },
+      "measured_minus_theory": {
+        "gain_db": -0.41793701302872144,
+        "phase_deg": 0.25828699495231433,
+        "complex_error": 0.032816677796655994
+      },
+      "actual_r_ohm": 978.0,
+      "actual_c_f": 1.056e-07,
+      "theory_cutoff_hz": 1541.0522314004243
+    },
+    {
+      "target_hz": 1700.0,
+      "status": "RC_PASS",
+      "all_blocks_valid": true,
+      "block_count": 6,
+      "calibration_files": [
+        "b12_f1700_cal_01.npy",
+        "b12_f1700_cal_02.npy",
+        "b12_f1700_cal_03.npy"
+      ],
+      "validation_files": [
+        "b12_f1700_val_01.npy",
+        "b12_f1700_val_02.npy",
+        "b12_f1700_val_03.npy"
+      ],
+      "C0": {
+        "real": 1.00508962848646,
+        "imag": -4.245694650649088e-05,
+        "gain_db": 0.04409583833179237,
+        "phase_deg": -0.0024202854904103754,
+        "gain_std_db": 0.0002463161589579763,
+        "phase_std_deg": 0.0004677824081263117,
+        "gain_range_db": [
+          0.04381962304600322,
+          0.04429269114874759
+        ],
+        "phase_range_deg": [
+          -0.0028228023311121907,
+          -0.0019070847406657777
+        ]
+      },
+      "H_raw_cal_mean": {
+        "complex": {
+          "real": 0.4344800340127235,
+          "imag": -0.47452275033108265
+        },
+        "gain_db": -3.830576310564924,
+        "phase_deg": -47.522320485848994,
+        "gain_std_db": 0.0004875888851607527,
+        "phase_std_deg": 0.001863740828709847
+      },
+      "H_cal_calibration_mean": {
+        "complex": {
+          "real": 0.43229983246203024,
+          "imag": -0.4721015745777475
+        },
+        "gain_db": -3.8746721488967175,
+        "phase_deg": -47.519900200358585,
+        "gain_std_db": 0.0004875888851604069,
+        "phase_std_deg": 0.0018637408287085551
+      },
+      "H_cal_validation_mean": {
+        "complex": {
+          "real": 0.43229261865809726,
+          "imag": -0.4721164147461134
+        },
+        "gain_db": -3.874589741242964,
+        "phase_deg": -47.52127343158636,
+        "gain_std_db": 0.0001349997980688568,
+        "phase_std_deg": 0.0017385944382964959
+      },
+      "validation_minus_calibration": {
+        "gain_db": 8.240765375333581e-05,
+        "phase_deg": -0.0013732312277738856
+      },
+      "theory": {
+        "real": 0.4510756427199411,
+        "imag": -0.4976006503861637,
+        "gain_db": -3.457506233964625,
+        "phase_deg": -47.807651651190156
+      },
+      "measured_minus_theory": {
+        "gain_db": -0.41716591493209254,
+        "phase_deg": 0.2877514508315713,
+        "complex_error": 0.03166597413509376
+      },
+      "actual_r_ohm": 978.0,
+      "actual_c_f": 1.056e-07,
+      "theory_cutoff_hz": 1541.0522314004243
+    },
+    {
+      "target_hz": 1900.0,
+      "status": "RC_PASS",
+      "all_blocks_valid": true,
+      "block_count": 6,
+      "calibration_files": [
+        "b12_f1900_cal_01.npy",
+        "b12_f1900_cal_02.npy",
+        "b12_f1900_cal_03.npy"
+      ],
+      "validation_files": [
+        "b12_f1900_val_01.npy",
+        "b12_f1900_val_02.npy",
+        "b12_f1900_val_03.npy"
+      ],
+      "C0": {
+        "real": 1.0050874119068836,
+        "imag": -5.4354379654493426e-05,
+        "gain_db": 0.04407668779108105,
+        "phase_deg": -0.003098513136593513,
+        "gain_std_db": 8.774223081074904e-05,
+        "phase_std_deg": 0.0006937096678327383,
+        "gain_range_db": [
+          0.04397557339635333,
+          0.044132775904225804
+        ],
+        "phase_range_deg": [
+          -0.0035877659535262217,
+          -0.002304604422147396
+        ]
+      },
+      "H_raw_cal_mean": {
+        "complex": {
+          "real": 0.38291055312625666,
+          "imag": -0.4665831568810172
+        },
+        "gain_db": -4.385165886013883,
+        "phase_deg": -50.625319039333924,
+        "gain_std_db": 0.00011715427040643014,
+        "phase_std_deg": 0.00033340886052715717
+      },
+      "H_cal_calibration_mean": {
+        "complex": {
+          "real": 0.38099749329254723,
+          "imag": -0.46420086698075574
+        },
+        "gain_db": -4.429242573804966,
+        "phase_deg": -50.622220526197324,
+        "gain_std_db": 0.00011715427040642182,
+        "phase_std_deg": 0.000333408860531195
+      },
+      "H_cal_validation_mean": {
+        "complex": {
+          "real": 0.38100508462196103,
+          "imag": -0.4641917126991973
+        },
+        "gain_db": -4.4292752585248065,
+        "phase_deg": -50.6211065667677,
+        "gain_std_db": 0.00012627781354166676,
+        "phase_std_deg": 0.001610347050933174
+      },
+      "validation_minus_calibration": {
+        "gain_db": -3.2684719840858634e-05,
+        "phase_deg": 0.0011139594296238897
+      },
+      "theory": {
+        "real": 0.39680947097323865,
+        "imag": -0.4892358477454173,
+        "gain_db": -4.0141797073577985,
+        "phase_deg": -50.95517841429103
+      },
+      "measured_minus_theory": {
+        "gain_db": -0.41506286644716717,
+        "phase_deg": 0.3329578880937021,
+        "complex_error": 0.029610283687625437
+      },
+      "actual_r_ohm": 978.0,
+      "actual_c_f": 1.056e-07,
+      "theory_cutoff_hz": 1541.0522314004243
+    },
+    {
+      "target_hz": 2200.0,
+      "status": "RC_PASS",
+      "all_blocks_valid": true,
+      "block_count": 6,
+      "calibration_files": [
+        "b12_f2200_cal_01.npy",
+        "b12_f2200_cal_02.npy",
+        "b12_f2200_cal_03.npy"
+      ],
+      "validation_files": [
+        "b12_f2200_val_01.npy",
+        "b12_f2200_val_02.npy",
+        "b12_f2200_val_03.npy"
+      ],
+      "C0": {
+        "real": 1.0050944359258098,
+        "imag": -6.912969407259268e-05,
+        "gain_db": 0.044137396464458266,
+        "phase_deg": -0.003940763734798711,
+        "gain_std_db": 2.5541096822862412e-05,
+        "phase_std_deg": 0.001334159269898623,
+        "gain_range_db": [
+          0.044114395617916725,
+          0.044164884045302374
+        ],
+        "phase_range_deg": [
+          -0.004972782339819173,
+          -0.0024342058419892583
+        ]
+      },
+      "H_raw_cal_mean": {
+        "complex": {
+          "real": 0.31862658236591446,
+          "imag": -0.44828245030448827
+        },
+        "gain_db": -5.193032577671733,
+        "phase_deg": -54.595853691568344,
+        "gain_std_db": 0.00011098951638606895,
+        "phase_std_deg": 0.0008584117109288129
+      },
+      "H_cal_calibration_mean": {
+        "complex": {
+          "real": 0.31704226192350893,
+          "imag": -0.4459884735676732
+        },
+        "gain_db": -5.237169974136191,
+        "phase_deg": -54.59191292783355,
+        "gain_std_db": 0.00011098951638521328,
+        "phase_std_deg": 0.0008584117109265821
+      },
+      "H_cal_validation_mean": {
+        "complex": {
+          "real": 0.3170562132918265,
+          "imag": -0.4459995880331167
+        },
+        "gain_db": -5.2368978717269785,
+        "phase_deg": -54.59139659300731,
+        "gain_std_db": 0.0001774532873980607,
+        "phase_std_deg": 0.0033369536520107437
+      },
+      "validation_minus_calibration": {
+        "gain_db": 0.0002721024092124935,
+        "phase_deg": 0.0005163348262371414
+      },
+      "theory": {
+        "real": 0.3291606367151164,
+        "imag": -0.46990840804609524,
+        "gain_db": -4.825921062652289,
+        "phase_deg": -54.989592103891994
+      },
+      "measured_minus_theory": {
+        "gain_db": -0.4112489114839022,
+        "phase_deg": 0.39767917605844616,
+        "complex_error": 0.026814516088154043
+      },
+      "actual_r_ohm": 978.0,
+      "actual_c_f": 1.056e-07,
+      "theory_cutoff_hz": 1541.0522314004243
+    },
+    {
+      "target_hz": 3000.0,
+      "status": "RC_PASS",
+      "all_blocks_valid": true,
+      "block_count": 6,
+      "calibration_files": [
+        "b12_f3000_cal_01.npy",
+        "b12_f3000_cal_02.npy",
+        "b12_f3000_cal_03.npy"
+      ],
+      "validation_files": [
+        "b12_f3000_val_01.npy",
+        "b12_f3000_val_02.npy",
+        "b12_f3000_val_03.npy"
+      ],
+      "C0": {
+        "real": 1.0050780351464945,
+        "imag": -0.00013180624384449274,
+        "gain_db": 0.043995716144522655,
+        "phase_deg": -0.007513786172203714,
+        "gain_std_db": 8.907444129855722e-05,
+        "phase_std_deg": 0.0006513216376164272,
+        "gain_range_db": [
+          0.043919701539129816,
+          0.04409372840963613
+        ],
+        "phase_range_deg": [
+          -0.008076160151031195,
+          -0.006800141686714175
+        ]
+      },
+      "H_raw_cal_mean": {
+        "complex": {
+          "real": 0.2040453049377358,
+          "imag": -0.3883081739493613
+        },
+        "gain_db": -7.15754925725588,
+        "phase_deg": -62.27930418662406,
+        "gain_std_db": 0.00043116954834429414,
+        "phase_std_deg": 0.0006446022514954951
+      },
+      "H_cal_calibration_mean": {
+        "complex": {
+          "real": 0.20306505280637907,
+          "imag": -0.3863196638765478
+        },
+        "gain_db": -7.201544973400401,
+        "phase_deg": -62.271790400451856,
+        "gain_std_db": 0.00043116954834410083,
+        "phase_std_deg": 0.0006446022514954951
+      },
+      "H_cal_validation_mean": {
+        "complex": {
+          "real": 0.20306017732072798,
+          "imag": -0.38632139995272435
+        },
+        "gain_db": -7.201559535780582,
+        "phase_deg": -62.2724629990315,
+        "gain_std_db": 0.00013300078442981476,
+        "phase_std_deg": 0.0018073467017066494
+      },
+      "validation_minus_calibration": {
+        "gain_db": -1.4562380180827006e-05,
+        "phase_deg": -0.0006725985796407485
+      },
+      "theory": {
+        "real": 0.2087802172636619,
+        "imag": -0.4064370039046642,
+        "gain_db": -6.803106548089341,
+        "phase_deg": -62.811156123393474
+      },
+      "measured_minus_theory": {
+        "gain_db": -0.39843842531106066,
+        "phase_deg": 0.5393657229416178,
+        "complex_error": 0.02091340418441346
+      },
+      "actual_r_ohm": 978.0,
+      "actual_c_f": 1.056e-07,
+      "theory_cutoff_hz": 1541.0522314004243
+    },
+    {
+      "target_hz": 4000.0,
+      "status": "RC_PASS",
+      "all_blocks_valid": true,
+      "block_count": 6,
+      "calibration_files": [
+        "b12_f4000_cal_01.npy",
+        "b12_f4000_cal_02.npy",
+        "b12_f4000_cal_03.npy"
+      ],
+      "validation_files": [
+        "b12_f4000_val_01.npy",
+        "b12_f4000_val_02.npy",
+        "b12_f4000_val_03.npy"
+      ],
+      "C0": {
+        "real": 1.00506900022874,
+        "imag": -0.00015995058354474482,
+        "gain_db": 0.043917671290852896,
+        "phase_deg": -0.009118272763674752,
+        "gain_std_db": 5.119062615849504e-05,
+        "phase_std_deg": 0.0006923474033848234,
+        "gain_range_db": [
+          0.04386506098824839,
+          0.043967312988207954
+        ],
+        "phase_range_deg": [
+          -0.009744126283245034,
+          -0.008374561767115415
+        ]
+      },
+      "H_raw_cal_mean": {
+        "complex": {
+          "real": 0.12804706605764693,
+          "imag": -0.32118555563372064
+        },
+        "gain_db": -9.224278525377663,
+        "phase_deg": -68.26431003162524,
+        "gain_std_db": 9.017415905526151e-05,
+        "phase_std_deg": 0.0011586144920023899
+      },
+      "H_cal_calibration_mean": {
+        "complex": {
+          "real": 0.12745212269080003,
+          "imag": -0.3195453939174619
+        },
+        "gain_db": -9.268196196668514,
+        "phase_deg": -68.25519175886157,
+        "gain_std_db": 9.017415905787891e-05,
+        "phase_std_deg": 0.0011586144919945556
+      },
+      "H_cal_validation_mean": {
+        "complex": {
+          "real": 0.12744389486316524,
+          "imag": -0.31954484938270183
+        },
+        "gain_db": -9.268285925335153,
+        "phase_deg": -68.25643097305506,
+        "gain_std_db": 0.00017464330799639904,
+        "phase_std_deg": 0.0012687851052673108
+      },
+      "validation_minus_calibration": {
+        "gain_db": -8.97286666390329e-05,
+        "phase_deg": -0.0012392141934896017
+      },
+      "theory": {
+        "real": 0.12924421241290068,
+        "imag": -0.3354700373664833,
+        "gain_db": -8.885888956105605,
+        "phase_deg": -68.93016912895155
+      },
+      "measured_minus_theory": {
+        "gain_db": -0.3823072405629091,
+        "phase_deg": 0.6749773700899766,
+        "complex_error": 0.016025163167672232
+      },
+      "actual_r_ohm": 978.0,
+      "actual_c_f": 1.056e-07,
+      "theory_cutoff_hz": 1541.0522314004243
+    },
+    {
+      "target_hz": 6000.0,
+      "status": "RC_PASS",
+      "all_blocks_valid": true,
+      "block_count": 6,
+      "calibration_files": [
+        "b12_f6000_cal_01.npy",
+        "b12_f6000_cal_02.npy",
+        "b12_f6000_cal_03.npy"
+      ],
+      "validation_files": [
+        "b12_f6000_val_01.npy",
+        "b12_f6000_val_02.npy",
+        "b12_f6000_val_03.npy"
+      ],
+      "C0": {
+        "real": 1.0050381579235643,
+        "imag": -0.0002716645576059076,
+        "gain_db": 0.04365133276064955,
+        "phase_deg": -0.01548720522928357,
+        "gain_std_db": 9.645551252928268e-05,
+        "phase_std_deg": 0.0007528999932669589,
+        "gain_range_db": [
+          0.043581445409485726,
+          0.04376137970995692
+        ],
+        "phase_range_deg": [
+          -0.01633464883670197,
+          -0.014895440241587808
+        ]
+      },
+      "H_raw_cal_mean": {
+        "complex": {
+          "real": 0.06325888425681857,
+          "imag": -0.2315869824251666
+        },
+        "gain_db": -12.393196036577827,
+        "phase_deg": -74.72213282513727,
+        "gain_std_db": 0.00029933096464014044,
+        "phase_std_deg": 0.003082368906135709
+      },
+      "H_cal_calibration_mean": {
+        "complex": {
+          "real": 0.0630040538507287,
+          "imag": -0.23040902937971966
+        },
+        "gain_db": -12.436847369338476,
+        "phase_deg": -74.70664561990799,
+        "gain_std_db": 0.00029933096464191273,
+        "phase_std_deg": 0.003082368906135709
+      },
+      "H_cal_validation_mean": {
+        "complex": {
+          "real": 0.06299333363419528,
+          "imag": -0.2304009947469242
+        },
+        "gain_db": -12.437232006472536,
+        "phase_deg": -74.70861771719208,
+        "gain_std_db": 0.0004480782469602558,
+        "phase_std_deg": 0.0033060221948274823
+      },
+      "validation_minus_calibration": {
+        "gain_db": -0.00038463713405967326,
+        "phase_deg": -0.001972097284095753
+      },
+      "theory": {
+        "real": 0.06188538785769754,
+        "imag": -0.24094726939187314,
+        "gain_db": -12.084118828361865,
+        "phase_deg": -75.59539470105832
+      },
+      "measured_minus_theory": {
+        "gain_db": -0.3527285409766119,
+        "phase_deg": 0.8887490811503369,
+        "complex_error": 0.010597448568297791
+      },
+      "actual_r_ohm": 978.0,
+      "actual_c_f": 1.056e-07,
+      "theory_cutoff_hz": 1541.0522314004243
+    },
+    {
+      "target_hz": 8000.0,
+      "status": "RC_PASS",
+      "all_blocks_valid": true,
+      "block_count": 6,
+      "calibration_files": [
+        "b12_f8000_cal_01.npy",
+        "b12_f8000_cal_02.npy",
+        "b12_f8000_cal_03.npy"
+      ],
+      "validation_files": [
+        "b12_f8000_val_01.npy",
+        "b12_f8000_val_02.npy",
+        "b12_f8000_val_03.npy"
+      ],
+      "C0": {
+        "real": 1.0050094996233845,
+        "imag": -0.0003397739136641466,
+        "gain_db": 0.04340383330273569,
+        "phase_deg": -0.019370573618645824,
+        "gain_std_db": 0.00022018736440386317,
+        "phase_std_deg": 0.0004429036279530282,
+        "gain_range_db": [
+          0.04316069719111592,
+          0.0435897938139904
+        ],
+        "phase_range_deg": [
+          -0.019737910126841646,
+          -0.018878742524756305
+        ]
+      },
+      "H_raw_cal_mean": {
+        "complex": {
+          "real": 0.03787786683600413,
+          "imag": -0.17914157233557418
+        },
+        "gain_db": -14.746126148664693,
+        "phase_deg": -78.0611698201274,
+        "gain_std_db": 0.0006629043534764212,
+        "phase_std_deg": 0.0022186113532403
+      },
+      "H_cal_calibration_mean": {
+        "complex": {
+          "real": 0.03774932152435947,
+          "imag": -0.1782358735593923
+        },
+        "gain_db": -14.789529981967428,
+        "phase_deg": -78.04179924650875,
+        "gain_std_db": 0.0006629043534775513,
+        "phase_std_deg": 0.002218611353235626
+      },
+      "H_cal_validation_mean": {
+        "complex": {
+          "real": 0.03775801996617575,
+          "imag": -0.17823525435632795
+        },
+        "gain_db": -14.78947292760247,
+        "phase_deg": -78.03908275588921,
+        "gain_std_db": 0.00037739874250006467,
+        "phase_std_deg": 0.0041042763481133554
+      },
+      "validation_minus_calibration": {
+        "gain_db": 5.705436495873073e-05,
+        "phase_deg": 0.002716490619533829
+      },
+      "theory": {
+        "real": 0.035779248719315045,
+        "imag": -0.18573931754046163,
+        "gain_db": -14.463687828430265,
+        "phase_deg": -79.09658126337402
+      },
+      "measured_minus_theory": {
+        "gain_db": -0.32584215353716317,
+        "phase_deg": 1.0547820168652748,
+        "complex_error": 0.007757761174090192
+      },
+      "actual_r_ohm": 978.0,
+      "actual_c_f": 1.056e-07,
+      "theory_cutoff_hz": 1541.0522314004243
+    }
+  ],
+  "notes": [
+    "H_cal(f)=H_raw(f)/C0(f) using the B-X11 signal-generator calibration.",
+    "Each measured point uses three cal and three independent val blocks.",
+    "No measured points are interpolated or replaced with theory."
+  ]
+}

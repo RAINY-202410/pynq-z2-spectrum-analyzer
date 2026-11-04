@@ -1,0 +1,59 @@
+{
+  "label": "tone2k_hann",
+  "source": "PL_FFT",
+  "window": "hann",
+  "N": 1024,
+  "fs_hz": 47998.38935019801,
+  "window_sum": 511.50006103515625,
+  "scale_shift": 11,
+  "requested_bytes": 8192,
+  "before": {
+    "dmacr": 65539,
+    "dmasr": 4098,
+    "dma_status_names": [
+      "Idle",
+      "IOC"
+    ],
+    "length": 8192,
+    "pl_status": 256,
+    "input_count": 0,
+    "output_count": 0,
+    "frame_sequence": 12,
+    "window_requested": 1,
+    "version": 1179014145,
+    "i2s_snapshot": 2717931912,
+    "i2s_live": true,
+    "cnt_lrclk": 39000345,
+    "cnt_beat": 12288
+  },
+  "success": true,
+  "overlay_sha256": {
+    "fft.bit": "a00606402e7adc8929deda61ffad39236ad3500ff87976e001292a6078551e26",
+    "fft.hwh": "a4f43cc8594ecccd6f30b43e5bfc935ddfa0f2825ad90c1d9f659b5de1dce091"
+  },
+  "after": {
+    "dmacr": 65539,
+    "dmasr": 4098,
+    "dma_status_names": [
+      "Idle",
+      "IOC"
+    ],
+    "length": 8192,
+    "pl_status": 262,
+    "input_count": 1024,
+    "output_count": 1024,
+    "frame_sequence": 13,
+    "window_requested": 1,
+    "version": 1179014145,
+    "i2s_snapshot": 2717942024,
+    "i2s_live": true,
+    "cnt_lrclk": 39002933,
+    "cnt_beat": 13312
+  },
+  "received_bytes": 8192,
+  "peak_bin": 43,
+  "peak_hz": 2015.5573652915182,
+  "peak_dbfs": -18.977936879504743,
+  "words_sha256": "e3937d62494d8730a685515ee7737a37ea89abecc53b41b222533c7e8060841a",
+  "elapsed_s": 0.030856898000138244
+}

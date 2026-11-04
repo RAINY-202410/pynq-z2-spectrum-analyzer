@@ -1,0 +1,24 @@
+{
+  "thread_title": "fpga_2",
+  "thread_id": "01a168e7-d85d-7eb3-9b1a-da3797e3ac59",
+  "turn_id": "01a16cfb-ebe7-7972-b946-52df6a4a680f",
+  "source_sha256": "0cad422a4d264098ec92c396e7520a232be76b1abac33f77e3bd19896f832917",
+  "public_original_items": 9,
+  "original_date": "2026-10-24",
+  "extraction_date": "2026-11-04",
+  "files": [
+    {
+      "path": "D:\\AMD_compitition\\pynq-z2-spectrum-analyzer\\build\\figure15_chat_search_20261104\\figure15_original_dialogue_excerpt_20261104.md",
+      "bytes": 6276,
+      "sha256": "095e40c069084e88a5c7be53fec0518cc32610cad1db884537ef734d65de28b2"
+    },
+    {
+      "path": "D:\\AMD_compitition\\pynq-z2-spectrum-analyzer\\build\\figure15_chat_search_20261104\\figure15_original_dialogue_excerpt_20261104.json",
+      "bytes": 10704,
+      "sha256": "89d5bb5492337417a68509ef25ba9249e7bb3a9bd38f0a8fe1ba874739b39956"
+    }
+  ],
+  "project_tests_or_board_operations": false,
+  "desktop_report_modified": false,
+  "engineering_rar_modified": false
+}

@@ -1,0 +1,6165 @@
+[
+  {
+    "label": "b12_selftest",
+    "test": true,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852157536,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 674745,
+      "cnt_beat": 0
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852156812,
+      "busy": false,
+      "overflow": false,
+      "test_mode": true,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 675182,
+      "cnt_beat": 1024
+    },
+    "received_bytes": 8192,
+    "elapsed_s": 0.005831107999256346
+  },
+  {
+    "label": "b12_f0200_cal_01",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852136644,
+      "busy": false,
+      "overflow": false,
+      "test_mode": true,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 1297655,
+      "cnt_beat": 1024
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852155112,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 1300270,
+      "cnt_beat": 2048
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -994855,
+      -947309
+    ],
+    "channel_max": [
+      994962,
+      946989
+    ],
+    "elapsed_s": 0.029816042999300407
+  },
+  {
+    "label": "b12_f0200_cal_02",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852150464,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 1301186,
+      "cnt_beat": 2048
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852142376,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 1303516,
+      "cnt_beat": 3072
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -995171,
+      -946993
+    ],
+    "channel_max": [
+      995004,
+      946713
+    ],
+    "elapsed_s": 0.02630140300061612
+  },
+  {
+    "label": "b12_f0200_cal_03",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852135296,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 1304424,
+      "cnt_beat": 3072
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852149352,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 1306728,
+      "cnt_beat": 4096
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -994931,
+      -947258
+    ],
+    "channel_max": [
+      994998,
+      946937
+    ],
+    "elapsed_s": 0.025938210001186235
+  },
+  {
+    "label": "b12_f0200_val_01",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852140864,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 1307771,
+      "cnt_beat": 4096
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852153992,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 1310073,
+      "cnt_beat": 5120
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -995096,
+      -947401
+    ],
+    "channel_max": [
+      995250,
+      946927
+    ],
+    "elapsed_s": 0.025979009000366204
+  },
+  {
+    "label": "b12_f0200_val_02",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852151040,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 1311134,
+      "cnt_beat": 5120
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852144520,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 1313459,
+      "cnt_beat": 6144
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -994743,
+      -947599
+    ],
+    "channel_max": [
+      994987,
+      947130
+    ],
+    "elapsed_s": 0.02609189499889908
+  },
+  {
+    "label": "b12_f0200_val_03",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852130048,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 1314583,
+      "cnt_beat": 6144
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852155752,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 1316899,
+      "cnt_beat": 7168
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -994977,
+      -947267
+    ],
+    "channel_max": [
+      994882,
+      947425
+    ],
+    "elapsed_s": 0.025659341999926255
+  },
+  {
+    "label": "b12_f0200_cal_01",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852141152,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 10270995,
+      "cnt_beat": 7168
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852130728,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 10273878,
+      "cnt_beat": 8192
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -995062,
+      -947254
+    ],
+    "channel_max": [
+      994992,
+      946801
+    ],
+    "elapsed_s": 0.027476985000248533
+  },
+  {
+    "label": "b12_f0200_cal_02",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852153568,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 10275301,
+      "cnt_beat": 8192
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852154568,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 10277649,
+      "cnt_beat": 9216
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -995055,
+      -946800
+    ],
+    "channel_max": [
+      995177,
+      947223
+    ],
+    "elapsed_s": 0.026801150999745005
+  },
+  {
+    "label": "b12_f0200_cal_03",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852152192,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 10279300,
+      "cnt_beat": 9216
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852156904,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 10281620,
+      "cnt_beat": 10240
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -995398,
+      -947139
+    ],
+    "channel_max": [
+      994841,
+      946942
+    ],
+    "elapsed_s": 0.02645593200031726
+  },
+  {
+    "label": "b12_f0200_val_01",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852152160,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 10283202,
+      "cnt_beat": 10240
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852135848,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 10285508,
+      "cnt_beat": 11264
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -994960,
+      -947356
+    ],
+    "channel_max": [
+      994861,
+      946834
+    ],
+    "elapsed_s": 0.02643278100003954
+  },
+  {
+    "label": "b12_f0200_val_02",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852146400,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 10287085,
+      "cnt_beat": 11264
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852155272,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 10289390,
+      "cnt_beat": 12288
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -995232,
+      -947182
+    ],
+    "channel_max": [
+      994816,
+      946641
+    ],
+    "elapsed_s": 0.026407230001495918
+  },
+  {
+    "label": "b12_f0200_val_03",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852141632,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 10291047,
+      "cnt_beat": 12288
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852154408,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 10293358,
+      "cnt_beat": 13312
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -995011,
+      -947347
+    ],
+    "channel_max": [
+      995297,
+      946949
+    ],
+    "elapsed_s": 0.0264780929992412
+  },
+  {
+    "label": "b12_f0300_cal_01",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852131552,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 14432098,
+      "cnt_beat": 13312
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852137896,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 14434448,
+      "cnt_beat": 14336
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -994313,
+      -936198
+    ],
+    "channel_max": [
+      993855,
+      936420
+    ],
+    "elapsed_s": 0.0287625040000421
+  },
+  {
+    "label": "b12_f0300_cal_02",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852135232,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 14436716,
+      "cnt_beat": 14336
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852127912,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 14439049,
+      "cnt_beat": 15360
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -994115,
+      -936040
+    ],
+    "channel_max": [
+      994008,
+      936041
+    ],
+    "elapsed_s": 0.026184247000855976
+  },
+  {
+    "label": "b12_f0300_cal_03",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852153856,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 14440883,
+      "cnt_beat": 15360
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852157288,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 14443194,
+      "cnt_beat": 16384
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -994037,
+      -936419
+    ],
+    "channel_max": [
+      994100,
+      936358
+    ],
+    "elapsed_s": 0.025679434000267065
+  },
+  {
+    "label": "b12_f0300_val_01",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852145376,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 14445176,
+      "cnt_beat": 16384
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852141896,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 14447466,
+      "cnt_beat": 17408
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -993607,
+      -935952
+    ],
+    "channel_max": [
+      993829,
+      935889
+    ],
+    "elapsed_s": 0.02584919400032959
+  },
+  {
+    "label": "b12_f0300_val_02",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852142400,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 14449411,
+      "cnt_beat": 17408
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852128552,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 14451730,
+      "cnt_beat": 18432
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -993915,
+      -935906
+    ],
+    "channel_max": [
+      994743,
+      936400
+    ],
+    "elapsed_s": 0.025681704000817263
+  },
+  {
+    "label": "b12_f0300_val_03",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852154336,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 14453754,
+      "cnt_beat": 18432
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852141832,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 14456053,
+      "cnt_beat": 19456
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -994039,
+      -936163
+    ],
+    "channel_max": [
+      994194,
+      936440
+    ],
+    "elapsed_s": 0.02952499099956185
+  },
+  {
+    "label": "b12_f0500_cal_01",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852143584,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 15299138,
+      "cnt_beat": 19456
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852153096,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 15301558,
+      "cnt_beat": 20480
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -991315,
+      -904478
+    ],
+    "channel_max": [
+      991256,
+      904393
+    ],
+    "elapsed_s": 0.027527729000212275
+  },
+  {
+    "label": "b12_f0500_cal_02",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852128320,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 15304643,
+      "cnt_beat": 20480
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852148680,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 15307039,
+      "cnt_beat": 21504
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -990884,
+      -904126
+    ],
+    "channel_max": [
+      991279,
+      904078
+    ],
+    "elapsed_s": 0.02679502700084413
+  },
+  {
+    "label": "b12_f0500_cal_03",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852159808,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 15309313,
+      "cnt_beat": 21504
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852143432,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 15311682,
+      "cnt_beat": 22528
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -990947,
+      -904130
+    ],
+    "channel_max": [
+      991226,
+      903799
+    ],
+    "elapsed_s": 0.026033415000711102
+  },
+  {
+    "label": "b12_f0500_val_01",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852131808,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 15314191,
+      "cnt_beat": 22528
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852144744,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 15316500,
+      "cnt_beat": 23552
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -990970,
+      -903416
+    ],
+    "channel_max": [
+      991234,
+      904590
+    ],
+    "elapsed_s": 0.026252621999447
+  },
+  {
+    "label": "b12_f0500_val_02",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852142272,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 15319023,
+      "cnt_beat": 23552
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852159592,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 15321330,
+      "cnt_beat": 24576
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -990301,
+      -903722
+    ],
+    "channel_max": [
+      991049,
+      904398
+    ],
+    "elapsed_s": 0.02599596899926837
+  },
+  {
+    "label": "b12_f0500_val_03",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852149728,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 15323916,
+      "cnt_beat": 24576
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852158408,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 15326218,
+      "cnt_beat": 25600
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -990739,
+      -903740
+    ],
+    "channel_max": [
+      991178,
+      904379
+    ],
+    "elapsed_s": 0.026025883000329486
+  },
+  {
+    "label": "b12_f0700_cal_01",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852129504,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 15969665,
+      "cnt_beat": 25600
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852150280,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 15972481,
+      "cnt_beat": 26624
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -987312,
+      -861440
+    ],
+    "channel_max": [
+      987582,
+      861190
+    ],
+    "elapsed_s": 0.02719745300055365
+  },
+  {
+    "label": "b12_f0700_cal_02",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852138304,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 15975262,
+      "cnt_beat": 26624
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852140072,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 15977618,
+      "cnt_beat": 27648
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -987115,
+      -861386
+    ],
+    "channel_max": [
+      987471,
+      861319
+    ],
+    "elapsed_s": 0.026423507000799873
+  },
+  {
+    "label": "b12_f0700_cal_03",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852134624,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 15980440,
+      "cnt_beat": 27648
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852137096,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 15982749,
+      "cnt_beat": 28672
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -987425,
+      -861359
+    ],
+    "channel_max": [
+      987898,
+      862461
+    ],
+    "elapsed_s": 0.02602172899969446
+  },
+  {
+    "label": "b12_f0700_val_01",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852141504,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 15985821,
+      "cnt_beat": 28672
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852146344,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 15988145,
+      "cnt_beat": 29696
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -987142,
+      -861436
+    ],
+    "channel_max": [
+      987636,
+      861384
+    ],
+    "elapsed_s": 0.026219231000141008
+  },
+  {
+    "label": "b12_f0700_val_02",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852131648,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 15991114,
+      "cnt_beat": 29696
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852146920,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 15993524,
+      "cnt_beat": 30720
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -987598,
+      -861382
+    ],
+    "channel_max": [
+      987299,
+      861396
+    ],
+    "elapsed_s": 0.025998597000580048
+  },
+  {
+    "label": "b12_f0700_val_03",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852127840,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 15997054,
+      "cnt_beat": 30720
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852141288,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 15999380,
+      "cnt_beat": 31744
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -987082,
+      -861310
+    ],
+    "channel_max": [
+      987606,
+      861709
+    ],
+    "elapsed_s": 0.026051532000565203
+  },
+  {
+    "label": "b12_f1000_cal_01",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852139648,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 16707817,
+      "cnt_beat": 31744
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852132904,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 16710273,
+      "cnt_beat": 32768
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -980819,
+      -787605
+    ],
+    "channel_max": [
+      980433,
+      787469
+    ],
+    "elapsed_s": 0.026557328999842866
+  },
+  {
+    "label": "b12_f1000_cal_02",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852147232,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 16713549,
+      "cnt_beat": 32768
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852153128,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 16715891,
+      "cnt_beat": 33792
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -981299,
+      -787973
+    ],
+    "channel_max": [
+      980857,
+      787659
+    ],
+    "elapsed_s": 0.026399685999422218
+  },
+  {
+    "label": "b12_f1000_cal_03",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852156864,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 16719194,
+      "cnt_beat": 33792
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852155240,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 16721605,
+      "cnt_beat": 34816
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -980716,
+      -787534
+    ],
+    "channel_max": [
+      980925,
+      787813
+    ],
+    "elapsed_s": 0.0261993159983831
+  },
+  {
+    "label": "b12_f1000_val_01",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852148320,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 16725048,
+      "cnt_beat": 34816
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852156296,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 16727364,
+      "cnt_beat": 35840
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -980663,
+      -787293
+    ],
+    "channel_max": [
+      980955,
+      787695
+    ],
+    "elapsed_s": 0.026250105000144686
+  },
+  {
+    "label": "b12_f1000_val_02",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852156416,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 16730805,
+      "cnt_beat": 35840
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852139976,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 16733114,
+      "cnt_beat": 36864
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -980270,
+      -787558
+    ],
+    "channel_max": [
+      981003,
+      787798
+    ],
+    "elapsed_s": 0.029839667999112862
+  },
+  {
+    "label": "b12_f1000_val_03",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852137760,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 16737140,
+      "cnt_beat": 36864
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852139880,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 16739472,
+      "cnt_beat": 37888
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -980724,
+      -787559
+    ],
+    "channel_max": [
+      980971,
+      787309
+    ],
+    "elapsed_s": 0.02643120599896065
+  },
+  {
+    "label": "b12_f1200_cal_01",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852159392,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 17285228,
+      "cnt_beat": 37888
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852141064,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 17288478,
+      "cnt_beat": 38912
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -975734,
+      -738647
+    ],
+    "channel_max": [
+      975906,
+      738250
+    ],
+    "elapsed_s": 0.026415845999508747
+  },
+  {
+    "label": "b12_f1200_cal_02",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852159872,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 17292177,
+      "cnt_beat": 38912
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852127752,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 17294585,
+      "cnt_beat": 39936
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -975899,
+      -738581
+    ],
+    "channel_max": [
+      976177,
+      738461
+    ],
+    "elapsed_s": 0.026018037000540062
+  },
+  {
+    "label": "b12_f1200_cal_03",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852137728,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 17298310,
+      "cnt_beat": 39936
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852150664,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 17300598,
+      "cnt_beat": 40960
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -975618,
+      -738095
+    ],
+    "channel_max": [
+      975958,
+      738411
+    ],
+    "elapsed_s": 0.025917207000020426
+  },
+  {
+    "label": "b12_f1200_val_01",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852158016,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 17304453,
+      "cnt_beat": 40960
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852157800,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 17306764,
+      "cnt_beat": 41984
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -975743,
+      -737990
+    ],
+    "channel_max": [
+      975611,
+      738396
+    ],
+    "elapsed_s": 0.025839612000709167
+  },
+  {
+    "label": "b12_f1200_val_02",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852153056,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 17310646,
+      "cnt_beat": 41984
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852142088,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 17313102,
+      "cnt_beat": 43008
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -975419,
+      -737949
+    ],
+    "channel_max": [
+      976362,
+      738551
+    ],
+    "elapsed_s": 0.026862000000619446
+  },
+  {
+    "label": "b12_f1200_val_03",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852138912,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 17317225,
+      "cnt_beat": 43008
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852132488,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 17319566,
+      "cnt_beat": 44032
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -975254,
+      -737720
+    ],
+    "channel_max": [
+      976304,
+      738820
+    ],
+    "elapsed_s": 0.026509864001127426
+  },
+  {
+    "label": "b12_f1400_cal_01",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852143776,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 17834481,
+      "cnt_beat": 44032
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852131528,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 17838121,
+      "cnt_beat": 45056
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -973298,
+      -689800
+    ],
+    "channel_max": [
+      973819,
+      690114
+    ],
+    "elapsed_s": 0.026672849999158643
+  },
+  {
+    "label": "b12_f1400_cal_02",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852153344,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 17842312,
+      "cnt_beat": 45056
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852155688,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 17844722,
+      "cnt_beat": 46080
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -973086,
+      -690058
+    ],
+    "channel_max": [
+      973770,
+      689881
+    ],
+    "elapsed_s": 0.02638520599975891
+  },
+  {
+    "label": "b12_f1400_cal_03",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852138176,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 17848973,
+      "cnt_beat": 46080
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852127304,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 17851277,
+      "cnt_beat": 47104
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -972993,
+      -690015
+    ],
+    "channel_max": [
+      973515,
+      690760
+    ],
+    "elapsed_s": 0.026050030999613227
+  },
+  {
+    "label": "b12_f1400_val_01",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852158976,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 17855682,
+      "cnt_beat": 47104
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852134216,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 17857999,
+      "cnt_beat": 48128
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -972864,
+      -689550
+    ],
+    "channel_max": [
+      973977,
+      690132
+    ],
+    "elapsed_s": 0.026185410000834963
+  },
+  {
+    "label": "b12_f1400_val_02",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852140096,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 17862843,
+      "cnt_beat": 48128
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852142856,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 17865256,
+      "cnt_beat": 49152
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -972987,
+      -689680
+    ],
+    "channel_max": [
+      973632,
+      690703
+    ],
+    "elapsed_s": 0.02655383399905986
+  },
+  {
+    "label": "b12_f1400_val_03",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852129984,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 17869742,
+      "cnt_beat": 49152
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852130600,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 17872224,
+      "cnt_beat": 50176
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -973159,
+      -689675
+    ],
+    "channel_max": [
+      973450,
+      690182
+    ],
+    "elapsed_s": 0.025981045999287744
+  },
+  {
+    "label": "b12_f1500_cal_01",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852145088,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 18189216,
+      "cnt_beat": 50176
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852128872,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 18191815,
+      "cnt_beat": 51200
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -971049,
+      -666906
+    ],
+    "channel_max": [
+      971369,
+      666900
+    ],
+    "elapsed_s": 0.026933477000056882
+  },
+  {
+    "label": "b12_f1500_cal_02",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852127456,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 18196593,
+      "cnt_beat": 51200
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852129000,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 18198953,
+      "cnt_beat": 52224
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -971364,
+      -667321
+    ],
+    "channel_max": [
+      971229,
+      666809
+    ],
+    "elapsed_s": 0.026623858999300865
+  },
+  {
+    "label": "b12_f1500_cal_03",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852141504,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 18203748,
+      "cnt_beat": 52224
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852139496,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 18206055,
+      "cnt_beat": 53248
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -971440,
+      -667433
+    ],
+    "channel_max": [
+      970661,
+      666199
+    ],
+    "elapsed_s": 0.026121108001461835
+  },
+  {
+    "label": "b12_f1500_val_01",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852156384,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 18210925,
+      "cnt_beat": 53248
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852134632,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 18213338,
+      "cnt_beat": 54272
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -971531,
+      -667421
+    ],
+    "channel_max": [
+      970963,
+      666854
+    ],
+    "elapsed_s": 0.026079649000166683
+  },
+  {
+    "label": "b12_f1500_val_02",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852145856,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 18218984,
+      "cnt_beat": 54272
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852151720,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 18221359,
+      "cnt_beat": 55296
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -971052,
+      -667518
+    ],
+    "channel_max": [
+      970894,
+      667300
+    ],
+    "elapsed_s": 0.026129649999347748
+  },
+  {
+    "label": "b12_f1500_val_03",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852151072,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 18226225,
+      "cnt_beat": 55296
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852127816,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 18228528,
+      "cnt_beat": 56320
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -971091,
+      -666898
+    ],
+    "channel_max": [
+      971318,
+      667082
+    ],
+    "elapsed_s": 0.0260204119986156
+  },
+  {
+    "label": "b12_f1592_cal_01",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852146240,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 19258109,
+      "cnt_beat": 56320
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852141320,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 19260929,
+      "cnt_beat": 57344
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -970047,
+      -646645
+    ],
+    "channel_max": [
+      970052,
+      646691
+    ],
+    "elapsed_s": 0.026552356999673066
+  },
+  {
+    "label": "b12_f1592_cal_02",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852127776,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 19266233,
+      "cnt_beat": 57344
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852141672,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 19268723,
+      "cnt_beat": 58368
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -970441,
+      -646718
+    ],
+    "channel_max": [
+      970041,
+      646297
+    ],
+    "elapsed_s": 0.026606954001181293
+  },
+  {
+    "label": "b12_f1592_cal_03",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852142656,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 19274024,
+      "cnt_beat": 58368
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852135368,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 19276328,
+      "cnt_beat": 59392
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -970023,
+      -646886
+    ],
+    "channel_max": [
+      970681,
+      646259
+    ],
+    "elapsed_s": 0.026209865000055288
+  },
+  {
+    "label": "b12_f1592_val_01",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852127296,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 19281801,
+      "cnt_beat": 59392
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852157992,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 19284111,
+      "cnt_beat": 60416
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -970076,
+      -646557
+    ],
+    "channel_max": [
+      970102,
+      646696
+    ],
+    "elapsed_s": 0.026149483001063345
+  },
+  {
+    "label": "b12_f1592_val_02",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852142560,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 19290017,
+      "cnt_beat": 60416
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852138280,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 19292340,
+      "cnt_beat": 61440
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -969648,
+      -646108
+    ],
+    "channel_max": [
+      970465,
+      646573
+    ],
+    "elapsed_s": 0.026291199999832315
+  },
+  {
+    "label": "b12_f1592_val_03",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852146528,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 19297794,
+      "cnt_beat": 61440
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852127464,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 19300332,
+      "cnt_beat": 62464
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -970186,
+      -646031
+    ],
+    "channel_max": [
+      970427,
+      646526
+    ],
+    "elapsed_s": 0.02608053499898233
+  },
+  {
+    "label": "b12_f1700_cal_01",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852143648,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 20485337,
+      "cnt_beat": 62464
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852144616,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 20487673,
+      "cnt_beat": 63488
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -968146,
+      -623150
+    ],
+    "channel_max": [
+      968642,
+      622870
+    ],
+    "elapsed_s": 0.02886301600119623
+  },
+  {
+    "label": "b12_f1700_cal_02",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852128896,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 20493778,
+      "cnt_beat": 63488
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852147816,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 20496115,
+      "cnt_beat": 64512
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -968726,
+      -623566
+    ],
+    "channel_max": [
+      968535,
+      623131
+    ],
+    "elapsed_s": 0.026449298000443378
+  },
+  {
+    "label": "b12_f1700_cal_03",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852136640,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 20501709,
+      "cnt_beat": 64512
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852131368,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 20503996,
+      "cnt_beat": 65536
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -968667,
+      -624053
+    ],
+    "channel_max": [
+      968022,
+      622877
+    ],
+    "elapsed_s": 0.02597319999949832
+  },
+  {
+    "label": "b12_f1700_val_01",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852155616,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 20509709,
+      "cnt_beat": 65536
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852146728,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 20512191,
+      "cnt_beat": 66560
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -968714,
+      -623633
+    ],
+    "channel_max": [
+      968449,
+      623167
+    ],
+    "elapsed_s": 0.02576511400002346
+  },
+  {
+    "label": "b12_f1700_val_02",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852137472,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 20518408,
+      "cnt_beat": 66560
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852129672,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 20520744,
+      "cnt_beat": 67584
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -968417,
+      -623401
+    ],
+    "channel_max": [
+      968533,
+      623297
+    ],
+    "elapsed_s": 0.026485286998649826
+  },
+  {
+    "label": "b12_f1700_val_03",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852129568,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 20526801,
+      "cnt_beat": 67584
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852151944,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 20529102,
+      "cnt_beat": 68608
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -968169,
+      -622992
+    ],
+    "channel_max": [
+      968667,
+      623281
+    ],
+    "elapsed_s": 0.026194424999630428
+  },
+  {
+    "label": "b12_f1900_cal_01",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852133120,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 21251362,
+      "cnt_beat": 68608
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852137320,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 21253722,
+      "cnt_beat": 69632
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -966270,
+      -583108
+    ],
+    "channel_max": [
+      965697,
+      582983
+    ],
+    "elapsed_s": 0.04761094700006652
+  },
+  {
+    "label": "b12_f1900_cal_02",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852155776,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 21261959,
+      "cnt_beat": 69632
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852146120,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 21264621,
+      "cnt_beat": 70656
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -966370,
+      -583181
+    ],
+    "channel_max": [
+      965543,
+      582772
+    ],
+    "elapsed_s": 0.02741753800000879
+  },
+  {
+    "label": "b12_f1900_cal_03",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852127200,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 21270883,
+      "cnt_beat": 70656
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852129288,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 21273187,
+      "cnt_beat": 71680
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -966271,
+      -583082
+    ],
+    "channel_max": [
+      965774,
+      582974
+    ],
+    "elapsed_s": 0.026171661000262247
+  },
+  {
+    "label": "b12_f1900_val_01",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852130176,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 21279595,
+      "cnt_beat": 71680
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852154472,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 21281985,
+      "cnt_beat": 72704
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -965504,
+      -582980
+    ],
+    "channel_max": [
+      965729,
+      583187
+    ],
+    "elapsed_s": 0.02852203600014036
+  },
+  {
+    "label": "b12_f1900_val_02",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852150432,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 21288619,
+      "cnt_beat": 72704
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852141736,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 21290947,
+      "cnt_beat": 73728
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -965768,
+      -583157
+    ],
+    "channel_max": [
+      966058,
+      582808
+    ],
+    "elapsed_s": 0.02633534100095858
+  },
+  {
+    "label": "b12_f1900_val_03",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852158144,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 21297396,
+      "cnt_beat": 73728
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852153064,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 21299964,
+      "cnt_beat": 74752
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -965933,
+      -582816
+    ],
+    "channel_max": [
+      966169,
+      582956
+    ],
+    "elapsed_s": 0.02618007400087663
+  },
+  {
+    "label": "b12_f1700_cal_01",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852143712,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 21829721,
+      "cnt_beat": 74752
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852151720,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 21832283,
+      "cnt_beat": 75776
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -968178,
+      -623092
+    ],
+    "channel_max": [
+      968851,
+      623641
+    ],
+    "elapsed_s": 0.02625034999982745
+  },
+  {
+    "label": "b12_f1700_cal_02",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852129120,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 21838843,
+      "cnt_beat": 75776
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852137224,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 21841179,
+      "cnt_beat": 76800
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -968630,
+      -622991
+    ],
+    "channel_max": [
+      968813,
+      623486
+    ],
+    "elapsed_s": 0.026571888998660143
+  },
+  {
+    "label": "b12_f1700_cal_03",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852159104,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 21847708,
+      "cnt_beat": 76800
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852140200,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 21850008,
+      "cnt_beat": 77824
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -968197,
+      -622925
+    ],
+    "channel_max": [
+      968923,
+      623382
+    ],
+    "elapsed_s": 0.026360140998804127
+  },
+  {
+    "label": "b12_f1700_val_01",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852152736,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 21856747,
+      "cnt_beat": 77824
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852134376,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 21859245,
+      "cnt_beat": 78848
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -968737,
+      -623345
+    ],
+    "channel_max": [
+      968490,
+      623395
+    ],
+    "elapsed_s": 0.0269649660003779
+  },
+  {
+    "label": "b12_f1700_val_02",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852153600,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 21866153,
+      "cnt_beat": 78848
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852128648,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 21868492,
+      "cnt_beat": 79872
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -968127,
+      -622970
+    ],
+    "channel_max": [
+      968762,
+      623425
+    ],
+    "elapsed_s": 0.02677858500101138
+  },
+  {
+    "label": "b12_f1700_val_03",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852143008,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 21875421,
+      "cnt_beat": 79872
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852129800,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 21877725,
+      "cnt_beat": 80896
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -968571,
+      -623205
+    ],
+    "channel_max": [
+      968845,
+      623402
+    ],
+    "elapsed_s": 0.026525211998887244
+  },
+  {
+    "label": "b12_f2200_cal_01",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852132256,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 22428029,
+      "cnt_beat": 80896
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852155976,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 22431145,
+      "cnt_beat": 81920
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -961849,
+      -529310
+    ],
+    "channel_max": [
+      962494,
+      529397
+    ],
+    "elapsed_s": 0.026619656000548275
+  },
+  {
+    "label": "b12_f2200_cal_02",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852138304,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 22438246,
+      "cnt_beat": 81920
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852139752,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 22440967,
+      "cnt_beat": 82944
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -962123,
+      -529485
+    ],
+    "channel_max": [
+      961729,
+      529412
+    ],
+    "elapsed_s": 0.025802042999202968
+  },
+  {
+    "label": "b12_f2200_cal_03",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852134432,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 22447887,
+      "cnt_beat": 82944
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852158056,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 22450179,
+      "cnt_beat": 83968
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -962445,
+      -529512
+    ],
+    "channel_max": [
+      962272,
+      529307
+    ],
+    "elapsed_s": 0.02589574699959485
+  },
+  {
+    "label": "b12_f2200_val_01",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852145856,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 22457266,
+      "cnt_beat": 83968
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852139848,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 22459623,
+      "cnt_beat": 84992
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -962637,
+      -529458
+    ],
+    "channel_max": [
+      961530,
+      529391
+    ],
+    "elapsed_s": 0.026798843000506167
+  },
+  {
+    "label": "b12_f2200_val_02",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852152416,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 22466778,
+      "cnt_beat": 84992
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852134376,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 22469103,
+      "cnt_beat": 86016
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -962584,
+      -530090
+    ],
+    "channel_max": [
+      961787,
+      528793
+    ],
+    "elapsed_s": 0.026351464999606833
+  },
+  {
+    "label": "b12_f2200_val_03",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852150528,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 22476296,
+      "cnt_beat": 86016
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852140136,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 22478905,
+      "cnt_beat": 87040
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -962570,
+      -529364
+    ],
+    "channel_max": [
+      962544,
+      529396
+    ],
+    "elapsed_s": 0.02582254699882469
+  },
+  {
+    "label": "b12_f3000_cal_01",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852152032,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 23270989,
+      "cnt_beat": 87040
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852139688,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 23273646,
+      "cnt_beat": 88064
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -950205,
+      -411271
+    ],
+    "channel_max": [
+      950943,
+      412109
+    ],
+    "elapsed_s": 0.02703651699994225
+  },
+  {
+    "label": "b12_f3000_cal_02",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852145344,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 23281148,
+      "cnt_beat": 88064
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852154696,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 23283476,
+      "cnt_beat": 89088
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -950217,
+      -410987
+    ],
+    "channel_max": [
+      950712,
+      412231
+    ],
+    "elapsed_s": 0.026216800000838703
+  },
+  {
+    "label": "b12_f3000_cal_03",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852155072,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 23290889,
+      "cnt_beat": 89088
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852143112,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 23293174,
+      "cnt_beat": 90112
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -949955,
+      -411125
+    ],
+    "channel_max": [
+      950348,
+      412508
+    ],
+    "elapsed_s": 0.025826117000178783
+  },
+  {
+    "label": "b12_f3000_val_01",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852136576,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 23300779,
+      "cnt_beat": 90112
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852132776,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 23303368,
+      "cnt_beat": 91136
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -949495,
+      -411099
+    ],
+    "channel_max": [
+      950565,
+      412427
+    ],
+    "elapsed_s": 0.026816036999662174
+  },
+  {
+    "label": "b12_f3000_val_02",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852126784,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 23311113,
+      "cnt_beat": 91136
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852157288,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 23313455,
+      "cnt_beat": 92160
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -949604,
+      -411477
+    ],
+    "channel_max": [
+      950316,
+      412746
+    ],
+    "elapsed_s": 0.026525975001277402
+  },
+  {
+    "label": "b12_f3000_val_03",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852148480,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 23321223,
+      "cnt_beat": 92160
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852129800,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 23323528,
+      "cnt_beat": 93184
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -949753,
+      -412022
+    ],
+    "channel_max": [
+      950047,
+      412231
+    ],
+    "elapsed_s": 0.026223434000712587
+  },
+  {
+    "label": "b12_f4000_cal_01",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852145024,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 23661060,
+      "cnt_beat": 93184
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852141512,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 23663429,
+      "cnt_beat": 94208
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -945938,
+      -328697
+    ],
+    "channel_max": [
+      946204,
+      328396
+    ],
+    "elapsed_s": 0.0272555999999895
+  },
+  {
+    "label": "b12_f4000_cal_02",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852159808,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 23671495,
+      "cnt_beat": 94208
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852144872,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 23674233,
+      "cnt_beat": 95232
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -945937,
+      -328986
+    ],
+    "channel_max": [
+      945839,
+      329121
+    ],
+    "elapsed_s": 0.0261284619991784
+  },
+  {
+    "label": "b12_f4000_cal_03",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852140608,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 23682378,
+      "cnt_beat": 95232
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852133416,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 23684683,
+      "cnt_beat": 96256
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -945727,
+      -328664
+    ],
+    "channel_max": [
+      945715,
+      328685
+    ],
+    "elapsed_s": 0.026225470999634126
+  },
+  {
+    "label": "b12_f4000_val_01",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852128960,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 23693497,
+      "cnt_beat": 96256
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852145704,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 23695822,
+      "cnt_beat": 97280
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -945506,
+      -328691
+    ],
+    "channel_max": [
+      945695,
+      328775
+    ],
+    "elapsed_s": 0.026090780998856644
+  },
+  {
+    "label": "b12_f4000_val_02",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852153184,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 23703933,
+      "cnt_beat": 97280
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852135912,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 23706232,
+      "cnt_beat": 98304
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -945400,
+      -328830
+    ],
+    "channel_max": [
+      945489,
+      328719
+    ],
+    "elapsed_s": 0.025929335999535397
+  },
+  {
+    "label": "b12_f4000_val_03",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852133120,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 23716195,
+      "cnt_beat": 98304
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852127976,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 23719346,
+      "cnt_beat": 99328
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -945143,
+      -328328
+    ],
+    "channel_max": [
+      945641,
+      329379
+    ],
+    "elapsed_s": 0.027807594000478275
+  },
+  {
+    "label": "b12_f8000_cal_01",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852158592,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 24006350,
+      "cnt_beat": 99328
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852153896,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 24009549,
+      "cnt_beat": 100352
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -910399,
+      -226573
+    ],
+    "channel_max": [
+      909820,
+      226389
+    ],
+    "elapsed_s": 0.026493526000194834
+  },
+  {
+    "label": "b12_f8000_cal_02",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852130848,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 24018211,
+      "cnt_beat": 100352
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852132936,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 24020586,
+      "cnt_beat": 101376
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -910533,
+      -226642
+    ],
+    "channel_max": [
+      910670,
+      226086
+    ],
+    "elapsed_s": 0.026737673000752693
+  },
+  {
+    "label": "b12_f8000_cal_03",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852155744,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 24028941,
+      "cnt_beat": 101376
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852158280,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 24031234,
+      "cnt_beat": 102400
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -911021,
+      -226509
+    ],
+    "channel_max": [
+      911234,
+      226350
+    ],
+    "elapsed_s": 0.026003366001532413
+  },
+  {
+    "label": "b12_f8000_val_01",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852156608,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 24040485,
+      "cnt_beat": 102400
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852131016,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 24043241,
+      "cnt_beat": 103424
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -911482,
+      -226419
+    ],
+    "channel_max": [
+      911885,
+      226465
+    ],
+    "elapsed_s": 0.027663175000270712
+  },
+  {
+    "label": "b12_f8000_val_02",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852138496,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 24051780,
+      "cnt_beat": 103424
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852143688,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 24054088,
+      "cnt_beat": 104448
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -912102,
+      -226882
+    ],
+    "channel_max": [
+      912059,
+      226085
+    ],
+    "elapsed_s": 0.026235323000946664
+  },
+  {
+    "label": "b12_f8000_val_03",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852155904,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 24063861,
+      "cnt_beat": 104448
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852128424,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 24066245,
+      "cnt_beat": 105472
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -912472,
+      -226324
+    ],
+    "channel_max": [
+      912814,
+      226308
+    ],
+    "elapsed_s": 0.02658207999957085
+  },
+  {
+    "label": "b12_f8000_cal_01",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852130688,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 24397345,
+      "cnt_beat": 105472
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852144776,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 24400369,
+      "cnt_beat": 106496
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -918753,
+      -152356
+    ],
+    "channel_max": [
+      918536,
+      151503
+    ],
+    "elapsed_s": 0.026337752999097575
+  },
+  {
+    "label": "b12_f8000_cal_02",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852129472,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 24409500,
+      "cnt_beat": 106496
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852155624,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 24412298,
+      "cnt_beat": 107520
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -919351,
+      -152338
+    ],
+    "channel_max": [
+      919052,
+      152057
+    ],
+    "elapsed_s": 0.026578054999845335
+  },
+  {
+    "label": "b12_f8000_cal_03",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852142528,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 24421565,
+      "cnt_beat": 107520
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852149096,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 24423877,
+      "cnt_beat": 108544
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -919729,
+      -152692
+    ],
+    "channel_max": [
+      919532,
+      151990
+    ],
+    "elapsed_s": 0.026588985001581023
+  },
+  {
+    "label": "b12_f8000_val_01",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852133856,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 24433617,
+      "cnt_beat": 108544
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852134568,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 24435928,
+      "cnt_beat": 109568
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -919892,
+      -152317
+    ],
+    "channel_max": [
+      920395,
+      152551
+    ],
+    "elapsed_s": 0.026490659000046435
+  },
+  {
+    "label": "b12_f8000_val_02",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852152832,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 24445097,
+      "cnt_beat": 109568
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852129064,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 24447397,
+      "cnt_beat": 110592
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -920738,
+      -152846
+    ],
+    "channel_max": [
+      920636,
+      153220
+    ],
+    "elapsed_s": 0.0263153539999621
+  },
+  {
+    "label": "b12_f8000_val_03",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852152128,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 24456982,
+      "cnt_beat": 110592
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852148552,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 24459777,
+      "cnt_beat": 111616
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -920882,
+      -152953
+    ],
+    "channel_max": [
+      921244,
+      153131
+    ],
+    "elapsed_s": 0.026119176000065636
+  },
+  {
+    "label": "b12_f8000_cal_01",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852145216,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 27639445,
+      "cnt_beat": 111616
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852129128,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 27642095,
+      "cnt_beat": 112640
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -892003,
+      -154940
+    ],
+    "channel_max": [
+      892655,
+      155253
+    ],
+    "elapsed_s": 0.03033090500139224
+  },
+  {
+    "label": "b12_f8000_cal_02",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852156608,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 27651680,
+      "cnt_beat": 112640
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852136520,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 27654008,
+      "cnt_beat": 113664
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -893273,
+      -155111
+    ],
+    "channel_max": [
+      893243,
+      154597
+    ],
+    "elapsed_s": 0.026956122999763465
+  },
+  {
+    "label": "b12_f8000_cal_03",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852159168,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 27663538,
+      "cnt_beat": 113664
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852155496,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 27665846,
+      "cnt_beat": 114688
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -894008,
+      -154604
+    ],
+    "channel_max": [
+      894327,
+      154987
+    ],
+    "elapsed_s": 0.026630702001057216
+  },
+  {
+    "label": "b12_f8000_val_01",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852138944,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 27675981,
+      "cnt_beat": 114688
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852157992,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 27678299,
+      "cnt_beat": 115712
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -894730,
+      -154066
+    ],
+    "channel_max": [
+      895394,
+      154746
+    ],
+    "elapsed_s": 0.026644018000297365
+  },
+  {
+    "label": "b12_f8000_val_02",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852131200,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 27687777,
+      "cnt_beat": 115712
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852152392,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 27690079,
+      "cnt_beat": 116736
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -895820,
+      -153940
+    ],
+    "channel_max": [
+      896231,
+      154297
+    ],
+    "elapsed_s": 0.026347820999944815
+  },
+  {
+    "label": "b12_f8000_val_03",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852153888,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 27700209,
+      "cnt_beat": 116736
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852159848,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 27702533,
+      "cnt_beat": 117760
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -896727,
+      -153759
+    ],
+    "channel_max": [
+      896914,
+      153721
+    ],
+    "elapsed_s": 0.02666708899960213
+  },
+  {
+    "label": "b12_f6000_cal_01",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852158720,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 76102177,
+      "cnt_beat": 117760
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852144616,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 76104662,
+      "cnt_beat": 118784
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -880857,
+      -223585
+    ],
+    "channel_max": [
+      880809,
+      223914
+    ],
+    "elapsed_s": 0.02646384599938756
+  },
+  {
+    "label": "b12_f6000_cal_02",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852137344,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 76114558,
+      "cnt_beat": 118784
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852129000,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 76117428,
+      "cnt_beat": 119808
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -880048,
+      -224049
+    ],
+    "channel_max": [
+      879409,
+      223597
+    ],
+    "elapsed_s": 0.025819193999268464
+  },
+  {
+    "label": "b12_f6000_cal_03",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852139776,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 76127221,
+      "cnt_beat": 119808
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852130120,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 76129505,
+      "cnt_beat": 120832
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -878744,
+      -223886
+    ],
+    "channel_max": [
+      878853,
+      223652
+    ],
+    "elapsed_s": 0.025953119999030605
+  },
+  {
+    "label": "b12_f6000_val_01",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852156448,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 76140004,
+      "cnt_beat": 120832
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852141224,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 76142324,
+      "cnt_beat": 121856
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -878245,
+      -224240
+    ],
+    "channel_max": [
+      877699,
+      223453
+    ],
+    "elapsed_s": 0.02607358800014481
+  },
+  {
+    "label": "b12_f6000_val_02",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852149184,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 76152208,
+      "cnt_beat": 121856
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852138024,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 76154498,
+      "cnt_beat": 122880
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -877318,
+      -223897
+    ],
+    "channel_max": [
+      877383,
+      223931
+    ],
+    "elapsed_s": 0.02586285500001395
+  },
+  {
+    "label": "b12_f6000_val_03",
+    "test": false,
+    "fs_hz": 47998.61944015633,
+    "requested_bytes": 8192,
+    "success": true,
+    "before": {
+      "dmacr": 65538,
+      "dmasr": 1,
+      "status_names": [
+        "Halted"
+      ],
+      "length": 0,
+      "snapshot": 2852151808,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": false,
+      "i2s_live": true,
+      "cnt_lrclk": 76165084,
+      "cnt_beat": 122880
+    },
+    "address": 361013248,
+    "after": {
+      "dmacr": 65539,
+      "dmasr": 4098,
+      "status_names": [
+        "Idle",
+        "IOC"
+      ],
+      "length": 8192,
+      "snapshot": 2852138728,
+      "busy": false,
+      "overflow": false,
+      "test_mode": false,
+      "done": true,
+      "i2s_live": true,
+      "cnt_lrclk": 76167964,
+      "cnt_beat": 123904
+    },
+    "received_bytes": 8192,
+    "channel_min": [
+      -875657,
+      -224014
+    ],
+    "channel_max": [
+      876316,
+      224127
+    ],
+    "elapsed_s": 0.02595943399865064
+  }
+]

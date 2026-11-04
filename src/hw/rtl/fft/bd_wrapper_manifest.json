@@ -1,0 +1,16 @@
+[
+  {
+    "implementation": "fft_frame_engine",
+    "implementation_sha256": "F2A3ABDD13ADCA075A9C64F4C4544FF560E9EA076ED0AC40BD34D50783708AF0",
+    "wrapper": "hw\\rtl\\fft\\fft_frame_engine_bd.v",
+    "ports": 41,
+    "port_bindings": "one-to-one identity"
+  },
+  {
+    "implementation": "fft_ctrl_axi",
+    "implementation_sha256": "7D0866DB1A6D5A6A720BF0F153BC4CE1EA8D3A556BD6014B6ADD9E796E59256E",
+    "wrapper": "hw\\rtl\\fft\\fft_ctrl_axi_bd.v",
+    "ports": 29,
+    "port_bindings": "one-to-one identity"
+  }
+]
